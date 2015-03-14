@@ -1,0 +1,19 @@
+{
+  "name": "bk-helper",
+  "version": "1.0.0",
+  "description": "Bakat helper script and data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bakat/bk-helper.git"
+  },
+  "author": "Bakat.co <help@bakat.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bakat/bk-helper/issues"
+  },
+  "homepage": "https://github.com/bakat/bk-helper"
+}
