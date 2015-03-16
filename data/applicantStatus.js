@@ -1,3 +1,3 @@
 "use strict";
 
-module.exports = ['sourced', 'applied','psikostest','skill_test', 'phone_screen', 'phone-screen', 'interview', 'offer', 'hired']
+module.exports = ['sourced', 'applied','psikostest','skill-test', 'phone-screen', 'interview', 'offer', 'hired']
