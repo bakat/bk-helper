@@ -11,9 +11,9 @@ module.exports = [{
 }, {
     "name": "Associate Degree"
 }, {
-    "name": "Bachelor&apos;s Degree"
+    "name": "Bachelor's Degree"
 }, {
-    "name": "Master&apos;s Degree"
+    "name": "Master's Degree"
 }, {
     "name": "Doctorate"
 }, {
