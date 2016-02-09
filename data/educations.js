@@ -1,29 +1,29 @@
-"use strict";
+'use strict'
 
 module.exports = [{
-    "name": "Unspecified"
+  'name': 'Unspecified'
 }, {
-    "name": "High School or equivalent"
+  'name': 'High School or equivalent'
 }, {
-    "name": "Certification"
+  'name': 'Certification'
 }, {
-    "name": "Vocational"
+  'name': 'Vocational'
 }, {
-    "name": "Associate Degree"
+  'name': 'Associate Degree'
 }, {
-    "name": "Bachelor's Degree"
+  'name': "Bachelor's Degree"
 }, {
-    "name": "Master's Degree"
+  'name': "Master's Degree"
 }, {
-    "name": "Doctorate"
+  'name': 'Doctorate'
 }, {
-    "name": "Professional"
+  'name': 'Professional'
 }, {
-    "name": "Some College Coursework Completed"
+  'name': 'Some College Coursework Completed'
 }, {
-    "name": "Vocational - HS Diploma"
+  'name': 'Vocational - HS Diploma'
 }, {
-    "name": "Vocational - Degree"
+  'name': 'Vocational - Degree'
 }, {
-    "name": "Some High School Coursework"
-}];
+  'name': 'Some High School Coursework'
+}]

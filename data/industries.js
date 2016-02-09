@@ -1,297 +1,297 @@
-"use strict";
+'use strict'
 
 module.exports = [{
-    "name": "Accounting"
+  'name': 'Accounting'
 }, {
-    "name": "Airlines/Aviation"
+  'name': 'Airlines/Aviation'
 }, {
-    "name": "Alternative Dispute Resolution"
+  'name': 'Alternative Dispute Resolution'
 }, {
-    "name": "Alternative Medicine"
+  'name': 'Alternative Medicine'
 }, {
-    "name": "Animation"
+  'name': 'Animation'
 }, {
-    "name": "Apparel & Fashion"
+  'name': 'Apparel & Fashion'
 }, {
-    "name": "Architecture & Planning"
+  'name': 'Architecture & Planning'
 }, {
-    "name": "Arts and Crafts"
+  'name': 'Arts and Crafts'
 }, {
-    "name": "Automotive"
+  'name': 'Automotive'
 }, {
-    "name": "Aviation & Aerospace"
+  'name': 'Aviation & Aerospace'
 }, {
-    "name": "Banking"
+  'name': 'Banking'
 }, {
-    "name": "Biotechnology"
+  'name': 'Biotechnology'
 }, {
-    "name": "Broadcast Media"
+  'name': 'Broadcast Media'
 }, {
-    "name": "Building Materials"
+  'name': 'Building Materials'
 }, {
-    "name": "Business Supplies and Equipment"
+  'name': 'Business Supplies and Equipment'
 }, {
-    "name": "Capital Markets"
+  'name': 'Capital Markets'
 }, {
-    "name": "Chemicals"
+  'name': 'Chemicals'
 }, {
-    "name": "Civic & Social Organization"
+  'name': 'Civic & Social Organization'
 }, {
-    "name": "Civil Engineering"
+  'name': 'Civil Engineering'
 }, {
-    "name": "Commercial Real Estate"
+  'name': 'Commercial Real Estate'
 }, {
-    "name": "Computer & Network Security"
+  'name': 'Computer & Network Security'
 }, {
-    "name": "Computer Games"
+  'name': 'Computer Games'
 }, {
-    "name": "Computer Hardware"
+  'name': 'Computer Hardware'
 }, {
-    "name": "Computer Networking"
+  'name': 'Computer Networking'
 }, {
-    "name": "Computer Software"
+  'name': 'Computer Software'
 }, {
-    "name": "Construction"
+  'name': 'Construction'
 }, {
-    "name": "Consumer Electronics"
+  'name': 'Consumer Electronics'
 }, {
-    "name": "Consumer Goods"
+  'name': 'Consumer Goods'
 }, {
-    "name": "Consumer Services"
+  'name': 'Consumer Services'
 }, {
-    "name": "Cosmetics"
+  'name': 'Cosmetics'
 }, {
-    "name": "Dairy"
+  'name': 'Dairy'
 }, {
-    "name": "Defense & Space"
+  'name': 'Defense & Space'
 }, {
-    "name": "Design"
+  'name': 'Design'
 }, {
-    "name": "Education Management"
+  'name': 'Education Management'
 }, {
-    "name": "E-Learning"
+  'name': 'E-Learning'
 }, {
-    "name": "Electrical/Electronic Manufacturing"
+  'name': 'Electrical/Electronic Manufacturing'
 }, {
-    "name": "Entertainment"
+  'name': 'Entertainment'
 }, {
-    "name": "Environmental Services"
+  'name': 'Environmental Services'
 }, {
-    "name": "Events Services"
+  'name': 'Events Services'
 }, {
-    "name": "Executive Office"
+  'name': 'Executive Office'
 }, {
-    "name": "Facilities Services"
+  'name': 'Facilities Services'
 }, {
-    "name": "Farming"
+  'name': 'Farming'
 }, {
-    "name": "Financial Services"
+  'name': 'Financial Services'
 }, {
-    "name": "Fine Art"
+  'name': 'Fine Art'
 }, {
-    "name": "Fishery"
+  'name': 'Fishery'
 }, {
-    "name": "Food & Beverages"
+  'name': 'Food & Beverages'
 }, {
-    "name": "Food Production"
+  'name': 'Food Production'
 }, {
-    "name": "Fund-Raising"
+  'name': 'Fund-Raising'
 }, {
-    "name": "Furniture"
+  'name': 'Furniture'
 }, {
-    "name": "Gambling & Casinos"
+  'name': 'Gambling & Casinos'
 }, {
-    "name": "Glass, Ceramics & Concrete"
+  'name': 'Glass, Ceramics & Concrete'
 }, {
-    "name": "Government Administration"
+  'name': 'Government Administration'
 }, {
-    "name": "Government Relations"
+  'name': 'Government Relations'
 }, {
-    "name": "Graphic Design"
+  'name': 'Graphic Design'
 }, {
-    "name": "Health, Wellness and Fitness"
+  'name': 'Health, Wellness and Fitness'
 }, {
-    "name": "Higher Education"
+  'name': 'Higher Education'
 }, {
-    "name": "Hospital & Health Care"
+  'name': 'Hospital & Health Care'
 }, {
-    "name": "Hospitality"
+  'name': 'Hospitality'
 }, {
-    "name": "Human Resources"
+  'name': 'Human Resources'
 }, {
-    "name": "Import and Export"
+  'name': 'Import and Export'
 }, {
-    "name": "Individual & Family Services"
+  'name': 'Individual & Family Services'
 }, {
-    "name": "Industrial Automation"
+  'name': 'Industrial Automation'
 }, {
-    "name": "Information Services"
+  'name': 'Information Services'
 }, {
-    "name": "Information Technology and Services"
+  'name': 'Information Technology and Services'
 }, {
-    "name": "Insurance"
+  'name': 'Insurance'
 }, {
-    "name": "International Affairs"
+  'name': 'International Affairs'
 }, {
-    "name": "International Trade and Development"
+  'name': 'International Trade and Development'
 }, {
-    "name": "Internet"
+  'name': 'Internet'
 }, {
-    "name": "Investment Banking"
+  'name': 'Investment Banking'
 }, {
-    "name": "Investment Management"
+  'name': 'Investment Management'
 }, {
-    "name": "Judiciary"
+  'name': 'Judiciary'
 }, {
-    "name": "Law Enforcement"
+  'name': 'Law Enforcement'
 }, {
-    "name": "Law Practice"
+  'name': 'Law Practice'
 }, {
-    "name": "Legal Services"
+  'name': 'Legal Services'
 }, {
-    "name": "Legislative Office"
+  'name': 'Legislative Office'
 }, {
-    "name": "Leisure, Travel & Tourism"
+  'name': 'Leisure, Travel & Tourism'
 }, {
-    "name": "Libraries"
+  'name': 'Libraries'
 }, {
-    "name": "Logistics and Supply Chain"
+  'name': 'Logistics and Supply Chain'
 }, {
-    "name": "Luxury Goods & Jewelry"
+  'name': 'Luxury Goods & Jewelry'
 }, {
-    "name": "Machinery"
+  'name': 'Machinery'
 }, {
-    "name": "Management Consulting"
+  'name': 'Management Consulting'
 }, {
-    "name": "Maritime"
+  'name': 'Maritime'
 }, {
-    "name": "Marketing and Advertising"
+  'name': 'Marketing and Advertising'
 }, {
-    "name": "Market Research"
+  'name': 'Market Research'
 }, {
-    "name": "Mechanical or Industrial Engineering"
+  'name': 'Mechanical or Industrial Engineering'
 }, {
-    "name": "Media Production"
+  'name': 'Media Production'
 }, {
-    "name": "Medical Devices"
+  'name': 'Medical Devices'
 }, {
-    "name": "Medical Practice"
+  'name': 'Medical Practice'
 }, {
-    "name": "Mental Health Care"
+  'name': 'Mental Health Care'
 }, {
-    "name": "Military"
+  'name': 'Military'
 }, {
-    "name": "Mining & Metals"
+  'name': 'Mining & Metals'
 }, {
-    "name": "Motion Pictures and Film"
+  'name': 'Motion Pictures and Film'
 }, {
-    "name": "Museums and Institutions"
+  'name': 'Museums and Institutions'
 }, {
-    "name": "Music"
+  'name': 'Music'
 }, {
-    "name": "Nanotechnology"
+  'name': 'Nanotechnology'
 }, {
-    "name": "Newspapers"
+  'name': 'Newspapers'
 }, {
-    "name": "Nonprofit Organization Management"
+  'name': 'Nonprofit Organization Management'
 }, {
-    "name": "Oil & Energy"
+  'name': 'Oil & Energy'
 }, {
-    "name": "Online Media"
+  'name': 'Online Media'
 }, {
-    "name": "Outsourcing/Offshoring"
+  'name': 'Outsourcing/Offshoring'
 }, {
-    "name": "Package/Freight Delivery"
+  'name': 'Package/Freight Delivery'
 }, {
-    "name": "Packaging and Containers"
+  'name': 'Packaging and Containers'
 }, {
-    "name": "Paper & Forest Products"
+  'name': 'Paper & Forest Products'
 }, {
-    "name": "Performing Arts"
+  'name': 'Performing Arts'
 }, {
-    "name": "Pharmaceuticals"
+  'name': 'Pharmaceuticals'
 }, {
-    "name": "Philanthropy"
+  'name': 'Philanthropy'
 }, {
-    "name": "Photography"
+  'name': 'Photography'
 }, {
-    "name": "Plastics"
+  'name': 'Plastics'
 }, {
-    "name": "Political Organization"
+  'name': 'Political Organization'
 }, {
-    "name": "Primary/Secondary Education"
+  'name': 'Primary/Secondary Education'
 }, {
-    "name": "Printing"
+  'name': 'Printing'
 }, {
-    "name": "Professional Training & Coaching"
+  'name': 'Professional Training & Coaching'
 }, {
-    "name": "Program Development"
+  'name': 'Program Development'
 }, {
-    "name": "Public Policy"
+  'name': 'Public Policy'
 }, {
-    "name": "Public Relations and Communications"
+  'name': 'Public Relations and Communications'
 }, {
-    "name": "Public Safety"
+  'name': 'Public Safety'
 }, {
-    "name": "Publishing"
+  'name': 'Publishing'
 }, {
-    "name": "Railroad Manufacture"
+  'name': 'Railroad Manufacture'
 }, {
-    "name": "Ranching"
+  'name': 'Ranching'
 }, {
-    "name": "Real Estate"
+  'name': 'Real Estate'
 }, {
-    "name": "Recreational Facilities and Services"
+  'name': 'Recreational Facilities and Services'
 }, {
-    "name": "Religious Institutions"
+  'name': 'Religious Institutions'
 }, {
-    "name": "Renewables & Environment"
+  'name': 'Renewables & Environment'
 }, {
-    "name": "Research"
+  'name': 'Research'
 }, {
-    "name": "Restaurants"
+  'name': 'Restaurants'
 }, {
-    "name": "Retail"
+  'name': 'Retail'
 }, {
-    "name": "Security and Investigations"
+  'name': 'Security and Investigations'
 }, {
-    "name": "Semiconductors"
+  'name': 'Semiconductors'
 }, {
-    "name": "Shipbuilding"
+  'name': 'Shipbuilding'
 }, {
-    "name": "Sporting Goods"
+  'name': 'Sporting Goods'
 }, {
-    "name": "Sports"
+  'name': 'Sports'
 }, {
-    "name": "Staffing and Recruiting"
+  'name': 'Staffing and Recruiting'
 }, {
-    "name": "Supermarkets"
+  'name': 'Supermarkets'
 }, {
-    "name": "Telecommunications"
+  'name': 'Telecommunications'
 }, {
-    "name": "Textiles"
+  'name': 'Textiles'
 }, {
-    "name": "Think Tanks"
+  'name': 'Think Tanks'
 }, {
-    "name": "Tobacco"
+  'name': 'Tobacco'
 }, {
-    "name": "Translation and Localization"
+  'name': 'Translation and Localization'
 }, {
-    "name": "Transportation/Trucking/Railroad"
+  'name': 'Transportation/Trucking/Railroad'
 }, {
-    "name": "Utilities"
+  'name': 'Utilities'
 }, {
-    "name": "Venture Capital & Private Equity"
+  'name': 'Venture Capital & Private Equity'
 }, {
-    "name": "Veterinary"
+  'name': 'Veterinary'
 }, {
-    "name": "Warehousing"
+  'name': 'Warehousing'
 }, {
-    "name": "Wholesale"
+  'name': 'Wholesale'
 }, {
-    "name": "Wine and Spirits"
+  'name': 'Wine and Spirits'
 }, {
-    "name": "Wireless"
+  'name': 'Wireless'
 }, {
-    "name": "Writing and Editing"
+  'name': 'Writing and Editing'
 }]

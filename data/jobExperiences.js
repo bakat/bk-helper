@@ -1,17 +1,21 @@
-"use strict";
+'use strict'
 
 module.exports = [{
-    "name": "Not Applicable"
+  name: 'Not applicable'
 }, {
-    "name": "Internship"
+  name: 'Internship'
 }, {
-    "name": "Entry level"
+  name: 'New graduate'
 }, {
-    "name": "Associate"
+  name: 'Entry level'
 }, {
-    "name": "Mid-Senior level"
+  name: 'Associate'
 }, {
-    "name": "Director"
+  name: 'Experienced'
 }, {
-    "name": "Executive"
-}];
+  name: 'Executive'
+}, {
+  name: 'Mid-Senior level'
+}, {
+  name: 'Director & C-level'
+}]

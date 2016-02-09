@@ -1,75 +1,75 @@
 module.exports = [{
-    "name": "Accounting/Auditing"
+  'name': 'Accounting/Auditing'
 }, {
-    "name": "Administrative"
+  'name': 'Administrative'
 }, {
-    "name": "Advertising"
+  'name': 'Advertising'
 }, {
-    "name": "Business Analyst"
+  'name': 'Business Analyst'
 }, {
-    "name": "Financial Analyst"
+  'name': 'Financial Analyst'
 }, {
-    "name": "Data Analyst"
+  'name': 'Data Analyst'
 }, {
-    "name": "Art/Creative"
+  'name': 'Art/Creative'
 }, {
-    "name": "Business Development"
+  'name': 'Business Development'
 }, {
-    "name": "Consulting"
+  'name': 'Consulting'
 }, {
-    "name": "Customer Service"
+  'name': 'Customer Service'
 }, {
-    "name": "Distribution"
+  'name': 'Distribution'
 }, {
-    "name": "Design"
+  'name': 'Design'
 }, {
-    "name": "Education"
+  'name': 'Education'
 }, {
-    "name": "Engineering"
+  'name': 'Engineering'
 }, {
-    "name": "Finance"
+  'name': 'Finance'
 }, {
-    "name": "General Business"
+  'name': 'General Business'
 }, {
-    "name": "Health Care Provider"
+  'name': 'Health Care Provider'
 }, {
-    "name": "Human Resources"
+  'name': 'Human Resources'
 }, {
-    "name": "Information Technology"
+  'name': 'Information Technology'
 }, {
-    "name": "Legal"
+  'name': 'Legal'
 }, {
-    "name": "Management"
+  'name': 'Management'
 }, {
-    "name": "Manufacturing"
+  'name': 'Manufacturing'
 }, {
-    "name": "Marketing"
+  'name': 'Marketing'
 }, {
-    "name": "Other"
+  'name': 'Other'
 }, {
-    "name": "Public Relations"
+  'name': 'Public Relations'
 }, {
-    "name": "Purchasing"
+  'name': 'Purchasing'
 }, {
-    "name": "Product Management"
+  'name': 'Product Management'
 }, {
-    "name": "Project Management"
+  'name': 'Project Management'
 }, {
-    "name": "Production"
+  'name': 'Production'
 }, {
-    "name": "Quality Assurance"
+  'name': 'Quality Assurance'
 }, {
-    "name": "Research"
+  'name': 'Research'
 }, {
-    "name": "Sales"
+  'name': 'Sales'
 }, {
-    "name": "Science"
+  'name': 'Science'
 }, {
-    "name": "Strategy/Planning"
+  'name': 'Strategy/Planning'
 }, {
-    "name": "Supply Chain"
+  'name': 'Supply Chain'
 }, {
-    "name": "Training"
+  'name': 'Training'
 }, {
-    "name": "Writing/Editing"
-}];
+  'name': 'Writing/Editing'
+}]
