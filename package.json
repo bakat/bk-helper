@@ -1,6 +1,6 @@
 {
   "name": "bk-helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Bakat helper script and data",
   "main": "index.js",
   "scripts": {
