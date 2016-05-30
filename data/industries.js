@@ -3,7 +3,11 @@
 module.exports = [{
   'name': 'Accounting'
 }, {
+  'name': 'Advertising / Marketing / PR'
+}, {
   'name': 'Airlines/Aviation'
+}, {
+  'name': 'Agricultural / Poultry/ Plantation / Fishery'
 }, {
   'name': 'Alternative Dispute Resolution'
 }, {
@@ -14,6 +18,8 @@ module.exports = [{
   'name': 'Apparel & Fashion'
 }, {
   'name': 'Architecture & Planning'
+}, {
+  'name': 'Architectural Services / Design Service'
 }, {
   'name': 'Arts and Crafts'
 }, {
@@ -32,6 +38,8 @@ module.exports = [{
   'name': 'Business Supplies and Equipment'
 }, {
   'name': 'Capital Markets'
+}, {
+  'name': 'Call Centre / IT Enabled Services'
 }, {
   'name': 'Chemicals'
 }, {
@@ -54,6 +62,10 @@ module.exports = [{
   'name': 'Construction'
 }, {
   'name': 'Consumer Electronics'
+}, {
+  'name': 'Consulting (Business & Management)'
+}, {
+  'name': 'Consulting (IT, Science, Engineering and Technical)'
 }, {
   'name': 'Consumer Goods'
 }, {
@@ -81,6 +93,8 @@ module.exports = [{
 }, {
   'name': 'Executive Office'
 }, {
+  'name': 'Exhibitions / Event Management'
+}, {
   'name': 'Facilities Services'
 }, {
   'name': 'Farming'
@@ -99,7 +113,11 @@ module.exports = [{
 }, {
   'name': 'Furniture'
 }, {
+  'name': 'FMCG'
+}, {
   'name': 'Gambling & Casinos'
+}, {
+  'name': 'Gems / Jewellery'
 }, {
   'name': 'Glass, Ceramics & Concrete'
 }, {
@@ -109,7 +127,11 @@ module.exports = [{
 }, {
   'name': 'Graphic Design'
 }, {
+  'name': 'Grooming / Beauty / Fitness / Lifestyle'
+}, {
   'name': 'Health, Wellness and Fitness'
+}, {
+  'name': 'Heavy Industrial / Machinery'
 }, {
   'name': 'Higher Education'
 }, {
@@ -118,6 +140,8 @@ module.exports = [{
   'name': 'Hospitality'
 }, {
   'name': 'Human Resources'
+}, {
+  'name': 'HR Management - Consulting'
 }, {
   'name': 'Import and Export'
 }, {
@@ -143,6 +167,8 @@ module.exports = [{
 }, {
   'name': 'Judiciary'
 }, {
+  'name': 'Journalism'
+}, {
   'name': 'Law Enforcement'
 }, {
   'name': 'Law Practice'
@@ -162,6 +188,8 @@ module.exports = [{
   'name': 'Machinery'
 }, {
   'name': 'Management Consulting'
+}, {
+  'name': 'Manufacture / Production'
 }, {
   'name': 'Maritime'
 }, {
@@ -191,6 +219,8 @@ module.exports = [{
 }, {
   'name': 'Nanotechnology'
 }, {
+  'name': 'NGO'
+},  {
   'name': 'Newspapers'
 }, {
   'name': 'Nonprofit Organization Management'
@@ -241,6 +271,8 @@ module.exports = [{
 }, {
   'name': 'Real Estate'
 }, {
+  'name': 'Repair / Maintenance Service'
+}, {
   'name': 'Recreational Facilities and Services'
 }, {
   'name': 'Religious Institutions'
@@ -252,6 +284,8 @@ module.exports = [{
   'name': 'Restaurants'
 }, {
   'name': 'Retail'
+}, {
+  'name': 'Science / Technology'
 }, {
   'name': 'Security and Investigations'
 }, {
@@ -266,6 +300,8 @@ module.exports = [{
   'name': 'Staffing and Recruiting'
 }, {
   'name': 'Supermarkets'
+}, {
+  'name': 'Stock / Securities'
 }, {
   'name': 'Telecommunications'
 }, {
