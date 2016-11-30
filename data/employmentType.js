@@ -1,13 +1,13 @@
 'use strict'
 
 module.exports = [{
-  'name': 'Full-time'
+  'name': 'Full Time'
 }, {
-  'name': 'Part-time'
+  'name': 'Part Time/ Freelance'
 }, {
   'name': 'Contract'
 }, {
-  'name': 'Temporary'
+  'name': 'Temporary / Project Based'
 }, {
-  'name': 'Other'
+  'name': 'Internship'
 }]

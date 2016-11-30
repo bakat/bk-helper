@@ -1,21 +1,15 @@
 'use strict'
 
 module.exports = [{
-  name: 'Not applicable'
+  name: 'Fresh Graduates / Less Than 1 Year Experience'
 }, {
-  name: 'Internship'
+  name: 'Staff / Junior Staff'
 }, {
-  name: 'New graduate'
+  name: 'Senior Staff/ Supervisor / Coordinator / Team Leader'
 }, {
-  name: 'Entry level'
+  name: 'Manager / Senior Manager / Department Head'
 }, {
-  name: 'Associate'
+  name: 'Associate Director / Director / GM'
 }, {
-  name: 'Experienced'
-}, {
-  name: 'Executive'
-}, {
-  name: 'Mid-Senior level'
-}, {
-  name: 'Director & C-level'
+  name: 'C - Level (CEO, COO, CMO, CFO)'
 }]
