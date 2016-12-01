@@ -7,11 +7,11 @@ module.exports = [{
  }, {
     name: 'Small',
     size: '11-50',
-    value: 'A'
+    value: 'B'
  }, {
     name: 'Mid-Medium',
     size: '51-250',
-    value: 'B'
+    value: 'C'
  }, {
     name: 'Medium',
     size: '251-500',
