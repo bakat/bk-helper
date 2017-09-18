@@ -51,7 +51,7 @@ module.exports = [
     name: 'Jobplanet',
     domain: 'id.jobplanet.com',
     host: 'jobplanet',
-    provider: 'jobplanet',
+    provider: 'id.jobplanet.com',
     logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/jobplanet-logo.png',
     description: 'Jobplanet merupakan platform komunitas online untuk berbagi informasi seputar dunia kerja dan perusahaan. Jobplanet menampilkan review tentang budaya dan suasana kerja di perusahaan, informasi gaji, serta kisi-kisi pertanyaan dalam wawancara kerja.',
     defaultXml: true
@@ -93,7 +93,7 @@ module.exports = [
     name: 'Jobrapido',
     domain: 'id.jobrapido.com',
     host: 'jobrapido',
-    provider: 'jobrapido',
+    provider: 'id.jobrapido.com',
     logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/jobrapido-logo.png',
     description: 'Jobrapido is the second largest global player in the growing job aggregator segment providing a one-stop platform for job-seekers to connect with employers. As industry frontrunner Jobrapido is shaping a new standard in online job searching; to revolutionize the way people get jobs.',
     defaultXml: true
@@ -118,7 +118,7 @@ module.exports = [
     name: 'Edajobs',
     domain: 'www.edajobs.com',
     host: 'edajobs',
-    provider: 'edajobs',
+    provider: 'www.edajobs.com',
     logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/edajobs-logo.png',
     description: 'EDAJOBS.COM membantu Anda untuk menemukan pekerjaan baru yang lebih mudah, sehingga Anda dapat memberikan resume Anda langsung ke perusahaan perekrutan.',
     defaultXml: true
@@ -127,7 +127,7 @@ module.exports = [
     name: 'Klikkarir',
     domain: 'www.klikkarir.com',
     host: 'klikkarir',
-    provider: 'klikkarir',
+    provider: 'www.klikkarir.com',
     logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/klikkarir-logo.png',
     description: 'Portal lowongan kerja di Indonesia dengan lebih dari 25 ribu pencari kerja dan 5 ribu perusahaan. Buat resume/CV atau pasang iklan lowongan gratis!',
     defaultXml: true
@@ -136,7 +136,7 @@ module.exports = [
     name: 'Cari.co',
     domain: 'jobs.cari.co',
     host: 'cari.co',
-    provider: 'cari.co',
+    provider: 'jobs.cari.co',
     logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/carico-logo.gif',
     description: 'Mesin pencari mobil bekas, motor bekas, rumah dijual, lowongan kerja dan karir.',
     defaultXml: true
@@ -153,7 +153,7 @@ module.exports = [
     name: 'Neuvoo',
     domain: 'id.neuvoo.com',
     host: 'neuvoo',
-    provider: 'neuvoo',
+    provider: 'id.neuvoo.com',
     logo: '//cdn.urbanhire.com/img/publisher/neuvoo.png',
     description: 'Pencarian lowongan kerja Anda mulai dari sini.',
     defaultXml: true
@@ -162,7 +162,7 @@ module.exports = [
     name: 'Waa2',
     domain: 'www.waa2.co.id',
     host: 'waa2',
-    provider: 'waa2',
+    provider: 'www.waa2.co.id',
     logo: '//cdn.urbanhire.com/img/publisher/waa2.png',
     description: 'Mesin pencari tercepat di dunia, waa2 membawa jutaan rumah, mobil, dan tawaran pekerjaan untuk Anda gratis.',
     defaultXml: true
@@ -171,7 +171,7 @@ module.exports = [
     name: 'Locanto',
     domain: 'www.locanto.id',
     host: 'locanto',
-    provider: 'locanto',
+    provider: 'www.locanto.id',
     logo: '//cdn.urbanhire.com/img/publisher/locanto.png',
     description: 'Temukan lebih dari 418000 iklan gratis di kota terdekat Anda mulai dari lowongan kerja, apartemen, hingga jodoh dan banyak lagi ✓ bebas biaya.',
     defaultXml: true
@@ -180,7 +180,7 @@ module.exports = [
     name: 'Cari Kerja',
     domain: 'www.carikerja.id',
     host: 'carikerja',
-    provider: 'carikerja',
+    provider: 'www.carikerja.id',
     logo: '//cdn.urbanhire.com/img/publisher/cari-kerja.png',
     description: 'Carikerja.id diciptakan untuk mempermudah para pencari dan pemasang lowongan pekerjaan di Indonesia.',
     defaultXml: true
@@ -189,7 +189,7 @@ module.exports = [
     name: 'Post Job Free',
     domain: 'www.postjobfree.com',
     host: 'postjobfree',
-    provider: 'postjobfree',
+    provider: 'www.postjobfree.com',
     logo: '//cdn.urbanhire.com/img/publisher/post-job-free.png',
     description: 'We distribute your jobs to popular job search sites.',
     defaultXml: true
@@ -198,7 +198,7 @@ module.exports = [
     name: 'Rulla',
     domain: 'id.rulla.com',
     host: 'rulla',
-    provider: 'rulla',
+    provider: 'id.rulla.com',
     logo: '//cdn.urbanhire.com/img/publisher/rulla.png',
     description: 'Satu-satunya situs web untuk penelusuran lowongan kerja di Indonesia.',
     defaultXml: true
