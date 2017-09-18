@@ -53,7 +53,8 @@ module.exports = [
     host: 'jobplanet',
     provider: 'jobplanet',
     logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/jobplanet-logo.png',
-    description: 'Jobplanet merupakan platform komunitas online untuk berbagi informasi seputar dunia kerja dan perusahaan. Jobplanet menampilkan review tentang budaya dan suasana kerja di perusahaan, informasi gaji, serta kisi-kisi pertanyaan dalam wawancara kerja.'
+    description: 'Jobplanet merupakan platform komunitas online untuk berbagi informasi seputar dunia kerja dan perusahaan. Jobplanet menampilkan review tentang budaya dan suasana kerja di perusahaan, informasi gaji, serta kisi-kisi pertanyaan dalam wawancara kerja.',
+    defaultXml: true
   },
   {
     name: 'Jobtome',
@@ -61,7 +62,8 @@ module.exports = [
     host: 'jobtome',
     provider: 'jobtome',
     logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/jobtome-logo.png',
-    description: 'Jobtome is one of the most important job search engines in the world. We help job seekers access millions of jobs gathered from a hundred thousand recruitment agency and employer sites. We help companies reach millions of job seekers via pay-per-click based job advertising services.'
+    description: 'Jobtome is one of the most important job search engines in the world. We help job seekers access millions of jobs gathered from a hundred thousand recruitment agency and employer sites. We help companies reach millions of job seekers via pay-per-click based job advertising services.',
+    defaultXml: true
   },
   {
     name: 'Trovit',
@@ -93,7 +95,8 @@ module.exports = [
     host: 'jobrapido',
     provider: 'jobrapido',
     logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/jobrapido-logo.png',
-    description: 'Jobrapido is the second largest global player in the growing job aggregator segment providing a one-stop platform for job-seekers to connect with employers. As industry frontrunner Jobrapido is shaping a new standard in online job searching; to revolutionize the way people get jobs. '
+    description: 'Jobrapido is the second largest global player in the growing job aggregator segment providing a one-stop platform for job-seekers to connect with employers. As industry frontrunner Jobrapido is shaping a new standard in online job searching; to revolutionize the way people get jobs.',
+    defaultXml: true
   },
   {
     name: 'Jooble',
@@ -117,7 +120,8 @@ module.exports = [
     host: 'edajobs',
     provider: 'edajobs',
     logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/edajobs-logo.png',
-    description: 'EDAJOBS.COM membantu Anda untuk menemukan pekerjaan baru yang lebih mudah, sehingga Anda dapat memberikan resume Anda langsung ke perusahaan perekrutan.'
+    description: 'EDAJOBS.COM membantu Anda untuk menemukan pekerjaan baru yang lebih mudah, sehingga Anda dapat memberikan resume Anda langsung ke perusahaan perekrutan.',
+    defaultXml: true
   },
   {
     name: 'Klikkarir',
@@ -125,7 +129,8 @@ module.exports = [
     host: 'klikkarir',
     provider: 'klikkarir',
     logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/klikkarir-logo.png',
-    description: 'Portal lowongan kerja di Indonesia dengan lebih dari 25 ribu pencari kerja dan 5 ribu perusahaan. Buat resume/CV atau pasang iklan lowongan gratis!'
+    description: 'Portal lowongan kerja di Indonesia dengan lebih dari 25 ribu pencari kerja dan 5 ribu perusahaan. Buat resume/CV atau pasang iklan lowongan gratis!',
+    defaultXml: true
   },
   {
     name: 'Cari.co',
@@ -133,7 +138,8 @@ module.exports = [
     host: 'cari.co',
     provider: 'cari.co',
     logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/carico-logo.gif',
-    description: 'Mesin pencari mobil bekas, motor bekas, rumah dijual, lowongan kerja dan karir.'
+    description: 'Mesin pencari mobil bekas, motor bekas, rumah dijual, lowongan kerja dan karir.',
+    defaultXml: true
   },
   {
     name: 'Gigajob',
@@ -149,7 +155,8 @@ module.exports = [
     host: 'neuvoo',
     provider: 'neuvoo',
     logo: '//cdn.urbanhire.com/img/publisher/neuvoo.png',
-    description: 'Pencarian lowongan kerja Anda mulai dari sini.'
+    description: 'Pencarian lowongan kerja Anda mulai dari sini.',
+    defaultXml: true
   },
   {
     name: 'Waa2',
@@ -157,7 +164,8 @@ module.exports = [
     host: 'waa2',
     provider: 'waa2',
     logo: '//cdn.urbanhire.com/img/publisher/waa2.png',
-    description: 'Mesin pencari tercepat di dunia, waa2 membawa jutaan rumah, mobil, dan tawaran pekerjaan untuk Anda gratis.'
+    description: 'Mesin pencari tercepat di dunia, waa2 membawa jutaan rumah, mobil, dan tawaran pekerjaan untuk Anda gratis.',
+    defaultXml: true
   },
   {
     name: 'Locanto',
@@ -165,7 +173,8 @@ module.exports = [
     host: 'locanto',
     provider: 'locanto',
     logo: '//cdn.urbanhire.com/img/publisher/locanto.png',
-    description: 'Temukan lebih dari 418000 iklan gratis di kota terdekat Anda mulai dari lowongan kerja, apartemen, hingga jodoh dan banyak lagi ✓ bebas biaya.'
+    description: 'Temukan lebih dari 418000 iklan gratis di kota terdekat Anda mulai dari lowongan kerja, apartemen, hingga jodoh dan banyak lagi ✓ bebas biaya.',
+    defaultXml: true
   },
   {
     name: 'Cari Kerja',
@@ -173,7 +182,8 @@ module.exports = [
     host: 'carikerja',
     provider: 'carikerja',
     logo: '//cdn.urbanhire.com/img/publisher/cari-kerja.png',
-    description: 'Carikerja.id diciptakan untuk mempermudah para pencari dan pemasang lowongan pekerjaan di Indonesia.'
+    description: 'Carikerja.id diciptakan untuk mempermudah para pencari dan pemasang lowongan pekerjaan di Indonesia.',
+    defaultXml: true
   },
   {
     name: 'Post Job Free',
@@ -181,7 +191,8 @@ module.exports = [
     host: 'postjobfree',
     provider: 'postjobfree',
     logo: '//cdn.urbanhire.com/img/publisher/post-job-free.png',
-    description: 'We distribute your jobs to popular job search sites.'
+    description: 'We distribute your jobs to popular job search sites.',
+    defaultXml: true
   },
   {
     name: 'Rulla',
@@ -189,6 +200,7 @@ module.exports = [
     host: 'rulla',
     provider: 'rulla',
     logo: '//cdn.urbanhire.com/img/publisher/rulla.png',
-    description: 'Satu-satunya situs web untuk penelusuran lowongan kerja di Indonesia.'
+    description: 'Satu-satunya situs web untuk penelusuran lowongan kerja di Indonesia.',
+    defaultXml: true
   }
 ]
