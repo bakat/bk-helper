@@ -4,7 +4,6 @@ var fs = require('fs')
 var path = require('path')
 
 fs.readdirSync(__dirname + '/data').forEach((file) => {
-  console.log(file)
   var extname = path.extname(file)
   var basename = path.basename(file, extname)
 
