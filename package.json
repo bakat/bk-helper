@@ -1,19 +1,22 @@
 {
   "name": "bk-helper",
-  "version": "1.2.0",
-  "description": "Bakat helper script and data",
+  "version": "2.0.0",
+  "description": "Urbanhire helper script and data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bakat/bk-helper.git"
+    "url": "git@github.com:urbanhire/bk-helper.git"
   },
-  "author": "Bakat.co <help@bakat.co>",
+  "author": "Urbanhire Engineer <dev@urbanhire.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bakat/bk-helper/issues"
+    "url": "https://github.com/urbanhire/bk-helper/issues"
   },
-  "homepage": "https://github.com/bakat/bk-helper"
+  "homepage": "https://github.com/urbanhire/bk-helper",
+  "dependencies": {
+    "fastparallel": "^2.3.0"
+  }
 }

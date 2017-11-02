@@ -1,11 +1,13 @@
 'use strict'
 
-var fs = require('fs')
-var path = require('path')
+const fs = require('fs')
+const path = require('path')
+const fastparallel = require('fastparallel')
+const files = fs.readdirSync(__dirname + '/data')
 
-fs.readdirSync(__dirname + '/data').forEach(function (file) {
-  var extname = path.extname(file)
-  var basename = path.basename(file, extname)
+fastparallel(files, (file, cb) => {
+  const extname = path.extname(file)
+  const basename = path.basename(file, extname)
 
   if (~file.indexOf('.js')) {
     exports[basename] = require(__dirname + '/data/' + file)
