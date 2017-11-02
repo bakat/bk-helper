@@ -12,4 +12,6 @@ fastparallel(files, (file, cb) => {
   if (~file.indexOf('.js')) {
     exports[basename] = require(__dirname + '/data/' + file)
   }
+
+  cb()
 })
