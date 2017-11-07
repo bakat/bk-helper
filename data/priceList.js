@@ -14,25 +14,10 @@ module.exports = {
       }
     }
   },
-  free: {
-    name: 'free',
-    jobSlot: 1,
-    userSlot: 1,
-    payments: {
-      monthly: {
-        idr: 0,
-        usd: 0
-      },
-      annual: {
-        idr: 0,
-        usd: 0
-      }
-    }
-  },
   standard: {
     name: 'standard',
     jobSlot: 3,
-    userSlot: 15,
+    userSlot: 3,
     payments: {
       monthly: {
         idr: 390000,
@@ -46,31 +31,46 @@ module.exports = {
   },
   professional: {
     name: 'professional',
-    jobSlot: 5,
-    userSlot: 25,
+    jobSlot: 20,
+    userSlot: 10,
     payments: {
       monthly: {
-        idr: 780000,
-        usd: 78
+        idr: 1190000,
+        usd: 119
       },
       annual: {
-        idr: 7800000,
-        usd: 780
+        idr: 11900000,
+        usd: 1190
       }
     }
   },
   growth: {
     name: 'growth',
-    jobSlot: 10,
-    userSlot: 50,
+    jobSlot: 50,
+    userSlot: 1000,
     payments: {
       monthly: {
-        idr: 2340000,
-        usd: 234
+        idr: 2990000,
+        usd: 299
       },
       annual: {
-        idr: 23400000,
-        usd: 2340
+        idr: 29900000,
+        usd: 2990
+      }
+    }
+  },
+  enterprise: {
+    name: 'enterprise',
+    jobSlot: 1000,
+    userSlot: 1000,
+    payments: {
+      monthly: {
+        idr: 15990000,
+        usd: 1599
+      },
+      annual: {
+        idr: 15990000,
+        usd: 15990
       }
     }
   },

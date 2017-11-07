@@ -1,3 +1,3 @@
 'use strict'
 
-module.exports = ['trial', 'free', 'standard', 'professional', 'growth', 'custom']
+module.exports = ['trial', 'free', 'standard', 'professional', 'growth', 'enterprise', 'custom']
