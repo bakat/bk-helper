@@ -1,74 +1,214 @@
 'use strict'
 
 module.exports = [
-    'Advertising/Media',
-    'Agriculture/Aquaculture/Forestry',
-    'Airline Operation/Airport Management',
-    'Architecture',
-    'Art/Design/Creative Multimedia',
-    'Biology',
-    'BioTechnology',
-    'Business Studies/Administration/Management',
-    'Chemistry',
-    'Commerce',
-    'Computer Science/Information Technology',
-    'Dentistry',
-    'Economics',
-    'Journalism',
-    'Education/Teaching/Training',
-    'Engineering (Aviation/Aeronautics/Astronautics)',
-    'Engineering (Bioengineering/Biomedical)',
-    'Engineering (Chemical)',
-    'Engineering (Civil)',
-    'Engineering (Computer/Telecommunication)',
-    'Engineering (Electrical/Electronic)',
-    'Engineering (Environmental/Health/Safety)',
-    'Engineering (Industrial)',
-    'Engineering (Marine)',
-    'Engineering (Material Science)',
-    'Engineering (Mechanical)',
-    'Engineering (Mechatronic/Electromechanical)',
-    'Engineering (Metal Fabrication/Tool & Die/Welding)',
-    'Engineering (Mining/Mineral)',
-    'Engineering (Others)',
-    'Engineering (Petroleum/Oil/Gas)',
-    'Finance/Accountancy/Banking',
-    'Food & Beverage Services Management',
-    'Food Technology/Nutrition/Dietetics',
-    'Geographical Science',
-    'Geology/Geophysics',
-    'History',
-    'Hospitality/Tourism/Hotel Management',
-    'Human Resource Management',
-    'Humanities/Liberal Arts',
-    'Logistic/Transportation',
-    'Law',
-    'Library Management',
-    'Linguistics/Languages',
-    'Mass Communications',
-    'Mathematics',
-    'Medical Science',
-    'Medicine',
-    'Maritime Studies',
-    'Marketing',
-    'Music/Performing Arts Studies',
-    'Nursing',
-    'Optometry',
-    'Personal Services',
-    'Pharmacy/Pharmacology',
-    'Philosophy',
-    'Physical Therapy/Physiotherapy',
-    'Physics',
-    'Political Science',
-    'Property Development/Real Estate Management',
-    'Protective Services & Management',
-    'Psychology',
-    'Quantity Survey',
-    'Science & Technology',
-    'Secretarial',
-    'Social Science/Sociology',
-    'Sports Science & Management',
-    'Textile/Fashion Design',
-    'Urban Studies/Town Planning',
-    'Veterinary'
+   {  
+      name:'Advertising/Media'
+   },
+   {  
+      name:'Agriculture/Aquaculture/Forestry'
+   },
+   {  
+      name:'Airline Operation/Airport Management'
+   },
+   {  
+      name:'Architecture'
+   },
+   {  
+      name:'Art/Design/Creative Multimedia'
+   },
+   {  
+      name:'Biology'
+   },
+   {  
+      name:'BioTechnology'
+   },
+   {  
+      name:'Business Studies/Administration/Management'
+   },
+   {  
+      name:'Chemistry'
+   },
+   {  
+      name:'Commerce'
+   },
+   {  
+      name:'Computer Science/Information Technology'
+   },
+   {  
+      name:'Dentistry'
+   },
+   {  
+      name:'Economics'
+   },
+   {  
+      name:'Journalism'
+   },
+   {  
+      name:'Education/Teaching/Training'
+   },
+   {  
+      name:'Engineering (Aviation/Aeronautics/Astronautics)'
+   },
+   {  
+      name:'Engineering (Bioengineering/Biomedical)'
+   },
+   {  
+      name:'Engineering (Chemical)'
+   },
+   {  
+      name:'Engineering (Civil)'
+   },
+   {  
+      name:'Engineering (Computer/Telecommunication)'
+   },
+   {  
+      name:'Engineering (Electrical/Electronic)'
+   },
+   {  
+      name:'Engineering (Environmental/Health/Safety)'
+   },
+   {  
+      name:'Engineering (Industrial)'
+   },
+   {  
+      name:'Engineering (Marine)'
+   },
+   {  
+      name:'Engineering (Material Science)'
+   },
+   {  
+      name:'Engineering (Mechanical)'
+   },
+   {  
+      name:'Engineering (Mechatronic/Electromechanical)'
+   },
+   {  
+      name:'Engineering (Metal Fabrication/Tool & Die/Welding)'
+   },
+   {  
+      name:'Engineering (Mining/Mineral)'
+   },
+   {  
+      name:'Engineering (Others)'
+   },
+   {  
+      name:'Engineering (Petroleum/Oil/Gas)'
+   },
+   {  
+      name:'Finance/Accountancy/Banking'
+   },
+   {  
+      name:'Food & Beverage Services Management'
+   },
+   {  
+      name:'Food Technology/Nutrition/Dietetics'
+   },
+   {  
+      name:'Geographical Science'
+   },
+   {  
+      name:'Geology/Geophysics'
+   },
+   {  
+      name:'History'
+   },
+   {  
+      name:'Hospitality/Tourism/Hotel Management'
+   },
+   {  
+      name:'Human Resource Management'
+   },
+   {  
+      name:'Humanities/Liberal Arts'
+   },
+   {  
+      name:'Logistic/Transportation'
+   },
+   {  
+      name:'Law'
+   },
+   {  
+      name:'Library Management'
+   },
+   {  
+      name:'Linguistics/Languages'
+   },
+   {  
+      name:'Mass Communications'
+   },
+   {  
+      name:'Mathematics'
+   },
+   {  
+      name:'Medical Science'
+   },
+   {  
+      name:'Medicine'
+   },
+   {  
+      name:'Maritime Studies'
+   },
+   {  
+      name:'Marketing'
+   },
+   {  
+      name:'Music/Performing Arts Studies'
+   },
+   {  
+      name:'Nursing'
+   },
+   {  
+      name:'Optometry'
+   },
+   {  
+      name:'Personal Services'
+   },
+   {  
+      name:'Pharmacy/Pharmacology'
+   },
+   {  
+      name:'Philosophy'
+   },
+   {  
+      name:'Physical Therapy/Physiotherapy'
+   },
+   {  
+      name:'Physics'
+   },
+   {  
+      name:'Political Science'
+   },
+   {  
+      name:'Property Development/Real Estate Management'
+   },
+   {  
+      name:'Protective Services & Management'
+   },
+   {  
+      name:'Psychology'
+   },
+   {  
+      name:'Quantity Survey'
+   },
+   {  
+      name:'Science & Technology'
+   },
+   {  
+      name:'Secretarial'
+   },
+   {  
+      name:'Social Science/Sociology'
+   },
+   {  
+      name:'Sports Science & Management'
+   },
+   {  
+      name:'Textile/Fashion Design'
+   },
+   {  
+      name:'Urban Studies/Town Planning'
+   },
+   {  
+      name:'Veterinary'
+   }
 ]
