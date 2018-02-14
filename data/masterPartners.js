@@ -865,6 +865,1344 @@ module.exports = {
             name: 'C - Level (CEO, COO, CMO, CFO)',
             id: 14
         }
+    ],
+    job_location:   [
+        {
+          name: "Ujung Gading",
+          id: "10014"
+        },
+        {
+          name: "Ujungbatu",
+          id: "10010"
+        },
+        {
+          name: "Tualangcut",
+          id: "10002"
+        },
+        {
+          name: "Tongging",
+          id: "10006"
+        },
+        {
+          name: "Tomok Bolon",
+          id: "10006"
+        },
+        {
+          name: "Tiku",
+          id: "10010"
+        },
+        {
+          name: "Teluk Nibung",
+          id: "10006"
+        },
+        {
+          name: "Teluk Dalam",
+          id: "10006"
+        },
+        {
+          name: "Tebingtinggi",
+          id: "10002"
+        },
+        {
+          name: "Tarutung",
+          id: "10006"
+        },
+        {
+          name: "Tanjungtiram",
+          id: "10006"
+        },
+        {
+          name: "Tanjungbalai",
+          id: "10006"
+        },
+        {
+          name: "Tangse",
+          id: "10002"
+        },
+        {
+          name: "Talu",
+          id: "10002"
+        },
+        {
+          name: "Takengon",
+          id: "10002"
+        },
+        {
+          name: "Susoh",
+          id: "10002"
+        },
+        {
+          name: "Sunggal",
+          id: "10007"
+        },
+        {
+          name: "Sei Rampah",
+          id: "10006"
+        },
+        {
+          name: "Stabat",
+          id: "10006"
+        },
+        {
+          name: "Sondi",
+          id: "10006"
+        },
+        {
+          name: "Sipirok",
+          id: "10006"
+        },
+        {
+          name: "Sipiongot",
+          id: "10006"
+        },
+        {
+          name: "Sipagimbar",
+          id: "10006"
+        },
+        {
+          name: "Singkil",
+          id: "10002"
+        },
+        {
+          name: "Sinabang",
+          id: "10002"
+        },
+        {
+          name: "Simpang Empat",
+          id: "10002"
+        },
+        {
+          name: "Sigli",
+          id: "10002"
+        },
+        {
+          name: "Sidikalang",
+          id: "10006"
+        },
+        {
+          name: "Sibuhuan",
+          id: "10006"
+        },
+        {
+          name: "Siborong-Borong",
+          id: "10006"
+        },
+        {
+          name: "Sibolga",
+          id: "10006"
+        },
+        {
+          name: "Sibigo",
+          id: "10002"
+        },
+        {
+          name: "Siabu",
+          id: "10006"
+        },
+        {
+          name: "Seulimeum",
+          id: "10002"
+        },
+        {
+          name: "Serawai",
+          id: "10022"
+        },
+        {
+          name: "Saribudolok",
+          id: "10006"
+        },
+        {
+          name: "Salak",
+          id: "10006"
+        },
+        {
+          name: "Sabang",
+          id: "10005"
+        },
+        {
+          name: "Rikitgaib",
+          id: "10002"
+        },
+        {
+          name: "Reuleuet",
+          id: "10002"
+        },
+        {
+          name: "Rantauprapat",
+          id: "10006"
+        },
+        {
+          name: "Parapat",
+          id: "10006"
+        },
+        {
+          name: "Pintupadang",
+          id: "10006"
+        },
+        {
+          name: "Peureulak",
+          id: "10002"
+        },
+        {
+          name: "Percut",
+          id: "10006"
+        },
+        {
+          name: "Perbaungan",
+          id: "10006"
+        },
+        {
+          name: "Penaron",
+          id: "10002"
+        },
+        {
+          name: "Pematangsiantar",
+          id: "10006"
+        },
+        {
+          name: "Pematang Raya",
+          id: "10006"
+        },
+        {
+          name: "Parmonangan",
+          id: "10006"
+        },
+        {
+          name: "Parlilitan",
+          id: "10006"
+        },
+        {
+          name: "Panyambungan",
+          id: "10006"
+        },
+        {
+          name: "Pangururan",
+          id: "10006"
+        },
+        {
+          name: "Pangkalan Brandan",
+          id: "10006"
+        },
+        {
+          name: "Pakkat",
+          id: "10006"
+        },
+        {
+          name: "Padangtiji",
+          id: "10002"
+        },
+        {
+          name: "Padangsidempuan",
+          id: "10006"
+        },
+        {
+          name: "Natal",
+          id: "10006"
+        },
+        {
+          name: "Nainggolan",
+          id: "10006"
+        },
+        {
+          name: "Muara Soma",
+          id: "10006"
+        },
+        {
+          name: "Muara Sipongi",
+          id: "10006"
+        },
+        {
+          name: "Sikabaluan",
+          id: "10010"
+        },
+        {
+          name: "Muara Siberut",
+          id: "10010"
+        },
+        {
+          name: "Muara",
+          id: "10006"
+        },
+        {
+          name: "Montasik",
+          id: "10002"
+        },
+        {
+          name: "Mogang",
+          id: "10006"
+        },
+        {
+          name: "Meureubo",
+          id: "10002"
+        },
+        {
+          name: "Meulaboh",
+          id: "10002"
+        },
+        {
+          name: "Medan",
+          id: "10007"
+        },
+        {
+          name: "Lubuk Pakam",
+          id: "10006"
+        },
+        {
+          name: "Lintongnihuta",
+          id: "10006"
+        },
+        {
+          name: "Limapuluh",
+          id: "10010"
+        },
+        {
+          name: "Lhoong",
+          id: "10002"
+        },
+        {
+          name: "Lhokseumawe",
+          id: "10004"
+        },
+        {
+          name: "Lhoknga",
+          id: "10002"
+        },
+        {
+          name: "Lhokkruet",
+          id: "10002"
+        },
+        {
+          name: "Laweueng",
+          id: "10002"
+        },
+        {
+          name: "Langsa",
+          id: "10002"
+        },
+        {
+          name: "Langgapayung",
+          id: "10006"
+        },
+        {
+          name: "Lampuyang",
+          id: "10002"
+        },
+        {
+          name: "Lamno",
+          id: "10002"
+        },
+        {
+          name: "Labuhan Deli",
+          id: "10006"
+        },
+        {
+          name: "Kuala Bhee",
+          id: "10002"
+        },
+        {
+          name: "Kruengraya",
+          id: "10002"
+        },
+        {
+          name: "Krueng Luak",
+          id: "10002"
+        },
+        {
+          name: "Kisaran",
+          id: "10006"
+        },
+        {
+          name: "Kabanjahe",
+          id: "10006"
+        },
+        {
+          name: "Isak",
+          id: "10006"
+        },
+        {
+          name: "Kotanopan",
+          id: "10006"
+        },
+        {
+          name: "Gunung Tua",
+          id: "10006"
+        },
+        {
+          name: "Gunungsitoli",
+          id: "10006"
+        },
+        {
+          name: "Gosong Telaga",
+          id: "10002"
+        },
+        {
+          name: "Dolok Sanggul",
+          id: "10006"
+        },
+        {
+          name: "Deli Tua",
+          id: "10006"
+        },
+        {
+          name: "Celala",
+          id: "10006"
+        },
+        {
+          name: "Calang",
+          id: "10002"
+        },
+        {
+          name: "Blangpidie",
+          id: "10002"
+        },
+        {
+          name: "Blangkejeren",
+          id: "10002"
+        },
+        {
+          name: "Bireun",
+          id: "10002"
+        },
+        {
+          name: "Binjai",
+          id: "10009"
+        },
+        {
+          name: "Binanga",
+          id: "10006"
+        },
+        {
+          name: "Berastagi",
+          id: "10006"
+        },
+        {
+          name: "Belawan",
+          id: "10007"
+        },
+        {
+          name: "Bayeuen",
+          id: "10002"
+        },
+        {
+          name: "Batangtoru",
+          id: "10006"
+        },
+        {
+          name: "Barus",
+          id: "10006"
+        },
+        {
+          name: "Bandar",
+          id: "10006"
+        },
+        {
+          name: "Banda Aceh",
+          id: "10003"
+        },
+        {
+          name: "Balige",
+          id: "10006"
+        },
+        {
+          name: "Bakungan",
+          id: "10113"
+        },
+        {
+          name: "Asan Kumbang",
+          id: "10002"
+        },
+        {
+          name: "Ambarita",
+          id: "10006"
+        },
+        {
+          name: "Air Bangis",
+          id: "10010"
+        },
+        {
+          name: "Terangun",
+          id: "10002"
+        },
+        {
+          name: "Kenyaran",
+          id: "10002"
+        },
+        {
+          name: "Pining",
+          id: "10006"
+        },
+        {
+          name: "Yosowilangun",
+          id: "10083"
+        },
+        {
+          name: "Yogyakarta",
+          id: "10078"
+        },
+        {
+          name: "Praiyawang",
+          id: "10107"
+        },
+        {
+          name: "Wureh",
+          id: "10107"
+        },
+        {
+          name: "Wulung",
+          id: "10045"
+        },
+        {
+          name: "Wuluhan",
+          id: "10083"
+        },
+        {
+          name: "Sumberwudi",
+          id: "10083"
+        },
+        {
+          name: "Wotu",
+          id: "10123"
+        },
+        {
+          name: "Wori",
+          id: "10121"
+        },
+        {
+          name: "Wonosobo",
+          id: "10045"
+        },
+        {
+          name: "Wonosari",
+          id: "10077"
+        },
+        {
+          name: "Wonorejo",
+          id: "10083"
+        },
+        {
+          name: "Wonopringgo",
+          id: "10045"
+        },
+        {
+          name: "Wonogiri",
+          id: "10045"
+        },
+        {
+          name: "Wongsorejo",
+          id: "10083"
+        },
+        {
+          name: "Wolowiro",
+          id: "10107"
+        },
+        {
+          name: "Wolowaru",
+          id: "10107"
+        },
+        {
+          name: "Wolosoko",
+          id: "10107"
+        },
+        {
+          name: "Wolo",
+          id: "10125"
+        },
+        {
+          name: "Wlingi",
+          id: "10083"
+        },
+        {
+          name: "Witihama",
+          id: "10107"
+        },
+        {
+          name: "Wiradesa",
+          id: "10045"
+        },
+        {
+          name: "Windusakti Hilir",
+          id: "10045"
+        },
+        {
+          name: "Winduasri",
+          id: "10045"
+        },
+        {
+          name: "Weru",
+          id: "10045"
+        },
+        {
+          name: "Werinama",
+          id: "10129"
+        },
+        {
+          name: "Werasari",
+          id: "10029"
+        },
+        {
+          name: "Wera",
+          id: "10105"
+        },
+        {
+          name: "Weleri",
+          id: "10045"
+        },
+        {
+          name: "Welahan",
+          id: "10045"
+        },
+        {
+          name: "Wekmurak",
+          id: "10107"
+        },
+        {
+          name: "Wedi",
+          id: "10067"
+        },
+        {
+          name: "Wedarijaksa",
+          id: "10076"
+        },
+        {
+          name: "Weda",
+          id: "10147"
+        },
+        {
+          name: "Waworada",
+          id: "10105"
+        },
+        {
+          name: "Watulimo",
+          id: "10045"
+        },
+        {
+          name: "Watuapi",
+          id: "10107"
+        },
+        {
+          name: "Wates",
+          id: "10001"
+        },
+        {
+          name: "Watansoppeng",
+          id: "10123"
+        },
+        {
+          name: "Watampone",
+          id: "10123"
+        },
+        {
+          name: "Warungpeuteuy",
+          id: "10029"
+        },
+        {
+          name: "Warudoyong",
+          id: "10042"
+        },
+        {
+          name: "Waru",
+          id: "10094"
+        },
+        {
+          name: "Waren",
+          id: "10001"
+        },
+        {
+          name: "Wardo",
+          id: "10001"
+        },
+        {
+          name: "Muaratiga",
+          id: "10002"
+        },
+        {
+          name: "Wanurian",
+          id: "10153"
+        },
+        {
+          name: "Wangon",
+          id: "10045"
+        },
+        {
+          name: "Wanci",
+          id: "10125"
+        },
+        {
+          name: "Wanasalam",
+          id: "10139"
+        },
+        {
+          name: "Wanareja",
+          id: "10029"
+        },
+        {
+          name: "Wanaraja",
+          id: "10029"
+        },
+        {
+          name: "Wamena",
+          id: "10153"
+        },
+        {
+          name: "Wajak",
+          id: "10083"
+        },
+        {
+          name: "Waiwerang",
+          id: "10107"
+        },
+        {
+          name: "Weetobula",
+          id: "10107"
+        },
+        {
+          name: "Waisai",
+          id: "10153"
+        },
+        {
+          name: "Waigete",
+          id: "10107"
+        },
+        {
+          name: "Waipukang",
+          id: "10107"
+        },
+        {
+          name: "Waioti",
+          id: "10107"
+        },
+        {
+          name: "Waingapu",
+          id: "10107"
+        },
+        {
+          name: "Waimangura",
+          id: "10107"
+        },
+        {
+          name: "Wailebe",
+          id: "10107"
+        },
+        {
+          name: "Waikabubak",
+          id: "10107"
+        },
+        {
+          name: "Waigama",
+          id: "10107"
+        },
+        {
+          name: "Waibalun",
+          id: "10107"
+        },
+        {
+          name: "Waibakul",
+          id: "10107"
+        },
+        {
+          name: "Wahai",
+          id: "10129"
+        },
+        {
+          name: "Utan",
+          id: "10131"
+        },
+        {
+          name: "Uta",
+          id: "10131"
+        },
+        {
+          name: "Urung",
+          id: "10151"
+        },
+        {
+          name: "Ungaran",
+          id: "10045"
+        },
+        {
+          name: "Umbulsari",
+          id: "10083"
+        },
+        {
+          name: "Ketapang",
+          id: "10111"
+        },
+        {
+          name: "Uluwolo",
+          id: "10125"
+        },
+        {
+          name: "Kolaka",
+          id: "10125"
+        },
+        {
+          name: "Ulu",
+          id: "10021"
+        },
+        {
+          name: "Ujungpangkah",
+          id: "10083"
+        },
+        {
+          name: "Makassar",
+          id: "10124"
+        },
+        {
+          name: "Ujungbarang Satu",
+          id: "10045"
+        },
+        {
+          name: "Ujoh Bilang",
+          id: "10113"
+        },
+        {
+          name: "Ubud",
+          id: "10099"
+        },
+        {
+          name: "Tuwiri Wetan",
+          id: "10083"
+        },
+        {
+          name: "Turus",
+          id: "10088"
+        },
+        {
+          name: "Tulungagung",
+          id: "10097"
+        },
+        {
+          name: "Tuban",
+          id: "10096"
+        },
+        {
+          name: "Ternate",
+          id: "10148"
+        },
+        {
+          name: "Temanggung",
+          id: "10064"
+        },
+        {
+          name: "Tegal",
+          id: "10058"
+        },
+        {
+          name: "Tasikmalaya",
+          id: "10043"
+        },
+        {
+          name: "Bandar Lampung",
+          id: "10025"
+        },
+        {
+          name: "Tangerang",
+          id: "10140"
+        },
+        {
+          name: "Suwaru",
+          id: "10103"
+        },
+        {
+          name: "Surakarta",
+          id: "10046"
+        },
+        {
+          name: "Surabaya",
+          id: "10095"
+        },
+        {
+          name: "Sukoharjo",
+          id: "10070"
+        },
+        {
+          name: "Sukabumi",
+          id: "10042"
+        },
+        {
+          name: "Subang",
+          id: "10041"
+        },
+        {
+          name: "Sragen",
+          id: "10069"
+        },
+        {
+          name: "Sorong",
+          id: "10136"
+        },
+        {
+          name: "Sleman",
+          id: "10081"
+        },
+        {
+          name: "Slawi",
+          id: "10065"
+        },
+        {
+          name: "Sidoarjo",
+          id: "10094"
+        },
+        {
+          name: "Serang",
+          id: "10141"
+        },
+        {
+          name: "Semarang",
+          id: "10056"
+        },
+        {
+          name: "Samarinda",
+          id: "10114"
+        },
+        {
+          name: "Salatiga",
+          id: "10055"
+        },
+        {
+          name: "Rangkasbitung",
+          id: "10142"
+        },
+        {
+          name: "Purworejo",
+          id: "10074"
+        },
+        {
+          name: "Purwokerto",
+          id: "10054"
+        },
+        {
+          name: "Purwodadi",
+          id: "10062"
+        },
+        {
+          name: "Purwakarta",
+          id: "10040"
+        },
+        {
+          name: "Purbalingga",
+          id: "10053"
+        },
+        {
+          name: "Probolinggo",
+          id: "10093"
+        },
+        {
+          name: "Pontianak",
+          id: "10112"
+        },
+        {
+          name: "Pemalang",
+          id: "10060"
+        },
+        {
+          name: "Pekanbaru",
+          id: "10016"
+        },
+        {
+          name: "Pekalongan",
+          id: "10068"
+        },
+        {
+          name: "Pati",
+          id: "10075"
+        },
+        {
+          name: "Pasuruan",
+          id: "10092"
+        },
+        {
+          name: "Pandeglang",
+          id: "10143"
+        },
+        {
+          name: "Palu",
+          id: "10128"
+        },
+        {
+          name: "Palembang",
+          id: "10021"
+        },
+        {
+          name: "Palangkaraya",
+          id: "10120"
+        },
+        {
+          name: "Padang",
+          id: "10012"
+        },
+        {
+          name: "Ngawi",
+          id: "10091"
+        },
+        {
+          name: "Mojokerto",
+          id: "10155"
+        },
+        {
+          name: "Martapura",
+          id: "10135"
+        },
+        {
+          name: "Manado",
+          id: "10122"
+        },
+        {
+          name: "Malang",
+          id: "10090"
+        },
+        {
+          name: "Magelang",
+          id: "10052"
+        },
+        {
+          name: "Madiun",
+          id: "10089"
+        },
+        {
+          name: "Lembang",
+          id: "10038"
+        },
+        {
+          name: "Lamongan",
+          id: "10156"
+        },
+        {
+          name: "Kuta",
+          id: "10102"
+        },
+        {
+          name: "Kudus",
+          id: "10051"
+        },
+        {
+          name: "Klaten",
+          id: "10067"
+        },
+        {
+          name: "Kendari",
+          id: "10126"
+        },
+        {
+          name: "Kendal",
+          id: "10073"
+        },
+        {
+          name: "Kediri",
+          id: "10088"
+        },
+        {
+          name: "Karawang",
+          id: "10037"
+        },
+        {
+          name: "Karanganyar",
+          id: "10063"
+        },
+        {
+          name: "Jombang",
+          id: "10098"
+        },
+        {
+          name: "Jimbaran",
+          id: "10101"
+        },
+        {
+          name: "Jepara",
+          id: "10050"
+        },
+        {
+          name: "Jember",
+          id: "10087"
+        },
+        {
+          name: "Gresik",
+          id: "10086"
+        },
+        {
+          name: "Gorontalo",
+          id: "10149"
+        },
+        {
+          name: "Ende",
+          id: "10109"
+        },
+        {
+          name: "Denpasar",
+          id: "10100"
+        },
+        {
+          name: "Demak",
+          id: "10075"
+        },
+        {
+          name: "Cirebon",
+          id: "10035"
+        },
+        {
+          name: "Cimahi",
+          id: "10039"
+        },
+        {
+          name: "Cilegong",
+          id: "10144"
+        },
+        {
+          name: "Cilacap",
+          id: "10049"
+        },
+        {
+          name: "Cikarang",
+          id: "10034"
+        },
+        {
+          name: "Cibinong Satu",
+          id: "10033"
+        },
+        {
+          name: "Cibinong",
+          id: "10033"
+        },
+        {
+          name: "Cianjur",
+          id: "10044"
+        },
+        {
+          name: "Bukittinggi",
+          id: "10011"
+        },
+        {
+          name: "Brebes",
+          id: "10048"
+        },
+        {
+          name: "Boyolali",
+          id: "10061"
+        },
+        {
+          name: "Bojonegoro",
+          id: "10157"
+        },
+        {
+          name: "Bogor",
+          id: "10032"
+        },
+        {
+          name: "Blora",
+          id: "10047"
+        },
+        {
+          name: "Blitar",
+          id: "10085"
+        },
+        {
+          name: "Biak",
+          id: "10132"
+        },
+        {
+          name: "Bengkulu",
+          id: "10022"
+        },
+        {
+          name: "Bekasi",
+          id: "10031"
+        },
+        {
+          name: "Batang",
+          id: "10071"
+        },
+        {
+          name: "Banyuwangi",
+          id: "10084"
+        },
+        {
+          name: "Banyumas",
+          id: "10066"
+        },
+        {
+          name: "Bantul",
+          id: "10079"
+        },
+        {
+          name: "Banjarnegara",
+          id: "10072"
+        },
+        {
+          name: "Banjarmasin",
+          id: "10117"
+        },
+        {
+          name: "Banjar",
+          id: "10118"
+        },
+        {
+          name: "Bandung",
+          id: "10030"
+        },
+        {
+          name: "Balikpapan",
+          id: "10115"
+        },
+        {
+          name: "Ambon",
+          id: "10130"
+        },
+        {
+          name: "Kupang",
+          id: "10108"
+        },
+        {
+          name: "Jayapura",
+          id: "10133"
+        },
+        {
+          name: "Rembang",
+          id: "10059"
+        },
+        {
+          name: "South Tangerang",
+          id: "10140"
+        },
+        {
+          name: "Pontianak Barat",
+          id: "10112"
+        },
+        {
+          name: "Padang Panjang",
+          id: "10013"
+        },
+        {
+          name: "Jambi",
+          id: "10018"
+        },
+        {
+          name: "Lampung Barat",
+          id: "10024"
+        },
+        {
+          name: "Lampung Selatan",
+          id: "10024"
+        },
+        {
+          name: "Lampung Timur",
+          id: "10024"
+        },
+        {
+          name: "Lampung Tengah",
+          id: "10024"
+        },
+        {
+          name: "Lampung Utara",
+          id: "10024"
+        },
+        {
+          name: "Bangka",
+          id: "10145"
+        },
+        {
+          name: "Belitung",
+          id: "10145"
+        },
+        {
+          name: "Bangka Barat",
+          id: "10145"
+        },
+        {
+          name: "Bangka Tengah",
+          id: "10145"
+        },
+        {
+          name: "Bangka Selatan",
+          id: "10145"
+        },
+        {
+          name: "Belitung Timur",
+          id: "10145"
+        },
+        {
+          name: "Pangkal Pinang",
+          id: "10146"
+        },
+        {
+          name: "Batam",
+          id: "10015"
+        },
+        {
+          name: "Tanjung Pinang",
+          id: "10017"
+        },
+        {
+          name: "Kepulauan Seribu",
+          id: "10163"
+        },
+        {
+          name: "Jakarta Selatan",
+          id: "10162"
+        },
+        {
+          name: "Jakarta Timur",
+          id: "10160"
+        },
+        {
+          name: "Jakarta Pusat",
+          id: "10158"
+        },
+        {
+          name: "Jakarta Barat",
+          id: "10159"
+        },
+        {
+          name: "Jakarta Utara",
+          id: "10161"
+        },
+        {
+          name: "Bandung Barat",
+          id: "10030"
+        },
+        {
+          name: "Kulon Progo",
+          id: "10080"
+        },
+        {
+          name: "Gunung Kidul",
+          id: "10082"
+        },
+        {
+          name: "Tangerang Selatan",
+          id: "10140"
+        },
+        {
+          name: "Palangka Raya",
+          id: "10120"
+        },
+        {
+          name: "Gorontalo Utara",
+          id: "10149"
+        },
+        {
+          name: "Maluku Tenggara Barat",
+          id: "10147"
+        },
+        {
+          name: "Maluku Tenggara",
+          id: "10129"
+        },
+        {
+          name: "Maluku Tengah",
+          id: "10129"
+        },
+        {
+          name: "Maluku Barat Daya",
+          id: "10129"
+        },
+        {
+          name: "Merauke",
+          id: "10134"
+        },
+        {
+          name: "Jayapura",
+          id: "10133"
+        }
     ]
   }
 }
