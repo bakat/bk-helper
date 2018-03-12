@@ -202,5 +202,32 @@ module.exports = [
     logo: '//cdn.urbanhire.com/img/publisher/rulla.png',
     description: 'Satu-satunya situs web untuk penelusuran lowongan kerja di Indonesia.',
     defaultXml: true
+  },
+  {
+    name: 'Recruit.net',
+    domain: 'http://www.recruit.net/',
+    host: 'recruit.net',
+    provider: 'recruit.net',
+    description: 'Recruit.net allows job seekers to instantly find millions of jobs from thousands of web sites with a single search. We deliver job listings from corporate web sites, job boards, recruitment agencies and numerous other sources.',
+    logo: '//cdn.urbanhire.com/img/publisher/recruit.png',
+    defaultXml: true
+  },
+  {
+    name: 'Startup Jobs Asia',
+    domain: 'http://id.startupjobs.asia/id/',
+    host: 'Startup Jobs Asia',
+    provider: 'startupjobsasia',
+    description: 'Startup Jobs Asia was "brewing" yet recognizing the challenges of Talent Acquisition that Startups faced both in Singapore and within Asia. We have identified the in-between gaps and aim to drive through them to bridge the gaps narrower as we move forward.', 
+    logo: '//cdn.urbanhire.com/img/publisher/StartupJobs_ASIA.png',
+    defaultXml: true
+  },
+  {
+    name: 'Jobfinder',
+    domain: 'http://jobfinder.co.id',
+    host: 'Jobfinder',
+    provider: 'Jobfinder',
+    description: 'Jobfinder is a new job search engine that provides job seekers free access to millions of job openings across thousands of job categories and industries. We aggregate, filter and sort huge amounts of data from hundreds of job boards, classifieds sites, company homepages and other job related Websites and make them available to you in a fast, clean and easy to use interface..',
+    logo: '//cdn.urbanhire.com/img/publisher/Jobfinder.png',
+    defaultXml: true
   }
 ]
