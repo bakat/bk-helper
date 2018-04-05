@@ -12,7 +12,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 9
-                }
+                },
+                isShapes: true
             },
             {
                 instrumentId: 201,
@@ -21,7 +22,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 9
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 354,
@@ -30,7 +32,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 752,
@@ -39,7 +42,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 344,
@@ -48,7 +52,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 315,
@@ -57,7 +62,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             }
         ]
     },
@@ -72,7 +78,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 9
-                }
+                },
+                isShapes: true
             },
             {
                 instrumentId: 201,
@@ -81,7 +88,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 9
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 162,
@@ -90,7 +98,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 311,
@@ -99,7 +108,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 312,
@@ -108,7 +118,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 344,
@@ -117,16 +128,18 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 383,
-                name: 'Inductive - Logical Thinking ',
+                name: 'Inductive - Logical Thinking',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 315,
@@ -135,7 +148,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             }
         ]
     },
@@ -150,7 +164,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 9
-                }
+                },
+                isShapes: true
             },
             {
                 instrumentId: 201,
@@ -159,7 +174,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 9
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 344,
@@ -168,7 +184,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             }
         ]
     },
@@ -183,7 +200,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 752,
@@ -192,7 +210,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             },
             {
                 instrumentId: 344,
@@ -201,7 +220,8 @@ module.exports = {
                 scores: {
                     min: 1,
                     max: 100
-                }
+                },
+                isShapes: false
             }
         ]
     }],
@@ -213,13 +233,13 @@ module.exports = {
         'Cooperative',
         'Perceptive',
         'Evaluative',
-        'Results Oriented ',
+        'Results Oriented',
         'Planful',
         'Conscientious',
         'Analytical',
         'Conceptual',
         'Imaginative',
-        'Change Oriented ',
+        'Change Oriented',
         'Autonomous',
         'Ambitious',
         'Competitive',
