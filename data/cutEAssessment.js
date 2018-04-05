@@ -7,7 +7,7 @@ module.exports = {
         instrument: [
             {
                 instrumentId: 102,
-                name: 'Shapes (management)',
+                name: 'Work-related Behavior',
                 autoDisQualify: false,
                 scores: {
                     min: 1,
@@ -16,7 +16,7 @@ module.exports = {
             },
             {
                 instrumentId: 201,
-                name: 'Views',
+                name: 'Work-related Interests and Motives',
                 autoDisQualify: false,
                 scores: {
                     min: 1,
@@ -25,7 +25,7 @@ module.exports = {
             },
             {
                 instrumentId: 354,
-                name: 'Scales EQL',
+                name: 'Numeracy',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -34,7 +34,7 @@ module.exports = {
             },
             {
                 instrumentId: 752,
-                name: 'Scales Verbal (Instruct)',
+                name: 'Understanding of basic Instructions',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -43,7 +43,7 @@ module.exports = {
             },
             {
                 instrumentId: 344,
-                name: 'Scales LST',
+                name: 'Deductive - Logical thinking',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -52,7 +52,7 @@ module.exports = {
             },
             {
                 instrumentId: 315,
-                name: 'Scales LT-E',
+                name: 'Language Skills - English',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -67,7 +67,7 @@ module.exports = {
         instrument: [
             {
                 instrumentId: 102,
-                name: 'Shapes (management)',
+                name: 'Work-related Behavior',
                 autoDisQualify: false,
                 scores: {
                     min: 1,
@@ -76,7 +76,7 @@ module.exports = {
             },
             {
                 instrumentId: 201,
-                name: 'Views',
+                name: 'Work-related Interests and Motives',
                 autoDisQualify: false,
                 scores: {
                     min: 1,
@@ -85,7 +85,7 @@ module.exports = {
             },
             {
                 instrumentId: 162,
-                name: 'Squares',
+                name: 'Situational Behaviour',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -94,7 +94,7 @@ module.exports = {
             },
             {
                 instrumentId: 311,
-                name: 'Scales Numerical (Consumer)',
+                name: 'Numerical Reasoning',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -103,7 +103,7 @@ module.exports = {
             },
             {
                 instrumentId: 312,
-                name: 'Scales Verbal (Consumer)',
+                name: 'Verbal Reasoning',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -112,7 +112,7 @@ module.exports = {
             },
             {
                 instrumentId: 344,
-                name: 'Scales LST',
+                name: 'Deductive reasoning',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -121,7 +121,7 @@ module.exports = {
             },
             {
                 instrumentId: 383,
-                name: 'Scales CLX',
+                name: 'Inductive - Logical Thinking ',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -130,7 +130,7 @@ module.exports = {
             },
             {
                 instrumentId: 315,
-                name: 'Scales LT-E',
+                name: 'Language skills - English',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -145,7 +145,7 @@ module.exports = {
         instrument: [
             {
                 instrumentId: 102,
-                name: 'Shapes (management)',
+                name: 'Work-related Behavior',
                 autoDisQualify: false,
                 scores: {
                     min: 1,
@@ -154,7 +154,7 @@ module.exports = {
             },
             {
                 instrumentId: 201,
-                name: 'Views',
+                name: 'Work-related Interests and Motives',
                 autoDisQualify: false,
                 scores: {
                     min: 1,
@@ -163,7 +163,7 @@ module.exports = {
             },
             {
                 instrumentId: 344,
-                name: 'Scales LST',
+                name: 'Situational Behaviour',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -178,7 +178,7 @@ module.exports = {
         instrument: [
             {
                 instrumentId: 354,
-                name: 'Scales EQL',
+                name: 'Numeracy',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -187,7 +187,7 @@ module.exports = {
             },
             {
                 instrumentId: 752,
-                name: 'Scales Verbal (Instruct)',
+                name: 'Understanding of basic Instructions',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
@@ -196,7 +196,7 @@ module.exports = {
             },
             {
                 instrumentId: 344,
-                name: 'Scales LST',
+                name: 'Deductive reasoning',
                 autoDisQualify: true,
                 scores: {
                     min: 1,
