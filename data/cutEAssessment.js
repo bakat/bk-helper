@@ -110,10 +110,10 @@ module.exports = {
             {
                 instrumentId: 162,
                 name: 'Situational Behaviour',
-                autoDisQualify: true,
+                autoDisQualify: false,
                 scores: {
                     min: 1,
-                    max: 100
+                    max: 9
                 },
                 isShapes: false,
                 description: 'Assesses situational behaviour.',
@@ -210,12 +210,12 @@ module.exports = {
                 link: 'https://www.cut-e.com/nc/details/views-work-related-interests-and-motives/'
             },
             {
-                instrumentId: 344,
+                instrumentId: 162,
                 name: 'Situational Behaviour',
-                autoDisQualify: true,
+                autoDisQualify: false,
                 scores: {
                     min: 1,
-                    max: 100
+                    max: 9
                 },
                 isShapes: false,
                 description:'Assesses situational behaviour.',
