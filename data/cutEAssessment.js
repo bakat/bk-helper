@@ -2,6 +2,48 @@
 
 module.exports = {
     masterMind: [{
+        projectId: 255120,
+        projectName: 'Basic Role/Service Staff',
+        instrument: [
+            {
+                instrumentId: 354,
+                name: 'Numeracy',
+                autoDisQualify: true,
+                scores: {
+                    min: 1,
+                    max: 100
+                },
+                isShapes: false,
+                description:'Measures numerical comprehension.',
+                link: 'https://www.cut-e.com/nc/details/scales-eql-numeracy/'
+            },
+            {
+                instrumentId: 752,
+                name: 'Understanding of basic Instructions',
+                autoDisQualify: true,
+                scores: {
+                    min: 1,
+                    max: 100
+                },
+                isShapes: false,
+                description:'Measures the ability to find and interpret written information in passages of text.',
+                link: 'https://www.cut-e.com/nc/details/shapes-management-work-related-behavior/'
+            },
+            {
+                instrumentId: 344,
+                name: 'Deductive reasoning',
+                autoDisQualify: true,
+                scores: {
+                    min: 1,
+                    max: 100
+                },
+                isShapes: false,
+                description: 'Measures deductive reasoning ability.',
+                link: 'https://www.cut-e.com/nc/details/scales-lst-deductive-logical-thinking/'
+            }
+        ]
+    },
+    {
         projectId: 153836,
         projectName: 'Graduates',
         instrument: [
@@ -223,48 +265,7 @@ module.exports = {
             }
         ]
     },
-    {
-        projectId: 255120,
-        projectName: 'Basic Role/Service Staff',
-        instrument: [
-            {
-                instrumentId: 354,
-                name: 'Numeracy',
-                autoDisQualify: true,
-                scores: {
-                    min: 1,
-                    max: 100
-                },
-                isShapes: false,
-                description:'Measures numerical comprehension.',
-                link: 'https://www.cut-e.com/nc/details/scales-eql-numeracy/'
-            },
-            {
-                instrumentId: 752,
-                name: 'Understanding of basic Instructions',
-                autoDisQualify: true,
-                scores: {
-                    min: 1,
-                    max: 100
-                },
-                isShapes: false,
-                description:'Measures the ability to find and interpret written information in passages of text.',
-                link: 'https://www.cut-e.com/nc/details/shapes-management-work-related-behavior/'
-            },
-            {
-                instrumentId: 344,
-                name: 'Deductive reasoning',
-                autoDisQualify: true,
-                scores: {
-                    min: 1,
-                    max: 100
-                },
-                isShapes: false,
-                description: 'Measures deductive reasoning ability.',
-                link: 'https://www.cut-e.com/nc/details/scales-lst-deductive-logical-thinking/'
-            }
-        ]
-    }],
+],
     Shapes: [
         'Directive',
         'Persuasive',
