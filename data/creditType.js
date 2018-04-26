@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-    creditAction: {
+    creditAction: [
         {
             key: 'top-up',
             name: 'Top Up'
@@ -18,5 +18,5 @@ module.exports = {
             key: 'sent-psycometric-test',
             name: 'Sent Psycometric Test'
         }
-    }
+    ]
 }
