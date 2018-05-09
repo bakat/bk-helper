@@ -264,46 +264,99 @@ module.exports = {
                 link: 'https://www.cut-e.com/nc/details/squares-situational-behaviour/'
             }
         ]
-    },
-],
+    }],
     Shapes: [
-        'Directing',
-        'Persuasive',
-        'Socially confident',
-        'Sociable',
-        'Agreeable',
-        'Behavioural',
-        'Prudent',
-        'Focused on results',
-        'Systematic',
-        'Conscientious',
-        'Analytical',
-        'Conceptual',
-        'Imaginative',
-        'Open to change',
-        'Autonomous',
-        'Achieving',
-        'Competitive',
-        'Energetic'
+        {
+            index: 0,
+            name: 'Directing'
+        },
+        {
+            index: 1,
+            name: 'Persuasive'
+        },
+        {
+            index: 2,
+            name: 'Socially Confident'
+        },
+        {
+            index: 3,
+            name: 'Sociable'
+        },
+        {
+            index: 4,
+            name: 'Agreeable'
+        },
+        {
+            index: 5,
+            name: 'Behavioural'
+        },
+        {
+            index: 6,
+            name: 'Prudent'
+        },
+        {
+            index: 7,
+            name: 'Focused on Results'
+        },
+        {
+            index: 8,
+            name: 'Systematic'
+        },
+        {
+            index: 9,
+            name: 'Conscientious'
+        },
+        {
+            index: 10,
+            name: 'Analytical'
+        },
+        {
+            index: 11,
+            name: 'Conceptual'
+        },
+        {
+            index: 12,
+            name: 'Imaginative'
+        },
+        {
+            index: 13,
+            name: 'Open to Change'
+        },
+        {
+            index: 14,
+            name: 'Autonomous'
+        },
+        {
+            index: 15,
+            name: 'Achieving'
+        },
+        {
+            index: 16,
+            name: 'Competitive'
+        },
+        {
+            index: 17,
+            name: 'Energetic'
+        }
     ],
-    competencies: [
-        'Vision & Strategy',
-        'Initiative & Responsibility',
-        'Business Development',
-        'Bottom Line Focus',
-        'Influence',
-        'Networking',
-        'People Management',
-        'People Development',
-        'Organizational awareness',
-        'Execution',
-        'Systematic approach',
-        'Steadiness',
-        'Analysis & judgment',
-        'Professional expertise',
-        'Innovation',
-        'Effective communication',
-        'Constructive teamwork',
-        'Self-development'
-    ]
+    Competencies: {
+        VisionStrategy: 'Vision & Strategy',
+        InitiativeResponsibility: 'Initiative & Responsibility',
+        BusinessDevelopment: 'Business Development',
+        BottomLineFocus: 'Bottom Line Focus',
+        Influence: 'Influence',
+        Networking: 'Networking',
+        PeopleManagement: 'People Management',
+        PeopleDevelopment: 'People Development',
+        OrganizationalAwareness: 'Organizational Awareness',
+        Execution: 'Execution',
+        SystematicApproach: 'Systematic Approach',
+        Steadiness: 'Steadiness',
+        AnalysisJudgment: 'AnalysisJudgment',
+        ProfessionalExpertise: 'Professional Expertise',
+        Innovation: 'Innovation',
+        EffectiveCommunication: 'Effective Communication',
+        ConstructiveTeamwork: 'Constructive Teamwork',
+        SelfDevelopment: 'Self-development'
+    }
 }
