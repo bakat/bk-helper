@@ -339,24 +339,78 @@ module.exports = {
             name: 'Energetic'
         }
     ],
-    Competencies: {
-        VisionStrategy: 'Vision & Strategy',
-        InitiativeResponsibility: 'Initiative & Responsibility',
-        BusinessDevelopment: 'Business Development',
-        BottomLineFocus: 'Bottom Line Focus',
-        Influence: 'Influence',
-        Networking: 'Networking',
-        PeopleManagement: 'People Management',
-        PeopleDevelopment: 'People Development',
-        OrganizationalAwareness: 'Organizational Awareness',
-        Execution: 'Execution',
-        SystematicApproach: 'Systematic Approach',
-        Steadiness: 'Steadiness',
-        AnalysisJudgment: 'AnalysisJudgment',
-        ProfessionalExpertise: 'Professional Expertise',
-        Innovation: 'Innovation',
-        EffectiveCommunication: 'Effective Communication',
-        ConstructiveTeamwork: 'Constructive Teamwork',
-        SelfDevelopment: 'Self-development'
-    }
+    Competencies: [
+        {
+            index: 0,
+            name: 'Vision & Strategy'
+        },
+        {
+            index: 1,
+            name: 'Initiative & Responsibility'
+        },
+        {
+            index: 2,
+            name: 'Business Development'
+        },
+        {
+            index: 3,
+            name: 'Bottom Line Focus'
+        },
+        {
+            index: 4,
+            name: 'Influence'
+        },
+        {
+            index: 5,
+            name: 'Networking'
+        },
+        {
+            index: 6,
+            name: 'People Management'
+        },
+        {
+            index: 7,
+            name: 'People Development'
+        },
+        {
+            index: 8,
+            name: 'Organizational Awareness'
+        },
+        {
+            index: 9,
+            name: 'Execution'
+        },
+        {
+            index: 10,
+            name: 'Systematic Approach'
+        },
+        {
+            index: 11,
+            name: 'Steadiness'
+        },
+        {
+            index: 12,
+            name: 'AnalysisJudgment'
+        },
+        {
+            index: 13,
+            name: 'Professional Expertise'
+        },
+        {
+            index: 14,
+            name: 'Innovation'
+        },
+        {
+            index: 15,
+            name: 'Effective Communication'
+        },
+        {
+            index: 16,
+            name: 'Constructive Teamwork'
+        },
+        {
+            index: 17,
+            name: 'Self-development'
+        }
+    ]
 }
