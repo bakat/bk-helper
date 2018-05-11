@@ -457,7 +457,7 @@ module.exports = {
         {
             index: 8,
             shapes: [3, 5, 6],
-            formula: '((2 * %s + %s + 2 * %s)/5*1.3) * (2 + 5)'
+            formula: '((2 * %s + %s + 2 * %s) / 5 * 1.3) * (2 + 5)'
         },
         {
             index: 9,
@@ -477,7 +477,7 @@ module.exports = {
         {
             index: 12,
             shapes: [6, 9, 10],
-            formula: '((%s + %s + 3* %s) / 5 * 1.3) * (2 + 5)'
+            formula: '((%s + %s + 3 * %s) / 5 * 1.3) * (2 + 5)'
         },
         {
             index: 13,
