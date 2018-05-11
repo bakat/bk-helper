@@ -45,7 +45,7 @@ module.exports = {
     },
     {
         projectId: 153836,
-        projectName: 'Graduates',
+        projectName: 'Graduates / Staff',
         instrument: [
             {
                 instrumentId: 102,
@@ -123,7 +123,7 @@ module.exports = {
     },
     {
         projectId: 153838,
-        projectName: 'Experienced Hires',
+        projectName: 'Experienced Hires / MT / ODP',
         instrument: [
             {
                 instrumentId: 102,
@@ -225,7 +225,7 @@ module.exports = {
     },
     {
         projectId: 155118,
-        projectName: 'Executives/Senior Managers',
+        projectName: 'Executives / Senior Managers',
         instrument: [
             {
                 instrumentId: 102,
