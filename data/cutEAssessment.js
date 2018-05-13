@@ -497,7 +497,7 @@ module.exports = {
         {
             index: 16,
             shapes: [3, 4, 16],
-            formula: '((%s + 2 * %s + (-%s)) / 4 * 1.3) * 2 + 5'
+            formula: '((%s + 2 * %s + (-1 * %s)) / 4 * 1.3) * 2 + 5'
         },
         {
             index: 17,
