@@ -417,92 +417,92 @@ module.exports = {
         {
             index: 0,
             shapes: [6, 11, 12],
-            formula: '((%s + 2 * %s + %s) / 4 * 1.3) * (2 + 5)'
+            formula: '((%s + 2 * %s + %s) / 4 * 1.3) * 2 + 5'
         },
         {
             index: 1,
             shapes: [7, 14, 15],
-            formula: '((%s + 2 * %s + 2 * %s) / 5 * 1.3) * (2 + 5)'
+            formula: '((%s + 2 * %s + 2 * %s) / 5 * 1.3) * 2 + 5'
         },
         {
             index: 2,
             shapes: [1, 15, 16, 17],
-            formula: '((%s + %s + 2 * %s + %s) / 5 * 1.4) * (2 + 5)'
+            formula: '((%s + %s + 2 * %s + %s) / 5 * 1.4) * 2 + 5'
         },
         {
             index: 3,
             shapes: [7, 8],
-            formula: '((2 * %s + %s) / 3 * 1.2) * (2 + 5)'
+            formula: '((2 * %s + %s) / 3 * 1.2) * 2 + 5'
         },
         {
             index: 4,
             shapes: [1, 2],
-            formula: '((2 * %s + %s) / 3 * 1.2) * (2 + 5)'
+            formula: '((2 * %s + %s) / 3 * 1.2) * 2 + 5'
         },
         {
             index: 5,
             shapes: [2, 3],
-            formula: '((%s + 2 * %s) / 3 * 1.2) * (2 + 5)'
+            formula: '((%s + 2 * %s) / 3 * 1.2) * 2 + 5'
         },
         {
             index: 6,
             shapes: [0, 1, 2],
-            formula: '((3 * %s + %s + 2 * %s) / 6 * 1.3) * (2 + 5)'
+            formula: '((3 * %s + %s + 2 * %s) / 6 * 1.3) * 2 + 5'
         },
         {
             index: 7,
             shapes: [4, 5, 12],
-            formula: '((%s + 2 * %s + %s) / 4 * 1.3) * (2 + 5)'
+            formula: '((%s + 2 * %s + %s) / 4 * 1.3) * 2 + 5'
         },
         {
             index: 8,
             shapes: [3, 5, 6],
-            formula: '((2 * %s + %s + 2 * %s) / 5 * 1.3) * (2 + 5)'
+            formula: '((2 * %s + %s + 2 * %s) / 5 * 1.3) * 2 + 5'
         },
         {
             index: 9,
             shapes: [7, 9, 14],
-            formula: '((%s + %s + (-2 * %s)) / 4 * 1.3) * (2 + 5)'
+            formula: '((%s + %s + (-2 * %s)) / 4 * 1.3) * 2 + 5'
         },
         {
             index: 10,
             shapes: [6, 8, 9],
-            formula: '((%s + 2 * %s + 2 * %s) / 5 * 1.3) * (2 + 5)'
+            formula: '((%s + 2 * %s + 2 * %s) / 5 * 1.3) * 2 + 5'
         },
         {
             index: 11,
             shapes: [2, 5, 17],
-            formula: '((%s + %s + %s) / 3 * 1.3) * (2 + 5)'
+            formula: '((%s + %s + %s) / 3 * 1.3) * 2 + 5'
         },
         {
             index: 12,
             shapes: [6, 9, 10],
-            formula: '((%s + %s + 3 * %s) / 5 * 1.3) * (2 + 5)'
+            formula: '((%s + %s + 3 * %s) / 5 * 1.3) * 2 + 5'
         },
         {
             index: 13,
             shapes: [10, 11, 15],
-            formula: '((%s + %s + 2 * %s) / 4 * 1.3) * (2 + 5)'
+            formula: '((%s + %s + 2 * %s) / 4 * 1.3) * 2 + 5'
         },
         {
             index: 14,
             shapes: [12, 13, 14],
-            formula: '((3 * %s + 2 * %s + %s) / 4 * 1.3) * (2 + 5)'
+            formula: '((3 * %s + 2 * %s + %s) / 4 * 1.3) * 2 + 5'
         },
         {
             index: 15,
             shapes: [1, 5, 11],
-            formula: '((2 * %s + %s + 2 * %s) / 5 * 1.4) * (2 + 5)'
+            formula: '((2 * %s + %s + 2 * %s) / 5 * 1.4) * 2 + 5'
         },
         {
             index: 16,
             shapes: [3, 4, 16],
-            formula: '((%s + 2 * %s + (-%s)) / 4 * 1.3) * (2 + 5)'
+            formula: '((%s + 2 * %s + (-%s)) / 4 * 1.3) * 2 + 5'
         },
         {
             index: 17,
             shapes: [5, 13, 15],
-            formula: '((%s + %s + 2 * %s) / 4 * 1.3) * (2 + 5)'
+            formula: '((%s + %s + 2 * %s) / 4 * 1.3) * 2 + 5'
         }
     ]
 }
