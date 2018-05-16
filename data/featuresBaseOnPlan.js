@@ -17,18 +17,24 @@ const defaults = {
   setInterviewSchedule: true,
   multipleCompany: true,
   downloadReport: true,
-  reportingType: 'detail', // detail, standard
+  reportingType: 'standard', // detail, standard
   domainMasking: true,
   jobWidget: true,
   openAPI: true,
-  productTranning: 'on-site', // on-site, online
+  productTranning: 'online', // on-site, online
   AccountExecutiveForSupport: true,
 }
 
 module.exports = {
-  trial: extend({}, defaults, {
+  free: extend({}, defaults, {
+    preAssessmentQuestion: false,
+    postScreenAssessmentQuestion: false,
     downloadCV: false,
-    downloadReport: false
+    bulkSendEmail: false,
+    bulkSendVideoInterview: false,
+    bulkSendAssessment: false,
+    requestExternalUserFeedback: false,
+    multipleCompany: false
   }),
   trial: extend({}, defaults, {
     preAssessmentQuestion: false,
