@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/urbanhire/bk-helper",
   "dependencies": {
+    "extend": "^3.0.1",
     "fastparallel": "^2.3.0"
   }
 }
