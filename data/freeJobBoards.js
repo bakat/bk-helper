@@ -217,7 +217,7 @@ module.exports = [
     domain: 'http://id.startupjobs.asia/id/',
     host: 'Startup Jobs Asia',
     provider: 'startupjobsasia',
-    description: 'Startup Jobs Asia was "brewing" yet recognizing the challenges of Talent Acquisition that Startups faced both in Singapore and within Asia. We have identified the in-between gaps and aim to drive through them to bridge the gaps narrower as we move forward.', 
+    description: 'Startup Jobs Asia was "brewing" yet recognizing the challenges of Talent Acquisition that Startups faced both in Singapore and within Asia. We have identified the in-between gaps and aim to drive through them to bridge the gaps narrower as we move forward.',
     logo: '//cdn.urbanhire.com/img/publisher/StartupJobs_ASIA.png',
     defaultXml: true
   },
