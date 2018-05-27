@@ -21,6 +21,7 @@ const defaults = {
   domainMasking: true,
   jobWidget: true,
   openAPI: true,
+  brandedCareerPage: true,
   productTranning: 'online', // on-site, online
   AccountExecutiveForSupport: true,
 }
@@ -53,6 +54,7 @@ module.exports = {
     bulkSendEmail: false,
     bulkSendVideoInterview: false,
     bulkSendAssessment: false,
+    customEmailTemplate: false,
     requestExternalUserFeedback: false,
     multipleCompany: false
   }),
