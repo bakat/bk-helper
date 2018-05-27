@@ -43,7 +43,7 @@ module.exports = {
     ReportCandidates: 'generate-report-candidates',
     ReportSources: 'generate-report-sources',
     ReportRecruiters: 'generate-report-recruiters',
-    ReportDownload: 'download-report',
+    ReportDownload: 'download-report'
   },
   candidates: {
 
