@@ -47,8 +47,8 @@ module.exports = {
         usd: 357
       },
       annual: {
-        idr: 11900000,
-        usd: 1190
+        idr: 14280000,
+        usd: 1428
       }
     }
   },
