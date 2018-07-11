@@ -38,13 +38,7 @@ module.exports = {
     multipleCompany: false
   }),
   trial: extend({}, defaults, {
-    preAssessmentQuestion: false,
-    postScreenAssessmentQuestion: false,
     downloadCV: false,
-    bulkSendEmail: false,
-    bulkSendVideoInterview: false,
-    bulkSendAssessment: false,
-    requestExternalUserFeedback: false,
     multipleCompany: false
   }),
   standard: extend({}, defaults, {
