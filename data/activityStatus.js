@@ -46,7 +46,29 @@ module.exports = {
     ReportDownload: 'download-report'
   },
   candidates: {
-
+    MovedTo: 'moved-to-%s',
+    Disqualified: 'disqualified',
+    Reverted: 'reverted',
+    SentAstronautAnswers: 'sent-astronaut-answers',
+    AddedComment: 'added-a-comment',
+    Evaluated: 'evaluated',
+    SentEmail: 'sent-an-email',
+    UpdatedApplicant: 'updated-applicant',
+    RemovedApplicant: 'removed-applicant',
+    SentInvitationAstronaut: 'sent-invitation-astronaut',
+    SentInvitationCutE: 'sent-invitation-cut-e',
+    Interview: 'interview',
+    Meeting: 'meeting',
+    Call: 'call',
+    RespondedToInvitation: 'responded-to-invitation',
+    Review: 'review',
+    SentCandidateLink: 'sent-candidate-link',
+    ProvidedFeedback: 'provided-feedback',
+    ExportedGadjian: 'exported-gadjian',
+    Replied: 'replied',
+    Applied: 'applied',
+    Sourced: 'sourced',
+    DuplicatedApplicant: 'duplicate-applicant'
   },
   jobs: {
 
