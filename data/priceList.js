@@ -21,15 +21,15 @@ module.exports = {
     payments: {
       monthly: {
         idr: 390000,
-        usd: 39
+        usd: (390000 / 14500).toFixed(0)
       },
       quarter: {
         idr: 1170000,
-        usd: 117
+        usd: 81
       },
       annual: {
         idr: 3900000,
-        usd: 390
+        usd: 269
       }
     }
   },
@@ -40,15 +40,15 @@ module.exports = {
     payments: {
       monthly: {
         idr: 1190000,
-        usd: 119
+        usd: 82
       },
       quarter: {
         idr: 3570000,
-        usd: 357
+        usd: 246
       },
       annual: {
         idr: 14280000,
-        usd: 1428
+        usd: 985
       }
     }
   },
@@ -59,15 +59,15 @@ module.exports = {
     payments: {
       monthly: {
         idr: 2990000,
-        usd: 299
+        usd: 206
       },
       quarter: {
         idr: 8970000,
-        usd: 897
+        usd: 619
       },
       annual: {
         idr: 29900000,
-        usd: 2990
+        usd: 2062
       }
     }
   },
@@ -78,15 +78,15 @@ module.exports = {
     payments: {
       monthly: {
         idr: 15990000,
-        usd: 1599
+        usd: 1103
       },
       quarter: {
         idr: 47970000,
-        usd: 4797
+        usd: 3308
       },
       annual: {
         idr: 191880000,
-        usd: 19188
+        usd: 13233
       }
     }
   },
@@ -97,15 +97,15 @@ module.exports = {
     payments: {
       monthly: {
         idr: 7990000,
-        usd: 799
+        usd: 551
       },
       quarter: {
         idr: 23970000,
-        usd: 2397
+        usd: 1653
       },
       annual: {
         idr: 95880000,
-        usd: 9588
+        usd: 6612
       }
     }
   },
@@ -116,15 +116,15 @@ module.exports = {
     payments: {
       monthly: {
         idr: 15990000,
-        usd: 1599
+        usd: 1103
       },
       quarter: {
         idr: 47970000,
-        usd: 4797
+        usd: 3308
       },
       annual: {
         idr: 191880000,
-        usd: 19188
+        usd: 13233
       }
     }
   }
