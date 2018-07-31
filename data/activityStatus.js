@@ -68,7 +68,7 @@ module.exports = {
     Replied: 'replied',
     Applied: 'applied',
     Sourced: 'sourced',
-    DuplicatedApplicant: 'duplicate-applicant',
+    DuplicatedApplicant: 'duplicated-applicant',
     Hired: 'hired',
     Exported: 'exported-%s',
     SourcedBy: 'sourced-by-%s',
