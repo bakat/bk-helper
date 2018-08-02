@@ -72,7 +72,10 @@ module.exports = {
     Hired: 'hired',
     Exported: 'exported-%s',
     SourcedBy: 'sourced-by-%s',
-    RatedCandidate: 'rated-candidate'
+    RatedCandidate: 'rated-candidate',
+    SentInvitationAssessment: 'sent-invitation-assessment',
+    ReceivedResultAssessment: 'received-result-assessment'
+
   },
   jobs: {
 
