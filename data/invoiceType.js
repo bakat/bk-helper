@@ -27,8 +27,8 @@ module.exports = [
 		code: 'SUB'
 	},
 	{
-		key: 'ReportProduct',
-		value: 'Report Product',
+		key: 'Report',
+		value: 'Report',
 		code: 'REP'
 	},
 	{
