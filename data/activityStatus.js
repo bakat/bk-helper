@@ -79,5 +79,9 @@ module.exports = {
   },
   jobs: {
 
+  },
+  referral: {
+    InsertCampaign: 'insert-referral-campaign',
+    EditCampaign: 'edit-referral-campaign'
   }
 }
