@@ -84,6 +84,6 @@ module.exports = {
     InsertCampaign: 'insert-referral-campaign',
     EditCampaign: 'edit-referral-campaign',
     InviteUser: 'invite-referral-user',
-    RemoveUser: 'invite-referral-user'
+    RemoveUser: 'remove-referral-user'
   }
 }
