@@ -6210,1117 +6210,1117 @@ module.exports = {
         jobId: 2
       },
       {
-        id: 14,
+        id: 15,
         eng: 'Consultant',
         idn: 'Konsultan',
         jobId: 2
       },
       {
-        id: 15,
+        id: 16,
         eng: 'Credit Controller/Budgeting',
         idn: 'Pengawas Kredit/Alokasi Dana',
         jobId: 2
       },
       {
-        id: 16,
+        id: 17,
         eng: 'Financial Manager/Accounting',
         idn: 'Manager Keuangan/Akuntansi',
         jobId: 2
       },
       {
-        id: 17,
+        id: 18,
         eng: 'Financial Analyst',
         idn: 'Analis Keuangan',
         jobId: 2
       },
       {
-        id: 18,
+        id: 19,
         eng: 'Financial Controller',
         idn: 'Pengawas Keuangan',
         jobId: 2
       },
       {
-        id: 19,
+        id: 20,
         eng: 'Taxation',
         idn: 'Perpajakan',
         jobId: 2
       },
       {
-        id: 20,
+        id: 22,
         eng: 'Actuarial',
         idn: 'Aktuaria',
         jobId: 3
       },
       {
-        id: 21,
+        id: 23,
         eng: 'Claim Officer',
         idn: 'Petugas Klaim',
         jobId: 3
       },
       {
-        id: 22,
+        id: 24,
         eng: 'Insurance Agent/Broker',
         idn: 'Agen Asuransi/Broker',
         jobId: 3
       },
       {
-        id: 23,
+        id: 25,
         eng: 'Underwriter',
         idn: 'Penjamin Emisi',
         jobId: 3
       },
       {
-        id: 24,
+        id: 26,
         eng: 'Fashion',
         idn: 'Mode',
         jobId: 4
       },
       {
-        id: 25,
+        id: 27,
         eng: 'Graphic',
         idn: 'Grafis',
         jobId: 4
       },
       {
-        id: 26,
+        id: 28,
         eng: 'Industrial/Product',
         idn: 'Industri/Produk',
         jobId: 4
       },
       {
-        id: 27,
+        id: 29,
         eng: 'Interior',
         idn: 'Interior',
         jobId: 4
       },
       {
-        id: 28,
+        id: 30,
         eng: 'Multi-media',
         idn: 'Multi-media',
         jobId: 4
       },
       {
-        id: 29,
+        id: 31,
         eng: 'Visual Merchandising',
         idn: 'Visual Toko',
         jobId: 4
       },
       {
-        id: 30,
+        id: 32,
         eng: 'Web Design',
         idn: 'Desain Web',
         jobId: 4
       },
       {
-        id: 31,
+        id: 33,
         eng: 'Food & Beverage',
         idn: 'Makanan & Minuman',
         jobId: 5
       },
       {
-        id: 32,
+        id: 34,
         eng: 'Hospitality',
         idn: 'Layanan Hotel',
         jobId: 5
       },
       {
-        id: 33,
+        id: 35,
         eng: 'Resort',
         idn: 'Resort',
         jobId: 5
       },
       {
-        id: 34,
+        id: 36,
         eng: 'Management',
         idn: 'Manajemen',
         jobId: 5
       },
       {
-        id: 35,
+        id: 37,
         eng: 'Operational',
         idn: 'Operasional',
         jobId: 5
       },
       {
-        id: 36,
+        id: 38,
         eng: 'Travel & Tourism',
         idn: 'Agen Perjalanan & Pariwisata',
         jobId: 5
       },
       {
-        id: 37,
+        id: 39,
         eng: 'Biotechnology',
         idn: 'Bioteknologi',
         jobId: 6
       },
       {
-        id: 38,
+        id: 40,
         eng: 'Chemical',
         idn: 'Kimia',
         jobId: 6
       },
       {
-        id: 39,
+        id: 41,
         eng: 'Energy/Natural Resources/Oil & Gas',
         idn: 'Energi/Sumber Daya Alam/Minyak dan Gas',
         jobId: 6
       },
       {
-        id: 40,
+        id: 42,
         eng: 'Environmental Science/Waste Management',
         idn: 'Ilmu Lingkungan/Pengelolaan Limbah',
         jobId: 6
       },
       {
-        id: 41,
+        id: 43,
         eng: 'Food Science',
         idn: 'Ilmu Pangan',
         jobId: 6
       },
       {
-        id: 42,
+        id: 44,
         eng: 'Laboratory',
         idn: 'Laboratorium',
         jobId: 6
       },
       {
-        id: 43,
+        id: 46,
         eng: 'Petrochemical',
         idn: 'Petrokimia',
         jobId: 6
       },
       {
-        id: 44,
+        id: 47,
         eng: 'Research & Development',
         idn: 'Riset & Pengembangan',
         jobId: 6
       },
       {
-        id: 45,
+        id: 48,
         eng: 'Architecturial Services',
         idn: 'Jasa Arsitektur',
         jobId: 7
       },
       {
-        id: 46,
+        id: 49,
         eng: 'Contruction/Quality Control',
         idn: 'Bangunan/Konstruksi/Kontrol Kualitas',
         jobId: 7
       },
       {
-        id: 47,
+        id: 50,
         eng: 'Civil/Structural',
         idn: 'Sipil/Struktural',
         jobId: 7
       },
       {
-        id: 48,
+        id: 51,
         eng: 'Agricultural/Forestry/Fishery',
         idn: 'Pertanian/Kehutanan/Perikanan',
         jobId: 8
       },
       {
-        id: 49,
+        id: 52,
         eng: 'Entertainment/Singer',
         idn: 'Hiburan - Artis/Penyanyi',
         jobId: 8
       },
       {
-        id: 50,
+        id: 53,
         eng: 'Geologist',
         idn: 'Ahli Geologi',
         jobId: 8
       },
       {
-        id: 51,
+        id: 54,
         eng: 'Junior Executive',
         idn: 'Eksekutif Muda',
         jobId: 8
       },
       {
-        id: 52,
+        id: 55,
         eng: 'Mining',
         idn: 'Penambangan',
         jobId: 8
       },
       {
-        id: 53,
+        id: 56,
         eng: 'Security/Safety Control',
         idn: 'Kontrol Keamanan/Keselamatan',
         jobId: 8
       },
       {
-        id: 54,
+        id: 57,
         eng: 'Student/Fresh Gradute/No Experience',
         idn: 'Mahasiswa/Fresh Graduate/Tak Berpengalaman',
         jobId: 8
       },
       {
-        id: 55,
+        id: 58,
         eng: 'Expert',
         idn: 'Pekerja Ahli',
         jobId: 8
       },
       {
-        id: 56,
+        id: 59,
         eng: 'Technician',
         idn: 'Teknisi',
         jobId: 8
       },
       {
-        id: 57,
+        id: 60,
         eng: 'Trading',
         idn: 'Perniagaan',
         jobId: 8
       },
       {
-        id: 58,
+        id: 61,
         eng: 'General Management',
         idn: 'Manajemen Umum',
         jobId: 9
       },
       {
-        id: 59,
+        id: 62,
         eng: 'Top Management (CEO, CFO, CTO, GM, MD)',
         idn: 'Top Eksekutif (CEO, CFO, CTO, GM, MD)',
         jobId: 9
       },
       {
-        id: 60,
+        id: 63,
         eng: 'Garment/Textile',
         idn: 'Pakaian Jadi/Tekstil',
         jobId: 10
       },
       {
-        id: 61,
+        id: 64,
         eng: 'General/Production Worker',
         idn: 'Umum/Pekerja Produksi',
         jobId: 10
       },
       {
-        id: 62,
+        id: 65,
         eng: 'Jewelry',
         idn: 'Perhiasan',
         jobId: 10
       },
       {
-        id: 63,
+        id: 66,
         eng: 'Manufacturing Management',
         idn: 'Pengelolaan Manufaktur',
         jobId: 10
       },
       {
-        id: 64,
+        id: 67,
         eng: 'Printing/Publishing',
         idn: 'Pencetakan/Penerbitan',
         jobId: 10
       },
       {
-        id: 65,
+        id: 68,
         eng: 'Product Development/Management',
         idn: 'Pengembangan/Pengelolaan Produk',
         jobId: 10
       },
       {
-        id: 66,
+        id: 69,
         eng: 'Production Planning/Control',
         idn: 'Perencanaan/Kontrol Produksi',
         jobId: 10
       },
       {
-        id: 67,
+        id: 70,
         eng: 'QC,QA & Testing/ISO',
         idn: 'Kontrol Kualitas/Penjaminan Kualitas & Pengujian/ISO',
         jobId: 10
       },
       {
-        id: 68,
+        id: 72,
         eng: 'Broadcasting - TV/Radio',
         idn: 'Penyiaran - TV/Radio',
         jobId: 11
       },
       {
-        id: 69,
+        id: 73,
         eng: 'Creative/Design',
         idn: 'Kreatif/Desain',
         jobId: 11
       },
       {
-        id: 70,
+        id: 74,
         eng: 'Editorial/Journalism',
         idn: 'Editorial/Jurnalisme',
         jobId: 11
       },
       {
-        id: 71,
+        id: 75,
         eng: 'Media Buying',
         idn: 'Pemilihan Media',
         jobId: 11
       },
       {
-        id: 72,
+        id: 76,
         eng: 'Photography/Video',
         idn: 'Fotografi/Video',
         jobId: 11
       },
       {
-        id: 73,
+        id: 77,
         eng: 'Print Media',
         idn: 'Media Cetak',
         jobId: 11
       },
       {
-        id: 74,
+        id: 78,
         eng: 'Production',
         idn: 'Produksi',
         jobId: 11
       },
       {
-        id: 75,
+        id: 79,
         eng: 'Strategic Planning',
         idn: 'Perencanaan Strategis',
         jobId: 11
       },
       {
-        id: 76,
+        id: 80,
         eng: 'Athletic/Fitness/Sports & Recreation',
         idn: 'Atletik/Fitness/Olahraga & Kesehatan',
         jobId: 12
       },
       {
-        id: 77,
+        id: 81,
         eng: 'Beautician',
         idn: 'Ahli Kecantikan',
         jobId: 12
       },
       {
-        id: 78,
+        id: 82,
         eng: 'Nutricionist',
         idn: 'Ahli Gizi',
         jobId: 12
       },
       {
-        id: 79,
+        id: 83,
         eng: 'Therapist/Spa',
         idn: 'Ahli Terapi/Spa',
         jobId: 12
       },
       {
-        id: 80,
+        id: 84,
         eng: 'Business Analyst/Data Analyst',
         idn: 'Analis Bisnis/Analis Data',
         jobId: 13
       },
       {
-        id: 81,
+        id: 85,
         eng: 'Business Consultant',
         idn: 'Konsultan Bisnis',
         jobId: 13
       },
       {
-        id: 82,
+        id: 87,
         eng: 'Legal & Compliance',
         idn: 'Hukum',
         jobId: 13
       },
       {
-        id: 83,
+        id: 88,
         eng: 'Pest Control',
         idn: 'Pengendalian Hama',
         jobId: 13
       },
       {
-        id: 84,
+        id: 89,
         eng: 'Translator',
         idn: 'Penerjemah',
         jobId: 13
       },
       {
-        id: 85,
+        id: 90,
         eng: 'Kindergarten Teacher',
         idn: 'Guru TK',
         jobId: 14
       },
       {
-        id: 86,
+        id: 91,
         eng: 'Lecturer/Professor/Headmaster',
         idn: 'Dosen/Profesor/Kepala Sekolah',
         jobId: 14
       },
       {
-        id: 87,
+        id: 92,
         eng: 'Librarian',
         idn: 'Pustakawan',
         jobId: 14
       },
       {
-        id: 88,
+        id: 93,
         eng: 'Teacher',
         idn: 'Guru',
         jobId: 14
       },
       {
-        id: 89,
+        id: 94,
         eng: 'Tutor/Instructor',
         idn: 'Tutor/Instruktor',
         jobId: 14
       },
       {
-        id: 90,
+        id: 95,
         eng: 'Account Service',
         idn: 'Pelayanan Akun',
         jobId: 15
       },
       {
-        id: 91,
+        id: 96,
         eng: 'Business Development',
         idn: 'Pengembangan Bisnis',
         jobId: 15
       },
       {
-        id: 92,
+        id: 97,
         eng: 'Call Centre',
         idn: 'Pusat Panggilan',
         jobId: 15
       },
       {
-        id: 93,
+        id: 100,
         eng: 'Customer Service - Supervisor',
         idn: 'Pelayanan Pelanggan - Supervisor',
         jobId: 15
       },
       {
-        id: 94,
+        id: 101,
         eng: 'Retail Sales',
         idn: 'Penjual Ritel',
         jobId: 15
       },
       {
-        id: 95,
+        id: 102,
         eng: 'Sales - Real Estate',
         idn: 'Penjual - Real Estate',
         jobId: 15
       },
       {
-        id: 96,
+        id: 103,
         eng: 'Sales - Sales Management',
         idn: 'Penjual - Manajemen Penjualan',
         jobId: 15
       },
       {
-        id: 97,
+        id: 104,
         eng: 'Technical Sales/Sales Engineer',
         idn: 'Penjual Teknikal/Sales Engineer',
         jobId: 15
       },
       {
-        id: 98,
+        id: 105,
         eng: 'Tele-sales (Telemarketing)',
         idn: 'Tele-sales (Telemarketing)',
         jobId: 15
       },
       {
-        id: 99,
+        id: 106,
         eng: 'Wholesale',
         idn: 'Grosir',
         jobId: 15
       },
       {
-        id: 100,
+        id: 108,
         eng: 'Corporate Banking',
         idn: 'Perbankan Korporasi',
         jobId: 16
       },
       {
-        id: 101,
+        id: 109,
         eng: 'Corporate Finance',
         idn: 'Keuangan Korporasi',
         jobId: 16
       },
       {
-        id: 102,
+        id: 110,
         eng: 'Credit Analysis/Approval',
         idn: 'Analisis Kredit/Persetujuan',
         jobId: 16
       },
       {
-        id: 103,
+        id: 111,
         eng: 'Credit Collection',
         idn: 'Pengumpulan Kredit',
         jobId: 16
       },
       {
-        id: 104,
+        id: 112,
         eng: 'Dealing & Trading',
         idn: 'Transaksi & Perdagangan',
         jobId: 16
       },
       {
-        id: 105,
+        id: 114,
         eng: 'Financial Services',
         idn: 'Layanan Keuangan',
         jobId: 16
       },
       {
-        id: 106,
+        id: 115,
         eng: 'Fund Management',
         idn: 'Pengelolaan Dana',
         jobId: 16
       },
       {
-        id: 107,
+        id: 116,
         eng: 'Investment',
         idn: 'Investasi',
         jobId: 16
       },
       {
-        id: 108,
+        id: 117,
         eng: 'Loan',
         idn: 'Pinjaman',
         jobId: 16
       },
       {
-        id: 109,
+        id: 119,
         eng: 'Order Processing & Operation/Settlement',
         idn: 'Pemrosesan Order & Operasional/Pembayaran',
         jobId: 16
       },
       {
-        id: 110,
+        id: 122,
         eng: 'Retail Banking',
         idn: 'Perbankan Ritel',
         jobId: 16
       },
       {
-        id: 111,
+        id: 124,
         eng: 'Property Consultancy',
         idn: 'Konsultasi Properti',
         jobId: 17
       },
       {
-        id: 112,
+        id: 125,
         eng: 'Property Management',
         idn: 'Pengelolaan Properti',
         jobId: 17
       },
       {
-        id: 113,
+        id: 127,
         eng: 'Drafter',
         idn: 'Drafter',
         jobId: 18
       },
       {
-        id: 114,
+        id: 128,
         eng: 'Electrical/Electronics',
         idn: 'Elektronik',
         jobId: 18
       },
       {
-        id: 115,
+        id: 129,
         eng: 'Engineering Project Management',
         idn: 'Pengelolaan Proyek Teknik',
         jobId: 18
       },
       {
-        id: 116,
+        id: 130,
         eng: 'Health/Safety/Environmental',
         idn: 'Kesehatan/Keamanan/Lingkungan',
         jobId: 18
       },
       {
-        id: 117,
+        id: 131,
         eng: 'Industrial',
         idn: 'Industri',
         jobId: 18
       },
       {
-        id: 118,
+        id: 132,
         eng: 'Maintenance/Technician',
         idn: 'Perawatan/Teknisi',
         jobId: 18
       },
       {
-        id: 119,
+        id: 133,
         eng: 'Manufacturing & Production',
         idn: 'Manufaktur & Produksi',
         jobId: 18
       },
       {
-        id: 120,
+        id: 134,
         eng: 'Marine',
         idn: 'Kelautan',
         jobId: 18
       },
       {
-        id: 121,
+        id: 135,
         eng: 'Mechanical',
         idn: 'Mesin',
         jobId: 18
       },
       {
-        id: 122,
+        id: 137,
         eng: 'Telecommunication/Wireless/Radio',
         idn: 'Telekomunikasi/Nirkabel/Radio',
         jobId: 18
       },
       {
-        id: 123,
+        id: 138,
         eng: 'Application Specialist - Network',
         idn: 'Spesialis Aplikasi - Jaringan',
         jobId: 19
       },
       {
-        id: 124,
+        id: 139,
         eng: 'Application Specialist - Software/Programming',
         idn: 'Spesialis Aplikasi - Perangkat Lunak/Pemrograman',
         jobId: 19
       },
       {
-        id: 125,
+        id: 140,
         eng: 'Database Administrator',
         idn: 'Administrator Basis Data',
         jobId: 19
       },
       {
-        id: 126,
+        id: 141,
         eng: 'Hardware',
         idn: 'Perangkat Keras',
         jobId: 19
       },
       {
-        id: 127,
+        id: 142,
         eng: 'IT -  Webmaster/SEO',
         idn: 'IT - Master Web/SEO',
         jobId: 19
       },
       {
-        id: 128,
+        id: 143,
         eng: 'IT Auditing',
         idn: 'Audit IT',
         jobId: 19
       },
       {
-        id: 129,
+        id: 144,
         eng: 'IT Management',
         idn: 'Manajemen IT',
         jobId: 19
       },
       {
-        id: 130,
+        id: 145,
         eng: 'IT Project Management/Team Lead',
         idn: 'Pengelolaan Proyek IT',
         jobId: 19
       },
       {
-        id: 131,
+        id: 146,
         eng: 'Mobile/Wireless Communications',
         idn: 'Mobile/Komunikasi Nirkabel',
         jobId: 19
       },
       {
-        id: 132,
+        id: 147,
         eng: 'Network & System',
         idn: 'Jaringan dan Sistem',
         jobId: 19
       },
       {
-        id: 133,
+        id: 148,
         eng: 'Product Management / Business Analyst',
         idn: 'Pengelolaan Produk/Analis Bisnis',
         jobId: 19
       },
       {
-        id: 134,
+        id: 149,
         eng: 'Security/Safety Control',
         idn: 'Kontrol Keamanan',
         jobId: 19
       },
       {
-        id: 135,
+        id: 150,
         eng: 'Software Development',
         idn: 'Pengembangan Software',
         jobId: 19
       },
       {
-        id: 136,
+        id: 151,
         eng: 'Support',
         idn: 'Pendukung',
         jobId: 19
       },
       {
-        id: 137,
+        id: 152,
         eng: 'Technical/Functional Consulting',
         idn: 'Teknis/Konsultasi Fungsional',
         jobId: 19
       },
       {
-        id: 138,
+        id: 153,
         eng: 'Technical Writing',
         idn: 'Penulisan Teknis',
         jobId: 19
       },
       {
-        id: 139,
+        id: 154,
         eng: 'Testing/QA',
         idn: 'Pengujian/Penjaminan Kualitas',
         jobId: 19
       },
       {
-        id: 140,
+        id: 155,
         eng: 'GSM Engineering',
         idn: 'Teknis GSM',
         jobId: 20
       },
       {
-        id: 141,
+        id: 156,
         eng: 'Network Administration',
         idn: 'Administrasi Jaringan',
         jobId: 20
       },
       {
-        id: 142,
+        id: 157,
         eng: 'O&M Engineering',
         idn: 'Teknis O&M',
         jobId: 20
       },
       {
-        id: 143,
+        id: 158,
         eng: 'RF - Planning/Installation/Administration',
         idn: 'RF - Perencanaan/Instalasi/Administrasi',
         jobId: 20
       },
       {
-        id: 144,
+        id: 159,
         eng: 'Switching Engineering',
         idn: 'Teknis Switching',
         jobId: 20
       },
       {
-        id: 145,
+        id: 160,
         eng: 'System Administration',
         idn: 'Administrasi Sistem',
         jobId: 20
       },
       {
-        id: 146,
+        id: 161,
         eng: 'System Engineering',
         idn: 'Teknis Sistem',
         jobId: 20
       },
       {
-        id: 147,
+        id: 162,
         eng: 'Systems Security',
         idn: 'Keamanan Sistem',
         jobId: 20
       },
       {
-        id: 148,
+        id: 163,
         eng: 'Telecommunications Technical Support',
         idn: 'Dukungan Teknis Telekomunikasi',
         jobId: 20
       },
       {
-        id: 149,
+        id: 164,
         eng: 'Aerospace',
         idn: 'Transportasi Udara',
         jobId: 21
       },
       {
-        id: 150,
+        id: 165,
         eng: 'Automotive',
         idn: 'Otomotif',
         jobId: 21
       },
       {
-        id: 151,
+        id: 166,
         eng: 'Aviation Services',
         idn: 'Pelayanan Penerbangan',
         jobId: 21
       },
       {
-        id: 152,
+        id: 167,
         eng: 'Documentary Credit/Bills Processing',
         idn: 'Dokumentasi Kredit/Pemrosesan Tagihan',
         jobId: 21
       },
       {
-        id: 153,
+        id: 168,
         eng: 'Export Import',
         idn: 'Ekspor Impor',
         jobId: 21
       },
       {
-        id: 154,
+        id: 169,
         eng: 'Freight Forwarding',
         idn: 'Penerusan Muatan',
         jobId: 21
       },
       {
-        id: 155,
+        id: 170,
         eng: 'Fulfillment',
         idn: 'Pemenuhan',
         jobId: 21
       },
       {
-        id: 156,
+        id: 171,
         eng: 'Inventory / Warehousing',
         idn: 'Inventaris/Pergudangan',
         jobId: 21
       },
       {
-        id: 157,
+        id: 172,
         eng: 'Maritime - General',
         idn: 'Maritim - Umum',
         jobId: 21
       },
       {
-        id: 158,
+        id: 173,
         eng: 'Private Transportation',
         idn: 'Transportasi Swasta',
         jobId: 21
       },
       {
-        id: 159,
+        id: 174,
         eng: 'Public Transportation',
         idn: 'Transportasi Publik',
         jobId: 21
       },
       {
-        id: 160,
+        id: 175,
         eng: 'Shipping',
         idn: 'Pengiriman',
         jobId: 21
       },
       {
-        id: 161,
+        id: 176,
         eng: 'Supply Chain',
         idn: 'Rantai Suplai',
         jobId: 21
       },
       {
-        id: 162,
+        id: 177,
         eng: 'Marketing - Direct Marketing',
         idn: 'Pemasaran - Pemasaran Langsung',
         jobId: 22
       },
       {
-        id: 163,
+        id: 178,
         eng: 'Marketing - General/Support',
         idn: 'Pemasaran - Umum/Pendukung',
         jobId: 22
       },
       {
-        id: 164,
+        id: 179,
         eng: 'Marketing - Market Research',
         idn: 'Pemasaran - Riset Pasar',
         jobId: 22
       },
       {
-        id: 165,
+        id: 180,
         eng: 'Marketing - Marketing Communication',
         idn: 'Pemasaran - Komunikasi Pemasaran',
         jobId: 22
       },
       {
-        id: 166,
+        id: 181,
         eng: 'Public Relations - Copywriting',
         idn: 'Hubungan Masyarakat (Humas) - Naskah Iklan',
         jobId: 22
       },
       {
-        id: 167,
+        id: 182,
         eng: 'Public Relations - Event Management',
         idn: 'Hubungan Masyarakat (Humas) - Manajemen Acara',
         jobId: 22
       },
       {
-        id: 168,
+        id: 183,
         eng: 'Public Relations - General/Support',
         idn: 'Hubungan Masyarakat (Humas) - Umum/Pendukung',
         jobId: 22
       },
       {
-        id: 169,
+        id: 184,
         eng: 'Doctor/Practitioner/Surgeon',
         idn: 'Dokter/Dokter Umum/Ahli Bedah',
         jobId: 23
       },
       {
-        id: 170,
+        id: 185,
         eng: 'Medical Services Technician',
         idn: 'Teknisi Layanan Kesehatan',
         jobId: 23
       },
       {
-        id: 171,
+        id: 186,
         eng: 'Nursing',
         idn: 'Perawat',
         jobId: 23
       },
       {
-        id: 172,
+        id: 187,
         eng: 'Pharmaceutical',
         idn: 'Farmasi',
         jobId: 23
       },
       {
-        id: 173,
+        id: 188,
         eng: 'Specialist',
         idn: 'Spesialis',
         jobId: 23
       },
       {
-        id: 174,
+        id: 189,
         eng: 'Therapist',
         idn: 'Ahli Terapi',
         jobId: 23
       },
       {
-        id: 175,
+        id: 190,
         eng: 'Veterinarian',
         idn: 'Dokter Hewan',
         jobId: 23
       },
       {
-        id: 176,
+        id: 191,
         eng: 'Electronics',
         idn: 'Elektronik',
         jobId: 24
       },
       {
-        id: 177,
+        id: 192,
         eng: 'Fabrics',
         idn: 'Kain',
         jobId: 24
       },
       {
-        id: 178,
+        id: 193,
         eng: 'Footwear',
         idn: 'Alas Kaki',
         jobId: 24
       },
       {
-        id: 179,
+        id: 194,
         eng: 'Furniture',
         idn: 'Perabotan',
         jobId: 24
       },
       {
-        id: 180,
+        id: 195,
         eng: 'Handbag',
         idn: 'Tas Tangan',
         jobId: 24
       },
       {
-        id: 181,
+        id: 196,
         eng: 'Home Appliances',
         idn: 'Perlengkapan Rumah Tangga',
         jobId: 24
       },
       {
-        id: 182,
+        id: 197,
         eng: 'Procurement/Purchasing/Sourcing',
         idn: 'Pengadaan/Pembelian/Alih Daya',
         jobId: 24
       },
       {
-        id: 183,
+        id: 198,
         eng: 'PVC',
         idn: 'PVC',
         jobId: 24
       },
       {
-        id: 184,
+        id: 199,
         eng: 'Stationary',
         idn: 'Alat-Alat Kantor',
         jobId: 24
       },
       {
-        id: 185,
+        id: 200,
         eng: 'Retail',
         idn: 'Ritel',
         jobId: 24
       },
       {
-        id: 186,
+        id: 201,
         eng: 'Sweater',
         idn: 'Baju Hangat',
         jobId: 24
       },
       {
-        id: 187,
+        id: 202,
         eng: 'Textiles',
         idn: 'Tekstil',
         jobId: 24
       },
       {
-        id: 188,
+        id: 203,
         eng: 'Toy',
         idn: 'Mainan',
         jobId: 24
       },
       {
-        id: 189,
+        id: 204,
         eng: 'Watch',
         idn: 'Jam Tangan',
         jobId: 24
       },
       {
-        id: 190,
+        id: 205,
         eng: 'Woven/Knit',
         idn: 'Tenunan/Rajutan',
         jobId: 24
       },
       {
-        id: 191,
+        id: 206,
         eng: 'Civil Services',
         idn: 'Layanan Sipil',
         jobId: 25
       },
       {
-        id: 192,
+        id: 207,
         eng: 'Counseling',
         idn: 'Konseling',
         jobId: 25
       },
       {
-        id: 193,
+        id: 208,
         eng: 'Foreign Affairs/Government',
         idn: 'Urusan Luar Negeri/Badan Pemerintahan',
         jobId: 25
       },
       {
-        id: 194,
+        id: 209,
         eng: 'Military/Defense',
         idn: 'Militer/Pertahanan',
         jobId: 25
       },
       {
-        id: 195,
+        id: 210,
         eng: 'Social Services - Community/Non-profit Organization',
         idn: 'Pelayanan Sosial - Komunitas/Organisasi Nirlaba',
         jobId: 25
       },
       {
-        id: 196,
+        id: 211,
         eng: 'Utilities',
         idn: 'Utilitas',
         jobId: 25
       },
       {
-        id: 197,
+        id: 212,
         eng: 'Other',
         idn: 'Lainnya',
         jobId: 18
       },
       {
-        id: 198,
+        id: 213,
         eng: 'Estimator',
         idn: 'Estimator',
         jobId: 7
       },
       {
-        id: 199,
+        id: 214,
         eng: 'Marketing - Digital & Online',
         idn: 'Pemasaran - Digital & Online',
         jobId: 22
