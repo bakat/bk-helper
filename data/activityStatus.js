@@ -79,5 +79,11 @@ module.exports = {
   },
   jobs: {
 
+  },
+  referral: {
+    InsertCampaign: 'insert-referral-campaign',
+    EditCampaign: 'edit-referral-campaign',
+    InviteUser: 'invite-referral-user',
+    RemoveUser: 'remove-referral-user'
   }
 }
