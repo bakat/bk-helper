@@ -81,10 +81,13 @@ module.exports = {
 
   },
   referral: {
-    InsertCampaign: 'insert-referral-campaign',
-    EditCampaign: 'edit-referral-campaign',
-    InviteUser: 'invite-referral-user',
-    RemoveUser: 'remove-referral-user',
+    InsertCampaign: 'inserted-referral-campaign',
+    EditCampaign: 'edited-referral-campaign',
+    InviteUser: 'invited-referral-user',
+    RemoveUser: 'removed-referral-user',
+    ApprovedApplicant: 'approved-referral-applicant',
+    HiredApplicant: 'hired-referral-applicant',
+    CreatedReward: 'created-reward-referral-applicant',
     ClaimReward: 'claim-reward'
   }
 }
