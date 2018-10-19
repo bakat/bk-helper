@@ -24,7 +24,8 @@ const defaults = {
   brandedCareerPage: true,
   productTranning: 'online', // on-site, online
   AccountExecutiveForSupport: true,
-  enableJobUrl: false
+  enableJobUrl: false,
+  mergeCareerSite: []
 }
 
 module.exports = {
