@@ -229,5 +229,14 @@ module.exports = [
     description: 'Jobfinder is a new job search engine that provides job seekers free access to millions of job openings across thousands of job categories and industries. We aggregate, filter and sort huge amounts of data from hundreds of job boards, classifieds sites, company homepages and other job related Websites and make them available to you in a fast, clean and easy to use interface..',
     logo: '//cdn.urbanhire.com/img/publisher/Jobfinder.png',
     defaultXml: true
+  },
+  {
+    name: 'Line Jobs',
+    domain: 'https://jobs.line.me/',
+    host: 'line',
+    provider: 'line',
+    description: 'Line Jobs is a portal where we can see information about the latest job openings and about the ongoing job fair or some that will take place. Vacancy info in LINE Jobs is intended for entry levels.',
+    logo: '//cdn.urbanhire.com/img/publisher/linejobs.png',
+    defaultXml: true
   }
 ]
