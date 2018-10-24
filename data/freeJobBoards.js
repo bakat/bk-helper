@@ -234,7 +234,7 @@ module.exports = [
     name: 'Line Jobs',
     domain: 'https://jobs.line.me/',
     host: 'line',
-    provider: 'line',
+    provider: 'LINE',
     description: 'Line Jobs is a portal where we can see information about the latest job openings and about the ongoing job fair or some that will take place. Vacancy info in LINE Jobs is intended for entry levels.',
     logo: '//cdn.urbanhire.com/img/publisher/linejobs.png',
     defaultXml: true
