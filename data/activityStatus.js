@@ -74,8 +74,9 @@ module.exports = {
     SourcedBy: 'sourced-by-%s',
     RatedCandidate: 'rated-candidate',
     SentInvitationAssessment: 'sent-invitation-assessment',
-    ReceivedResultAssessment: 'received-result-assessment'
-
+    ReceivedResultAssessment: 'received-result-assessment',
+    Blacklisted: 'blacklisted',
+    RevertedBlacklist: 'reverted-blacklist'
   },
   jobs: {
 
