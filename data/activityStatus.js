@@ -91,6 +91,6 @@ module.exports = {
     CreatedReward: 'created-reward-referral-applicant',
     ClaimReward: 'claim-reward',
     DeactivatedReferralUser: 'deactivated-referral-user',
-    RevertedDeactivateReferralUser: 'reverted-deactivate-referral-user'
+    ActivatedReferralUser: 'activated-referral-user'
   }
 }
