@@ -89,6 +89,8 @@ module.exports = {
     ApprovedApplicant: 'approved-referral-applicant',
     HiredApplicant: 'hired-referral-applicant',
     CreatedReward: 'created-reward-referral-applicant',
-    ClaimReward: 'claim-reward'
+    ClaimReward: 'claim-reward',
+    DeactivatedReferralUser: 'deactivated-referral-user',
+    ActivatedReferralUser: 'activated-referral-user'
   }
 }
