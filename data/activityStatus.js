@@ -90,7 +90,7 @@ module.exports = {
     HiredApplicant: 'hired-referral-applicant',
     CreatedReward: 'created-reward-referral-applicant',
     ClaimReward: 'claim-reward',
-    SuspendedReferralUser: 'suspended-referral-user',
-    RevertedtSuspendReferralUser: 'reverted-suspend-referral-user'
+    DeactivatedReferralUser: 'deactivated-referral-user',
+    RevertedDeactivateReferralUser: 'reverted-deactivate-referral-user'
   }
 }
