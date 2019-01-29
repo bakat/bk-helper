@@ -238,5 +238,14 @@ module.exports = [
     description: 'Line Jobs is a portal where we can see information about the latest job openings and about the ongoing job fair or some that will take place. Vacancy info in LINE Jobs is intended for entry levels.',
     logo: '//cdn.urbanhire.com/img/publisher/linejobs.png',
     defaultXml: true
+  },
+  {
+    name: 'Google Jobs',
+    domain: 'https://jobs.google.com/',
+    host: 'google',
+    provider: 'Google',
+    description: 'Google brings together job postings from across the web. Have your job postings found by millions of job seekers who search on Google every day',
+    logo: '//static.adweek.com/adweek.com-prod/wp-content/uploads/files/blogs/google-logo-hed-2014.jpg',
+    defaultXml: true
   }
 ]
