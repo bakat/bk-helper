@@ -7,9 +7,9 @@ module.exports = [{
 }, {
   'name': 'Diploma Degree - D4'
 }, {
-  'name': 'Bachelor Degree S1'
+  'name': 'Bachelor Degree - S1'
 }, {
-  'name': 'Master Degree / Post Graduate Degree S2'
+  'name': 'Master Degree / Post Graduate Degree - S2'
 }, {
-  'name': 'Doctorate S3'
+  'name': 'Doctorate - S3'
 }]

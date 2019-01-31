@@ -21,7 +21,7 @@ module.exports = {
     payments: {
       monthly: {
         idr: 390000,
-        usd: (390000 / 14500).toFixed(0)
+        usd: 30
       },
       quarter: {
         idr: 1170000,
@@ -29,7 +29,7 @@ module.exports = {
       },
       annual: {
         idr: 3900000,
-        usd: 269
+        usd: 300
       }
     }
   },
@@ -40,15 +40,15 @@ module.exports = {
     payments: {
       monthly: {
         idr: 1190000,
-        usd: 82
+        usd: 90
       },
       quarter: {
         idr: 3570000,
         usd: 246
       },
       annual: {
-        idr: 14280000,
-        usd: 985
+        idr: 11900000,
+        usd: 900
       }
     }
   },
