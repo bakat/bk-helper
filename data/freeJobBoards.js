@@ -245,7 +245,7 @@ module.exports = [
     host: 'google',
     provider: 'Google',
     description: 'Google brings together job postings from across the web. Have your job postings found by millions of job seekers who search on Google every day',
-    logo: '//static.adweek.com/adweek.com-prod/wp-content/uploads/files/blogs/google-logo-hed-2014.jpg',
+    logo: '//upload.wikimedia.org/wikipedia/commons/3/30/Googlelogo.png',
     defaultXml: true
   }
 ]
