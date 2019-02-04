@@ -1,6 +1,6 @@
 {
   "name": "bk-helper",
-  "version": "2.9.2",
+  "version": "2.9.3",
   "description": "Urbanhire helper script and data",
   "main": "index.js",
   "scripts": {
