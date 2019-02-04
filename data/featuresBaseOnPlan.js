@@ -44,7 +44,6 @@ module.exports = {
     multipleCompany: false
   }),
   standard: extend({}, defaults, {
-    preAssessmentQuestion: false,
     postScreenAssessmentQuestion: false,
     downloadCV: false,
     bulkSendEmail: false,
