@@ -13,7 +13,7 @@ module.exports = [
     host: 'google',
     provider: 'Google',
     description: 'Google brings together job postings from across the web. Have your job postings found by millions of job seekers who search on Google every day',
-    logo: '//cdn.urbanhire.com/img/publisher/google.png',
+    logo: '//cdn.urbanhire.co/img/publisher/google.png',
     defaultXml: true
   },
   {
