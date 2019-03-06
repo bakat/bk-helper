@@ -20,16 +20,16 @@ module.exports = {
     userSlot: 3,
     payments: {
       monthly: {
-        idr: 390000,
-        usd: 30
+        idr: 499000,
+        usd: 39
       },
       quarter: {
-        idr: 1170000,
-        usd: 81
+        idr: 1497000,
+        usd: 117
       },
       annual: {
-        idr: 3900000,
-        usd: 300
+        idr: 4990000,
+        usd: 390
       }
     }
   },
@@ -39,16 +39,16 @@ module.exports = {
     userSlot: 10,
     payments: {
       monthly: {
-        idr: 1190000,
-        usd: 90
+        idr: 1499000,
+        usd: 116
       },
       quarter: {
-        idr: 3570000,
-        usd: 246
+        idr: 4497000,
+        usd: 348
       },
       annual: {
-        idr: 11900000,
-        usd: 900
+        idr: 14990000,
+        usd: 1160
       }
     }
   },
