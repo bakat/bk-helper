@@ -1,31 +1,56 @@
 'use strict'
 
 module.exports = {
-  permission: [
-    {
-        id: 1,
-        name: 'Create Job',
-        description: 'Create New Job',
-        slug: 'createJob',
-        url: '/jobs/create'
-    },
-    {
-        id: 2,
-        name: 'Update Job',
-        description: 'Update Job',
-        slug: 'updateJob',
-        url: '/jobs/$1/edit'
-    },
-    {
-        id: 3,
-        name: 'Reports',
-        description: 'Reports Analytics',
-        slug: 'reports',
-        url: '/reports/*'
-    }
-  ],
+  permission: {
+    general: [
+      {
+          id: 1,
+          name: 'Create and Edit Job',
+          description: 'Create and Edit Job',
+          slug: 'createEditJob',
+          url: '/jobs/create|job/$1/edit'
+      },
+      {
+          id: 2,
+          name: 'Publish Job',
+          description: 'Publish Job',
+          slug: 'publishJob',
+          url: '/jobs/$1/edit'
+      }
+    ],
+    jobConfiguration: [
+      {
+          id: 3,
+          name: 'Job Description',
+          description: 'Job Description',
+          slug: 'jobDescription',
+          url: '/jobs/edit'
+      },
+      {
+          id: 4,
+          name: 'Application Form',
+          description: 'Application Form',
+          slug: 'ApplicationForm',
+          url: '/jobs/edit/$1/application-form'
+      },
+      {
+          id: 5,
+          name: 'Pre-Assessment',
+          description: 'Pre Assessment Test',
+          slug: 'PreAssessment',
+          url: '/jobs/edit/$1/pre-assessment'
+      },
+      {
+          id: 6,
+          name: 'Hiring Team',
+          description: 'Hiring Team',
+          slug: 'HiringTeam',
+          url: '/jobs/edit/$1/hiring-team'
+      }
+    ]
+  },
   access: {
-    FullAccess: [
+    fullAccess: [
         {
             id: 1,
             access: true
@@ -36,6 +61,18 @@ module.exports = {
         },
         {
             id: 3,
+            access: true
+        },
+        {
+            id: 4,
+            access: true
+        },
+        {
+            id: 5,
+            access: true
+        },
+        {
+            id: 6,
             access: true
         }
     ],
@@ -51,6 +88,14 @@ module.exports = {
         {
             id: 3,
             access: false
+        },
+        {
+            id: 5,
+            access: true
+        },
+        {
+            id: 6,
+            access: true
         }
     ]
   }
