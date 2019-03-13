@@ -90,6 +90,10 @@ module.exports = {
             access: false
         },
         {
+            id: 4,
+            access: true
+        },
+        {
             id: 5,
             access: true
         },
