@@ -17,7 +17,7 @@ module.exports = {
   standard: {
     name: 'standard',
     jobSlot: 3,
-    userSlot: 3,
+    userSlot: 1,
     payments: {
       monthly: {
         idr: 499000,
@@ -35,8 +35,8 @@ module.exports = {
   },
   professional: {
     name: 'professional',
-    jobSlot: 20,
-    userSlot: 10,
+    jobSlot: 10,
+    userSlot: 3,
     payments: {
       monthly: {
         idr: 1499000,
@@ -54,8 +54,8 @@ module.exports = {
   },
   growth: {
     name: 'growth',
-    jobSlot: 50,
-    userSlot: 1000,
+    jobSlot: 20,
+    userSlot: 10,
     payments: {
       monthly: {
         idr: 2990000,
