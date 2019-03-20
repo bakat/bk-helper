@@ -199,42 +199,42 @@ module.exports = {
         ref: 'menu',
         listGroup: [
             {
-                id: 21,
+                id: 25,
                 name: 'Dashboard (Job Lists)',
                 description: 'Dashboard (Job Lists)',
                 slug: 'jobLists',
                 url: '/jobs/edit'
             },
             {
-                id: 22,
+                id: 26,
                 name: 'Applicants',
                 description: 'Applicants',
                 slug: 'applicants',
                 url: '/jobs/edit/$1/application-form'
             },
             {
-                id: 23,
+                id: 27,
                 name: 'Reports',
                 description: 'Reports',
                 slug: 'reports-info',
                 url: '/jobs/edit/$1/pre-assessment'
             },
             {
-                id: 24,
+                id: 28,
                 name: 'Referral',
                 description: 'Referral',
                 slug: 'referral',
                 url: '/jobs/edit/$1/hiring-team'
             },
             {
-                id: 25,
+                id: 29,
                 name: 'Agenda',
                 description: 'Agenda',
                 slug: 'agenda',
                 url: '/jobs/edit/$1/hiring-team'
             },
             {
-                id: 26,
+                id: 30,
                 name: 'Resume Search',
                 description: 'Resume Search',
                 slug: 'resumeSearch',
@@ -247,42 +247,42 @@ module.exports = {
         ref: 'company',
         listGroup: [
             {
-                id: 27,
+                id: 31,
                 name: 'General Info',
                 description: 'General Info',
                 slug: 'generalInfo',
                 url: '/jobs/edit'
             },
             {
-                id: 28,
+                id: 32,
                 name: 'Manage Companies',
                 description: 'Manage Companies',
                 slug: 'manageCompanies',
                 url: '/jobs/edit/$1/application-form'
             },
             {
-                id: 29,
+                id: 33,
                 name: 'Career Page',
                 description: 'Career Page',
                 slug: 'careerPage',
                 url: '/jobs/edit/$1/pre-assessment'
             },
             {
-                id: 30,
+                id: 34,
                 name: 'Team Member',
                 description: 'Team Member',
                 slug: 'teamMember',
                 url: '/jobs/edit/$1/hiring-team'
             },
             {
-                id: 31,
+                id: 35,
                 name: 'Hiring Stages',
                 description: 'Hiring Stages',
                 slug: 'hiringStages',
                 url: '/jobs/edit/$1/hiring-team'
             },
             {
-                id: 32,
+                id: 36,
                 name: 'Blacklist',
                 description: 'Blacklist',
                 slug: 'blacklist',
@@ -295,35 +295,35 @@ module.exports = {
         ref: 'templates',
         listGroup: [
             {
-                id: 33,
+                id: 37,
                 name: 'Email',
                 description: 'Email',
                 slug: 'email',
                 url: '/jobs/edit'
             },
             {
-                id: 34,
+                id: 38,
                 name: 'Pre Assessment',
                 description: 'Pre Assessment',
                 slug: 'preAssessment',
                 url: '/jobs/edit/$1/application-form'
             },
             {
-                id: 35,
+                id: 39,
                 name: 'Basic Assessment',
                 description: 'Basic Assessment',
                 slug: 'basicAssessment',
                 url: '/jobs/edit/$1/pre-assessment'
             },
             {
-                id: 36,
+                id: 40,
                 name: 'Interview Form',
                 description: 'Interview Form',
                 slug: 'interviewForm',
                 url: '/jobs/edit/$1/hiring-team'
             },
             {
-                id: 37,
+                id: 41,
                 name: 'Feedback Form (Candidate Experience)',
                 description: 'Feedback Form (Candidate Experience)',
                 slug: 'Feedback Form',
@@ -336,28 +336,28 @@ module.exports = {
         ref: 'payment',
         listGroup: [
             {
-                id: 38,
+                id: 42,
                 name: 'Subscription and Coin',
                 description: 'Subscription and Coin',
                 slug: 'subscriptionAndCoin',
                 url: '/jobs/edit'
             },
             {
-                id: 39,
+                id: 43,
                 name: 'Billing Info',
                 description: 'Billing Info',
                 slug: 'billingInfo',
                 url: '/jobs/edit/$1/application-form'
             },
             {
-                id: 40,
+                id: 44,
                 name: 'Billing History',
                 description: 'Billing History',
                 slug: 'billingHistory',
                 url: '/jobs/edit/$1/pre-assessment'
             },
             {
-                id: 41,
+                id: 45,
                 name: 'Coin History',
                 description: 'Coin History',
                 slug: 'coinHistory',
@@ -370,14 +370,14 @@ module.exports = {
         ref: 'integration',
         listGroup: [
             {
-                id: 42,
+                id: 46,
                 name: 'UH Job Widget',
                 description: 'UH Job Widget',
                 slug: 'uhJobWidget',
                 url: '/jobs/edit'
             },
             {
-                id: 43,
+                id: 47,
                 name: 'HRIS',
                 description: 'HRIS',
                 slug: 'hris',
@@ -390,14 +390,14 @@ module.exports = {
         ref: 'userAccess',
         listGroup: [
             {
-                id: 44,
+                id: 48,
                 name: 'Invite New User',
                 description: 'Invite New User',
                 slug: 'inviteNewUser',
                 url: '/jobs/edit'
             },
             {
-                id: 45,
+                id: 49,
                 name: 'Authorize Email and Password',
                 description: 'Authorize Email and Password',
                 slug: 'authorizeEmailAndPassword',
