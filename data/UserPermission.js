@@ -386,8 +386,8 @@ module.exports = {
         ]
     },
     {
-        name: 'User Access',
-        ref: 'userAccess',
+        name: 'Manage User',
+        ref: 'manageUser',
         listGroup: [
             {
                 id: 48,
@@ -398,9 +398,9 @@ module.exports = {
             },
             {
                 id: 49,
-                name: 'Authorize Email and Password',
-                description: 'Authorize Email and Password',
-                slug: 'authorizeEmailAndPassword',
+                name: 'User Group',
+                description: 'CRUD user group',
+                slug: 'UserGroup',
                 url: '/jobs/edit/$1/application-form'
             }
         ]
@@ -431,6 +431,178 @@ module.exports = {
         {
             id: 6,
             access: true
+        },
+        {
+            id: 7,
+            access: true
+        },
+        {
+            id: 8,
+            access: true
+        },
+        {
+            id: 9,
+            access: true
+        },
+        {
+            id: 10,
+            access: true
+        },
+        {
+            id: 11,
+            access: true
+        },
+        {
+            id: 12,
+            access: true
+        },
+        {
+            id: 13,
+            access: true
+        },
+        {
+            id: 14,
+            access: true
+        },
+        {
+            id: 15,
+            access: true
+        },
+        {
+            id: 16,
+            access: true
+        },
+        {
+            id: 17,
+            access: true
+        },
+        {
+            id: 18,
+            access: true
+        },
+        {
+            id: 19,
+            access: true
+        },
+        {
+            id: 20,
+            access: true
+        },
+        {
+            id: 21,
+            access: true
+        },
+        {
+            id: 22,
+            access: true
+        },
+        {
+            id: 23,
+            access: true
+        },
+        {
+            id: 24,
+            access: true
+        },
+        {
+            id: 25,
+            access: true
+        },
+        {
+            id: 26,
+            access: true
+        },
+        {
+            id: 27,
+            access: true
+        },
+        {
+            id: 28,
+            access: true
+        },
+        {
+            id: 29,
+            access: true
+        },
+        {
+            id: 30,
+            access: true
+        },
+        {
+            id: 31,
+            access: true
+        },
+        {
+            id: 32,
+            access: true
+        },
+        {
+            id: 33,
+            access: true
+        },
+        {
+            id: 34,
+            access: true
+        },
+        {
+            id: 35,
+            access: true
+        },
+        {
+            id: 36,
+            access: true
+        },
+        {
+            id: 37,
+            access: true
+        },
+        {
+            id: 38,
+            access: true
+        },
+        {
+            id: 39,
+            access: true
+        },
+        {
+            id: 40,
+            access: true
+        },
+        {
+            id: 41,
+            access: true
+        },
+        {
+            id: 42,
+            access: true
+        },
+        {
+            id: 43,
+            access: true
+        },
+        {
+            id: 44,
+            access: true
+        },
+        {
+            id: 45,
+            access: true
+        },
+        {
+            id: 46,
+            access: true
+        },
+        {
+            id: 47,
+            access: true
+        },
+        {
+            id: 48,
+            access: true
+        },
+        {
+            id: 49,
+            access: true
         }
     ],
     defaultAccess: [
@@ -456,6 +628,178 @@ module.exports = {
         },
         {
             id: 6,
+            access: true
+        },
+        {
+            id: 7,
+            access: true
+        },
+        {
+            id: 8,
+            access: true
+        },
+        {
+            id: 9,
+            access: true
+        },
+        {
+            id: 10,
+            access: true
+        },
+        {
+            id: 11,
+            access: true
+        },
+        {
+            id: 12,
+            access: true
+        },
+        {
+            id: 13,
+            access: true
+        },
+        {
+            id: 14,
+            access: true
+        },
+        {
+            id: 15,
+            access: true
+        },
+        {
+            id: 16,
+            access: true
+        },
+        {
+            id: 17,
+            access: true
+        },
+        {
+            id: 18,
+            access: true
+        },
+        {
+            id: 19,
+            access: true
+        },
+        {
+            id: 20,
+            access: true
+        },
+        {
+            id: 21,
+            access: true
+        },
+        {
+            id: 22,
+            access: true
+        },
+        {
+            id: 23,
+            access: true
+        },
+        {
+            id: 24,
+            access: true
+        },
+        {
+            id: 25,
+            access: true
+        },
+        {
+            id: 26,
+            access: true
+        },
+        {
+            id: 27,
+            access: true
+        },
+        {
+            id: 28,
+            access: true
+        },
+        {
+            id: 29,
+            access: true
+        },
+        {
+            id: 30,
+            access: true
+        },
+        {
+            id: 31,
+            access: true
+        },
+        {
+            id: 32,
+            access: true
+        },
+        {
+            id: 33,
+            access: true
+        },
+        {
+            id: 34,
+            access: true
+        },
+        {
+            id: 35,
+            access: true
+        },
+        {
+            id: 36,
+            access: true
+        },
+        {
+            id: 37,
+            access: true
+        },
+        {
+            id: 38,
+            access: true
+        },
+        {
+            id: 39,
+            access: true
+        },
+        {
+            id: 40,
+            access: true
+        },
+        {
+            id: 41,
+            access: true
+        },
+        {
+            id: 42,
+            access: true
+        },
+        {
+            id: 43,
+            access: true
+        },
+        {
+            id: 44,
+            access: true
+        },
+        {
+            id: 45,
+            access: true
+        },
+        {
+            id: 46,
+            access: true
+        },
+        {
+            id: 47,
+            access: true
+        },
+        {
+            id: 48,
+            access: true
+        },
+        {
+            id: 49,
             access: true
         }
     ]
