@@ -8,6 +8,15 @@ module.exports = [
     description: 'Urbanhire is a single job market place that helps you find the perfect talents, Your job will be distributed directly to urbanhire.com within 250.000 Active jobseekers, make talent and offers the best opportunity for job seekers to get hired.'
   },
   {
+    name: 'Google Jobs',
+    domain: 'https://jobs.google.com/',
+    host: 'google',
+    provider: 'Google',
+    description: 'Google brings together job postings from across the web. Have your job postings found by millions of job seekers who search on Google every day',
+    logo: '//cdn.urbanhire.com/img/publisher/google.png',
+    defaultXml: true
+  },
+  {
     name: 'Linkedin',
     domain: 'linkedin.com',
     host: 'linkedin',
@@ -30,6 +39,15 @@ module.exports = [
     provider: 'indeed',
     logo: '//cdn.urbanhire.com/img/publisher/indeed.png',
     description: 'As the world\'s #1 job site, with over 200 million unique visitors every month from over 60 different countries, Indeed has become the catalyst for putting the world to work. Indeed is intensely passionate about delivering the right fit for every hire. Indeed helps companies of all sizes hire the best talent and offers the best opportunity for job seekers to get hired.'
+  },
+  {
+    name: 'Line Jobs',
+    domain: 'https://jobs.line.me/',
+    host: 'line',
+    provider: 'LINE',
+    description: 'Line Jobs is a portal where we can see information about the latest job openings and about the ongoing job fair or some that will take place. Vacancy info in LINE Jobs is intended for entry levels.',
+    logo: '//cdn.urbanhire.com/img/publisher/linejobs.png',
+    defaultXml: true
   },
   {
     name: 'Glassdoor',
@@ -228,15 +246,6 @@ module.exports = [
     provider: 'Jobfinder',
     description: 'Jobfinder is a new job search engine that provides job seekers free access to millions of job openings across thousands of job categories and industries. We aggregate, filter and sort huge amounts of data from hundreds of job boards, classifieds sites, company homepages and other job related Websites and make them available to you in a fast, clean and easy to use interface..',
     logo: '//cdn.urbanhire.com/img/publisher/Jobfinder.png',
-    defaultXml: true
-  },
-  {
-    name: 'Line Jobs',
-    domain: 'https://jobs.line.me/',
-    host: 'line',
-    provider: 'LINE',
-    description: 'Line Jobs is a portal where we can see information about the latest job openings and about the ongoing job fair or some that will take place. Vacancy info in LINE Jobs is intended for entry levels.',
-    logo: '//cdn.urbanhire.com/img/publisher/linejobs.png',
     defaultXml: true
   }
 ]
