@@ -282,7 +282,7 @@ module.exports = {
                 description: 'General Info',
                 slug: 'generalInfo',
                 urlFront: '/jobs/edit',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/companies/(get-by-id|update)'
             },
             {
                 id: 32,
@@ -298,7 +298,7 @@ module.exports = {
                 description: 'Career Page',
                 slug: 'careerPage',
                 urlFront: '/jobs/edit/$1/pre-assessment',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/career-site'
             },
             {
                 id: 34,
@@ -306,7 +306,7 @@ module.exports = {
                 description: 'Team Member',
                 slug: 'teamMember',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/companies/members/([a-z0-9]{25})'
             },
             {
                 id: 35,
@@ -314,7 +314,7 @@ module.exports = {
                 description: 'Hiring Stages',
                 slug: 'hiringStages',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/companies/hiring-pipeline'
             },
             {
                 id: 36,
@@ -322,7 +322,7 @@ module.exports = {
                 description: 'Blacklist',
                 slug: 'blacklist',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/blacklist'
             }
         ]
     },
@@ -336,7 +336,7 @@ module.exports = {
                 description: 'Email',
                 slug: 'email',
                 urlFront: '/jobs/edit',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/recruiting'
             },
             {
                 id: 38,
@@ -344,7 +344,7 @@ module.exports = {
                 description: 'Pre Assessment',
                 slug: 'preAssessment',
                 urlFront: '/jobs/edit/$1/application-form',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/preassessments-companies'
             },
             {
                 id: 39,
@@ -352,7 +352,7 @@ module.exports = {
                 description: 'Basic Assessment',
                 slug: 'basicAssessment',
                 urlFront: '/jobs/edit/$1/pre-assessment',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/preassessments'
             },
             {
                 id: 40,
@@ -360,7 +360,7 @@ module.exports = {
                 description: 'Interview Form',
                 slug: 'interviewForm',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/interview-forms'
             },
             {
                 id: 41,
@@ -368,7 +368,7 @@ module.exports = {
                 description: 'Feedback Form (Candidate Experience)',
                 slug: 'Feedback Form',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/applicants/(link|links)/(render|track|submit-message|create|send|set-comment-timeline|revoke)'
             }
         ]
     },
@@ -381,16 +381,16 @@ module.exports = {
                 name: 'Subscription and Coin',
                 description: 'Subscription and Coin',
                 slug: 'subscriptionAndCoin',
-                urlFront: '/jobs/edit',
-                urlBackend: '/jobs/$1/edit'
+                urlFront: '/account/subscription-plan',
+                urlBackend: '/payments'
             },
             {
                 id: 43,
                 name: 'Billing Info',
                 description: 'Billing Info',
                 slug: 'billingInfo',
-                urlFront: '/jobs/edit/$1/application-form',
-                urlBackend: '/jobs/$1/edit'
+                urlFront: '/account/billing',
+                urlBackend: '/billings/(get|create)'
             },
             {
                 id: 44,
@@ -398,15 +398,15 @@ module.exports = {
                 description: 'Billing History',
                 slug: 'billingHistory',
                 urlFront: '/jobs/edit/$1/pre-assessment',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/billings/histories'
             },
             {
                 id: 45,
                 name: 'Coin History',
                 description: 'Coin History',
                 slug: 'coinHistory',
-                urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlFront: '/account/coin-history',
+                urlBackend: '/resume/credit/histories/([a-z0-9]{25})'
             }
         ]
     },
@@ -420,15 +420,15 @@ module.exports = {
                 description: 'UH Job Widget',
                 slug: 'uhJobWidget',
                 urlFront: '/jobs/edit',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: ''
             },
             {
                 id: 47,
                 name: 'HRIS',
                 description: 'HRIS',
                 slug: 'hris',
-                urlFront: '/jobs/edit/$1/application-form',
-                urlBackend: '/jobs/$1/edit'
+                urlFront: '/account/integration',
+                urlBackend: '/integrations/(gadjian|talenta)/save-secret-key'
             }
         ]
     },
@@ -442,7 +442,7 @@ module.exports = {
                 description: 'Invite New User',
                 slug: 'inviteNewUser',
                 urlFront: '/jobs/edit',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/members/invitation'
             },
             {
                 id: 49,
@@ -450,7 +450,7 @@ module.exports = {
                 description: 'CRUD user group',
                 slug: 'UserGroup',
                 urlFront: '/jobs/edit/$1/application-form',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/users-group'
             }
         ]
     }
