@@ -11,14 +11,16 @@ module.exports = {
                 name: 'Create and Edit Job',
                 description: 'Create and Edit Job',
                 slug: 'createEditJob',
-                url: '/jobs/create|job/$1/edit'
+                urlFront: '/jobs/create|job/$1/edit',
+                urlBackend: '/position/(create|update|clone|close|archive|unarchive|delete|remove)/'
             },
             {
                 id: 2,
                 name: 'Publish Job',
                 description: 'Publish Job',
                 slug: 'publishJob',
-                url: '/jobs/$1/edit'
+                urlFront: '/jobs/$1/edit',
+                urlBackend: '/position/publish'
             }
         ],
     },
@@ -31,28 +33,32 @@ module.exports = {
                 name: 'Job Description',
                 description: 'Job Description',
                 slug: 'jobDescription',
-                url: '/jobs/edit'
+                urlFront: '/jobs/edit',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 4,
                 name: 'Application Form',
                 description: 'Application Form',
                 slug: 'ApplicationForm',
-                url: '/jobs/edit/$1/application-form'
+                urlFront: '/jobs/edit/$1/application-form',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 5,
                 name: 'Pre-Assessment',
                 description: 'Pre Assessment Test',
                 slug: 'PreAssessment',
-                url: '/jobs/edit/$1/pre-assessment'
+                urlFront: '/jobs/edit/$1/pre-assessment',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 6,
                 name: 'Hiring Team',
                 description: 'Hiring Team',
                 slug: 'HiringTeam',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             }
         ]
     },
@@ -65,98 +71,112 @@ module.exports = {
                 name: 'Send Email',
                 description: 'Send Email',
                 slug: 'applicationActionMenu',
-                url: '/jobs/edit'
+                urlFront: '/jobs/edit',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 8,
                 name: 'Set Schedule',
                 description: 'Set Schedule',
                 slug: 'setSchedule',
-                url: '/jobs/edit/$1/application-form'
+                urlFront: '/jobs/edit/$1/application-form',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 9,
                 name: 'Add Comment',
                 description: 'Add Comment',
                 slug: 'addComment',
-                url: '/jobs/edit/$1/pre-assessment'
+                urlFront: '/jobs/edit/$1/pre-assessment',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 10,
                 name: 'Interview Form',
                 description: 'Interview Form',
                 slug: 'interviewForm',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 11,
                 name: 'Assessment',
                 description: 'Assessment',
                 slug: 'Assessment',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 12,
                 name: 'Consideration',
                 description: 'Consideration',
                 slug: 'consideration',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 13,
                 name: 'Manage Applicant',
                 description: 'Manage Applicant',
                 slug: 'manageApplicant',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 14,
                 name: 'Request Feedback',
                 description: 'Request Feedback',
                 slug: 'requestFeedback',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 15,
                 name: 'Evaluation',
                 description: 'Evaluation',
                 slug: 'evaluation',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 16,
                 name: 'Duplicate Applicant',
                 description: 'Duplicate Applicant',
                 slug: 'duplicateApplicant',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 17,
                 name: 'Delete Applicant',
                 description: 'Delete Applicant',
                 slug: 'deleteApplicant',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 18,
                 name: 'Blacklist',
                 description: 'Blacklist',
                 slug: 'blacklist',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 19,
                 name: 'Add Applicant',
                 description: 'Add Applicant',
                 slug: 'addApplicant',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 20,
                 name: 'Move Applicant',
                 description: 'Move Applicant',
                 slug: 'moveApplicant',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             }
         ]
     },
@@ -169,28 +189,32 @@ module.exports = {
                 name: 'Profile',
                 description: 'Profile',
                 slug: 'profile',
-                url: '/jobs/edit'
+                urlFront: '/jobs/edit',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 22,
                 name: 'Timeline',
                 description: 'Timeline',
                 slug: 'timeline',
-                url: '/jobs/edit/$1/application-form'
+                urlFront: '/jobs/edit/$1/application-form',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 23,
                 name: 'Assessment',
                 description: 'Assessment',
                 slug: 'assessment-info',
-                url: '/jobs/edit/$1/pre-assessment'
+                urlFront: '/jobs/edit/$1/pre-assessment',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 24,
                 name: 'Comments',
                 description: 'Comments',
                 slug: 'comments',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             }
         ]
     },
@@ -203,42 +227,48 @@ module.exports = {
                 name: 'Dashboard (Job Lists)',
                 description: 'Dashboard (Job Lists)',
                 slug: 'jobLists',
-                url: '/jobs/edit'
+                urlFront: '/jobs/edit',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 26,
                 name: 'Applicants',
                 description: 'Applicants',
                 slug: 'applicants',
-                url: '/jobs/edit/$1/application-form'
+                urlFront: '/jobs/edit/$1/application-form',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 27,
                 name: 'Reports',
                 description: 'Reports',
                 slug: 'reports-info',
-                url: '/jobs/edit/$1/pre-assessment'
+                urlFront: '/jobs/edit/$1/pre-assessment',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 28,
                 name: 'Referral',
                 description: 'Referral',
                 slug: 'referral',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 29,
                 name: 'Agenda',
                 description: 'Agenda',
                 slug: 'agenda',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 30,
                 name: 'Resume Search',
                 description: 'Resume Search',
                 slug: 'resumeSearch',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             }
         ]
     },
@@ -251,42 +281,48 @@ module.exports = {
                 name: 'General Info',
                 description: 'General Info',
                 slug: 'generalInfo',
-                url: '/jobs/edit'
+                urlFront: '/jobs/edit',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 32,
                 name: 'Manage Companies',
                 description: 'Manage Companies',
                 slug: 'manageCompanies',
-                url: '/jobs/edit/$1/application-form'
+                urlFront: '/jobs/edit/$1/application-form',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 33,
                 name: 'Career Page',
                 description: 'Career Page',
                 slug: 'careerPage',
-                url: '/jobs/edit/$1/pre-assessment'
+                urlFront: '/jobs/edit/$1/pre-assessment',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 34,
                 name: 'Team Member',
                 description: 'Team Member',
                 slug: 'teamMember',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 35,
                 name: 'Hiring Stages',
                 description: 'Hiring Stages',
                 slug: 'hiringStages',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 36,
                 name: 'Blacklist',
                 description: 'Blacklist',
                 slug: 'blacklist',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             }
         ]
     },
@@ -299,35 +335,40 @@ module.exports = {
                 name: 'Email',
                 description: 'Email',
                 slug: 'email',
-                url: '/jobs/edit'
+                urlFront: '/jobs/edit',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 38,
                 name: 'Pre Assessment',
                 description: 'Pre Assessment',
                 slug: 'preAssessment',
-                url: '/jobs/edit/$1/application-form'
+                urlFront: '/jobs/edit/$1/application-form',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 39,
                 name: 'Basic Assessment',
                 description: 'Basic Assessment',
                 slug: 'basicAssessment',
-                url: '/jobs/edit/$1/pre-assessment'
+                urlFront: '/jobs/edit/$1/pre-assessment',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 40,
                 name: 'Interview Form',
                 description: 'Interview Form',
                 slug: 'interviewForm',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 41,
                 name: 'Feedback Form (Candidate Experience)',
                 description: 'Feedback Form (Candidate Experience)',
                 slug: 'Feedback Form',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             }
         ]
     },
@@ -340,28 +381,32 @@ module.exports = {
                 name: 'Subscription and Coin',
                 description: 'Subscription and Coin',
                 slug: 'subscriptionAndCoin',
-                url: '/jobs/edit'
+                urlFront: '/jobs/edit',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 43,
                 name: 'Billing Info',
                 description: 'Billing Info',
                 slug: 'billingInfo',
-                url: '/jobs/edit/$1/application-form'
+                urlFront: '/jobs/edit/$1/application-form',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 44,
                 name: 'Billing History',
                 description: 'Billing History',
                 slug: 'billingHistory',
-                url: '/jobs/edit/$1/pre-assessment'
+                urlFront: '/jobs/edit/$1/pre-assessment',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 45,
                 name: 'Coin History',
                 description: 'Coin History',
                 slug: 'coinHistory',
-                url: '/jobs/edit/$1/hiring-team'
+                urlFront: '/jobs/edit/$1/hiring-team',
+                urlBackend: '/jobs/$1/edit'
             }
         ]
     },
@@ -374,14 +419,16 @@ module.exports = {
                 name: 'UH Job Widget',
                 description: 'UH Job Widget',
                 slug: 'uhJobWidget',
-                url: '/jobs/edit'
+                urlFront: '/jobs/edit',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 47,
                 name: 'HRIS',
                 description: 'HRIS',
                 slug: 'hris',
-                url: '/jobs/edit/$1/application-form'
+                urlFront: '/jobs/edit/$1/application-form',
+                urlBackend: '/jobs/$1/edit'
             }
         ]
     },
@@ -394,14 +441,16 @@ module.exports = {
                 name: 'Invite New User',
                 description: 'Invite New User',
                 slug: 'inviteNewUser',
-                url: '/jobs/edit'
+                urlFront: '/jobs/edit',
+                urlBackend: '/jobs/$1/edit'
             },
             {
                 id: 49,
                 name: 'User Group',
                 description: 'CRUD user group',
                 slug: 'UserGroup',
-                url: '/jobs/edit/$1/application-form'
+                urlFront: '/jobs/edit/$1/application-form',
+                urlBackend: '/jobs/$1/edit'
             }
         ]
     }
