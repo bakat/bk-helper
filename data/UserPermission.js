@@ -34,7 +34,7 @@ module.exports = {
                 description: 'Job Description',
                 slug: 'jobDescription',
                 urlFront: '/jobs/edit',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/position/get-by-id/([a-z0-9]{25})'
             },
             {
                 id: 4,
@@ -42,7 +42,7 @@ module.exports = {
                 description: 'Application Form',
                 slug: 'ApplicationForm',
                 urlFront: '/jobs/edit/$1/application-form',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/application-form/upsert'
             },
             {
                 id: 5,
@@ -50,7 +50,7 @@ module.exports = {
                 description: 'Pre Assessment Test',
                 slug: 'PreAssessment',
                 urlFront: '/jobs/edit/$1/pre-assessment',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/preassessments'
             },
             {
                 id: 6,
@@ -58,7 +58,7 @@ module.exports = {
                 description: 'Hiring Team',
                 slug: 'HiringTeam',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/companies/members/([a-z0-9]{25})'
             }
         ]
     },
@@ -72,7 +72,7 @@ module.exports = {
                 description: 'Send Email',
                 slug: 'applicationActionMenu',
                 urlFront: '/jobs/edit',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/applicants/email/send'
             },
             {
                 id: 8,
@@ -80,7 +80,7 @@ module.exports = {
                 description: 'Set Schedule',
                 slug: 'setSchedule',
                 urlFront: '/jobs/edit/$1/application-form',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/applicants/set-schedule'
             },
             {
                 id: 9,
@@ -88,7 +88,7 @@ module.exports = {
                 description: 'Add Comment',
                 slug: 'addComment',
                 urlFront: '/jobs/edit/$1/pre-assessment',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/applicants/comment'
             },
             {
                 id: 10,
@@ -96,7 +96,7 @@ module.exports = {
                 description: 'Interview Form',
                 slug: 'interviewForm',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/interview-forms'
             },
             {
                 id: 11,
@@ -104,7 +104,7 @@ module.exports = {
                 description: 'Assessment',
                 slug: 'Assessment',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/(cut-e|assessments)/send-assessment'
             },
             {
                 id: 12,
@@ -120,7 +120,7 @@ module.exports = {
                 description: 'Manage Applicant',
                 slug: 'manageApplicant',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/applicants/update'
             },
             {
                 id: 14,
@@ -128,7 +128,7 @@ module.exports = {
                 description: 'Request Feedback',
                 slug: 'requestFeedback',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/request-feedback-applicant/([a-z0-9]{25})/send-invitation'
             },
             {
                 id: 15,
@@ -136,7 +136,7 @@ module.exports = {
                 description: 'Evaluation',
                 slug: 'evaluation',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/event/submit-custom-evaluation'
             },
             {
                 id: 16,
@@ -144,7 +144,7 @@ module.exports = {
                 description: 'Duplicate Applicant',
                 slug: 'duplicateApplicant',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/positions/assign-new-position'
             },
             {
                 id: 17,
@@ -152,7 +152,7 @@ module.exports = {
                 description: 'Delete Applicant',
                 slug: 'deleteApplicant',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/applicants/remove'
             },
             {
                 id: 18,
@@ -160,7 +160,7 @@ module.exports = {
                 description: 'Blacklist',
                 slug: 'blacklist',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/blacklist/([a-z0-9]{25})/(add|update|get|post-excel|set-applicant)'
             },
             {
                 id: 19,
@@ -168,7 +168,7 @@ module.exports = {
                 description: 'Add Applicant',
                 slug: 'addApplicant',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/positions/([a-z0-9]{25})/sourced'
             },
             {
                 id: 20,
@@ -176,7 +176,7 @@ module.exports = {
                 description: 'Move Applicant',
                 slug: 'moveApplicant',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/applicants/([a-z0-9]{25})/move'
             }
         ]
     },
@@ -190,7 +190,7 @@ module.exports = {
                 description: 'Profile',
                 slug: 'profile',
                 urlFront: '/jobs/edit',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/applicants/([a-z0-9]{25})'
             },
             {
                 id: 22,
@@ -198,7 +198,7 @@ module.exports = {
                 description: 'Timeline',
                 slug: 'timeline',
                 urlFront: '/jobs/edit/$1/application-form',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/applicants/activities/timeline/([a-z0-9]{25})/([a-z0-9]{25})'
             },
             {
                 id: 23,
@@ -214,7 +214,7 @@ module.exports = {
                 description: 'Comments',
                 slug: 'comments',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/applicants/activities/note/([a-z0-9]{25})/([a-z0-9]{25})'
             }
         ]
     },
@@ -228,7 +228,7 @@ module.exports = {
                 description: 'Dashboard (Job Lists)',
                 slug: 'jobLists',
                 urlFront: '/jobs/edit',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/positions/list'
             },
             {
                 id: 26,
@@ -236,7 +236,7 @@ module.exports = {
                 description: 'Applicants',
                 slug: 'applicants',
                 urlFront: '/jobs/edit/$1/application-form',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/applicant/search/([a-z0-9]{25})'
             },
             {
                 id: 27,
@@ -252,7 +252,7 @@ module.exports = {
                 description: 'Referral',
                 slug: 'referral',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/referral-campaigns/([a-z0-9]{25})/get-list'
             },
             {
                 id: 29,
@@ -260,7 +260,7 @@ module.exports = {
                 description: 'Agenda',
                 slug: 'agenda',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/agenda/(filter-list-job|list)/([a-z0-9]{25})'
             },
             {
                 id: 30,
@@ -268,7 +268,7 @@ module.exports = {
                 description: 'Resume Search',
                 slug: 'resumeSearch',
                 urlFront: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlBackend: '/resume/folder/list/([a-z0-9]{25})'
             }
         ]
     },
