@@ -59,6 +59,38 @@ module.exports = {
                 slug: 'HiringTeam',
                 urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
                 urlBackend: '/companies/members/(:mongoId)'
+            },
+            {
+                id: 50,
+                name: 'Hiring Stages',
+                description: 'Hiring Stages',
+                slug: 'hiringStages',
+                urlFrontend: '/jobs/edit/(:mongoId)/hiring-stage',
+                urlBackend: '/companies/members/(:mongoId)'
+            },
+            {
+                id: 51,
+                name: 'Clone Job',
+                description: 'Clone Job',
+                slug: 'cloneJob',
+                urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
+                urlBackend: '/companies/members/(:mongoId)'
+            },
+            {
+                id: 52,
+                name: 'Close Job',
+                description: 'Close Job',
+                slug: 'closeJob',
+                urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
+                urlBackend: '/companies/members/(:mongoId)'
+            },
+            {
+                id: 53,
+                name: 'Advertise Job',
+                description: 'Advertise Job',
+                slug: 'advertiseJob',
+                urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
+                urlBackend: '/companies/members/(:mongoId)'
             }
         ]
     },
