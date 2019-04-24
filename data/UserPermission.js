@@ -236,7 +236,7 @@ module.exports = {
                 id: 23,
                 name: 'Assessment',
                 description: 'Assessment',
-                slug: 'assessment-info',
+                slug: 'assessmentInfo',
                 urlFrontend: '/jobs/edit/(:mongoId)/pre-assessment',
                 urlBackend: '/jobs/(:mongoId)/edit'
             },
@@ -274,7 +274,7 @@ module.exports = {
                 id: 27,
                 name: 'Reports',
                 description: 'Reports',
-                slug: 'reports-info',
+                slug: 'reportsInfo',
                 urlFrontend: '/jobs/edit/(:mongoId)/pre-assessment',
                 urlBackend: '/jobs/(:mongoId)/edit'
             },
@@ -398,7 +398,7 @@ module.exports = {
                 id: 41,
                 name: 'Feedback Form (Candidate Experience)',
                 description: 'Feedback Form (Candidate Experience)',
-                slug: 'Feedback Form',
+                slug: 'FeedbackForm',
                 urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
                 urlBackend: '/applicants/(link|links)/(render|track|submit-message|create|send|set-comment-timeline|revoke)'
             }
