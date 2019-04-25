@@ -11,7 +11,7 @@ module.exports = {
                 name: 'Create and Edit Job',
                 description: 'Create and Edit Job',
                 slug: 'createEditJob',
-                urlFrontend: '/jobs/create|job/$1/edit',
+                urlFrontend: '/(jobs/((:mongoId)/edit|create|delete))',
                 urlBackend: '/position/(create|update|clone|close|archive|unarchive|delete|remove)/'
             },
             {
@@ -19,7 +19,7 @@ module.exports = {
                 name: 'Publish Job',
                 description: 'Publish Job',
                 slug: 'publishJob',
-                urlFrontend: '/jobs/$1/edit',
+                urlFrontend: '/jobs/(:mongoId)/edit',
                 urlBackend: '/position/publish'
             }
         ],
@@ -41,7 +41,7 @@ module.exports = {
                 name: 'Application Form',
                 description: 'Application Form',
                 slug: 'ApplicationForm',
-                urlFrontend: '/jobs/edit/$1/application-form',
+                urlFrontend: '/jobs/edit/(:mongoId)/application-form',
                 urlBackend: '/application-form/upsert'
             },
             {
@@ -49,7 +49,7 @@ module.exports = {
                 name: 'Pre-Assessment',
                 description: 'Pre Assessment Test',
                 slug: 'PreAssessment',
-                urlFrontend: '/jobs/edit/$1/pre-assessment',
+                urlFrontend: '/jobs/edit/(:mongoId)/pre-assessment',
                 urlBackend: '/preassessments'
             },
             {
@@ -57,7 +57,39 @@ module.exports = {
                 name: 'Hiring Team',
                 description: 'Hiring Team',
                 slug: 'HiringTeam',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
+                urlBackend: '/companies/members/(:mongoId)'
+            },
+            {
+                id: 50,
+                name: 'Hiring Stages',
+                description: 'Hiring Stages',
+                slug: 'hiringStages',
+                urlFrontend: '/jobs/edit/(:mongoId)/hiring-stage',
+                urlBackend: '/companies/members/(:mongoId)'
+            },
+            {
+                id: 51,
+                name: 'Clone Job',
+                description: 'Clone Job',
+                slug: 'cloneJob',
+                urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
+                urlBackend: '/companies/members/(:mongoId)'
+            },
+            {
+                id: 52,
+                name: 'Close Job',
+                description: 'Close Job',
+                slug: 'closeJob',
+                urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
+                urlBackend: '/companies/members/(:mongoId)'
+            },
+            {
+                id: 53,
+                name: 'Advertise Job',
+                description: 'Advertise Job',
+                slug: 'advertiseJob',
+                urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
                 urlBackend: '/companies/members/(:mongoId)'
             }
         ]
@@ -71,7 +103,7 @@ module.exports = {
                 name: 'Send Email',
                 description: 'Send Email',
                 slug: 'applicationActionMenu',
-                urlFrontend: '/jobs/edit',
+                urlFrontend: '',
                 urlBackend: '/applicants/email/send'
             },
             {
@@ -79,7 +111,7 @@ module.exports = {
                 name: 'Set Schedule',
                 description: 'Set Schedule',
                 slug: 'setSchedule',
-                urlFrontend: '/jobs/edit/$1/application-form',
+                urlFrontend: '',
                 urlBackend: '/applicants/set-schedule'
             },
             {
@@ -87,7 +119,7 @@ module.exports = {
                 name: 'Add Comment',
                 description: 'Add Comment',
                 slug: 'addComment',
-                urlFrontend: '/jobs/edit/$1/pre-assessment',
+                urlFrontend: '',
                 urlBackend: '/applicants/comment'
             },
             {
@@ -95,7 +127,7 @@ module.exports = {
                 name: 'Interview Form',
                 description: 'Interview Form',
                 slug: 'interviewForm',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/interview-forms'
             },
             {
@@ -103,7 +135,7 @@ module.exports = {
                 name: 'Assessment',
                 description: 'Assessment',
                 slug: 'Assessment',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/(cut-e|assessments)/send-assessment'
             },
             {
@@ -111,15 +143,15 @@ module.exports = {
                 name: 'Consideration',
                 description: 'Consideration',
                 slug: 'consideration',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
-                urlBackend: '/jobs/$1/edit'
+                urlFrontend: '',
+                urlBackend: '/jobs/(:mongoId)/edit'
             },
             {
                 id: 13,
                 name: 'Manage Applicant',
                 description: 'Manage Applicant',
                 slug: 'manageApplicant',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/applicants/update'
             },
             {
@@ -127,7 +159,7 @@ module.exports = {
                 name: 'Request Feedback',
                 description: 'Request Feedback',
                 slug: 'requestFeedback',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/request-feedback-applicant/(:mongoId)/send-invitation'
             },
             {
@@ -135,7 +167,7 @@ module.exports = {
                 name: 'Evaluation',
                 description: 'Evaluation',
                 slug: 'evaluation',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/event/submit-custom-evaluation'
             },
             {
@@ -143,7 +175,7 @@ module.exports = {
                 name: 'Duplicate Applicant',
                 description: 'Duplicate Applicant',
                 slug: 'duplicateApplicant',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/positions/assign-new-position'
             },
             {
@@ -151,7 +183,7 @@ module.exports = {
                 name: 'Delete Applicant',
                 description: 'Delete Applicant',
                 slug: 'deleteApplicant',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/applicants/remove'
             },
             {
@@ -159,7 +191,7 @@ module.exports = {
                 name: 'Blacklist',
                 description: 'Blacklist',
                 slug: 'blacklist',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/blacklist/(:mongoId)/(add|update|get|post-excel|set-applicant)'
             },
             {
@@ -167,7 +199,7 @@ module.exports = {
                 name: 'Add Applicant',
                 description: 'Add Applicant',
                 slug: 'addApplicant',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/positions/(:mongoId)/sourced'
             },
             {
@@ -175,7 +207,7 @@ module.exports = {
                 name: 'Move Applicant',
                 description: 'Move Applicant',
                 slug: 'moveApplicant',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/applicants/(:mongoId)/move'
             }
         ]
@@ -189,7 +221,7 @@ module.exports = {
                 name: 'Profile',
                 description: 'Profile',
                 slug: 'profile',
-                urlFrontend: '/jobs/edit',
+                urlFrontend: '',
                 urlBackend: '/applicants/(:mongoId)'
             },
             {
@@ -197,23 +229,23 @@ module.exports = {
                 name: 'Timeline',
                 description: 'Timeline',
                 slug: 'timeline',
-                urlFrontend: '/jobs/edit/$1/application-form',
+                urlFrontend: '',
                 urlBackend: '/applicants/activities/timeline/(:mongoId)/(:mongoId)'
             },
             {
                 id: 23,
                 name: 'Assessment',
                 description: 'Assessment',
-                slug: 'assessment-info',
-                urlFrontend: '/jobs/edit/$1/pre-assessment',
-                urlBackend: '/jobs/$1/edit'
+                slug: 'assessmentInfo',
+                urlFrontend: '',
+                urlBackend: '/jobs/(:mongoId)/edit'
             },
             {
                 id: 24,
                 name: 'Comments',
                 description: 'Comments',
                 slug: 'comments',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/applicants/activities/note/(:mongoId)/(:mongoId)'
             }
         ]
@@ -227,7 +259,7 @@ module.exports = {
                 name: 'Dashboard (Job Lists)',
                 description: 'Dashboard (Job Lists)',
                 slug: 'jobLists',
-                urlFrontend: '/jobs/edit',
+                urlFrontend: '/jobs/(:mongoId)/applicant',
                 urlBackend: '/positions/list'
             },
             {
@@ -235,23 +267,23 @@ module.exports = {
                 name: 'Applicants',
                 description: 'Applicants',
                 slug: 'applicants',
-                urlFrontend: '/jobs/edit/$1/application-form',
+                urlFrontend: '/candidates',
                 urlBackend: '/applicant/search/(:mongoId)'
             },
             {
                 id: 27,
                 name: 'Reports',
                 description: 'Reports',
-                slug: 'reports-info',
-                urlFrontend: '/jobs/edit/$1/pre-assessment',
-                urlBackend: '/jobs/$1/edit'
+                slug: 'reportsInfo',
+                urlFrontend: '/reports/',
+                urlBackend: '/jobs/(:mongoId)/edit'
             },
             {
                 id: 28,
                 name: 'Referral',
                 description: 'Referral',
                 slug: 'referral',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '/referrals',
                 urlBackend: '/referral-campaigns/(:mongoId)/get-list'
             },
             {
@@ -259,7 +291,7 @@ module.exports = {
                 name: 'Agenda',
                 description: 'Agenda',
                 slug: 'agenda',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '/agendas',
                 urlBackend: '/agenda/(filter-list-job|list)/(:mongoId)'
             },
             {
@@ -267,7 +299,7 @@ module.exports = {
                 name: 'Resume Search',
                 description: 'Resume Search',
                 slug: 'resumeSearch',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '/resume',
                 urlBackend: '/resume/folder/list/(:mongoId)'
             }
         ]
@@ -281,7 +313,7 @@ module.exports = {
                 name: 'General Info',
                 description: 'General Info',
                 slug: 'generalInfo',
-                urlFrontend: '/jobs/edit',
+                urlFrontend: '/account/company',
                 urlBackend: '/companies/(get-by-id|update)'
             },
             {
@@ -289,15 +321,15 @@ module.exports = {
                 name: 'Manage Companies',
                 description: 'Manage Companies',
                 slug: 'manageCompanies',
-                urlFrontend: '/jobs/edit/$1/application-form',
-                urlBackend: '/jobs/$1/edit'
+                urlFrontend: '/account/manage-companies',
+                urlBackend: '/jobs/(:mongoId)/edit'
             },
             {
                 id: 33,
                 name: 'Career Page',
                 description: 'Career Page',
                 slug: 'careerPage',
-                urlFrontend: '/jobs/edit/$1/pre-assessment',
+                urlFrontend: '/jobs/edit/(:mongoId)/pre-assessment',
                 urlBackend: '/career-site'
             },
             {
@@ -305,7 +337,7 @@ module.exports = {
                 name: 'Team Member',
                 description: 'Team Member',
                 slug: 'teamMember',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '/account/account-member',
                 urlBackend: '/companies/members/(:mongoId)'
             },
             {
@@ -313,7 +345,7 @@ module.exports = {
                 name: 'Hiring Stages',
                 description: 'Hiring Stages',
                 slug: 'hiringStages',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '/account/hiring-plan',
                 urlBackend: '/companies/hiring-pipeline'
             },
             {
@@ -321,7 +353,7 @@ module.exports = {
                 name: 'Blacklist',
                 description: 'Blacklist',
                 slug: 'blacklist',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '/account/blacklist-applicants',
                 urlBackend: '/blacklist'
             }
         ]
@@ -335,7 +367,7 @@ module.exports = {
                 name: 'Email',
                 description: 'Email',
                 slug: 'email',
-                urlFrontend: '/jobs/edit',
+                urlFrontend: '/account/recruiting',
                 urlBackend: '/recruiting'
             },
             {
@@ -343,7 +375,7 @@ module.exports = {
                 name: 'Pre Assessment',
                 description: 'Pre Assessment',
                 slug: 'preAssessment',
-                urlFrontend: '/jobs/edit/$1/application-form',
+                urlFrontend: '/account/preassessment-templates',
                 urlBackend: '/preassessments-companies'
             },
             {
@@ -351,7 +383,7 @@ module.exports = {
                 name: 'Basic Assessment',
                 description: 'Basic Assessment',
                 slug: 'basicAssessment',
-                urlFrontend: '/jobs/edit/$1/pre-assessment',
+                urlFrontend: '/account/basic-assessment-templates',
                 urlBackend: '/preassessments'
             },
             {
@@ -359,15 +391,15 @@ module.exports = {
                 name: 'Interview Form',
                 description: 'Interview Form',
                 slug: 'interviewForm',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                urlFrontend: '/account/template-interview-form',
                 urlBackend: '/interview-forms'
             },
             {
                 id: 41,
                 name: 'Feedback Form (Candidate Experience)',
                 description: 'Feedback Form (Candidate Experience)',
-                slug: 'Feedback Form',
-                urlFrontend: '/jobs/edit/$1/hiring-team',
+                slug: 'FeedbackForm',
+                urlFrontend: '/account/feedback-form',
                 urlBackend: '/applicants/(link|links)/(render|track|submit-message|create|send|set-comment-timeline|revoke)'
             }
         ]
@@ -397,7 +429,7 @@ module.exports = {
                 name: 'Billing History',
                 description: 'Billing History',
                 slug: 'billingHistory',
-                urlFrontend: '/jobs/edit/$1/pre-assessment',
+                urlFrontend: '/account/history',
                 urlBackend: '/billings/histories'
             },
             {
@@ -419,7 +451,7 @@ module.exports = {
                 name: 'UH Job Widget',
                 description: 'UH Job Widget',
                 slug: 'uhJobWidget',
-                urlFrontend: '/jobs/edit',
+                urlFrontend: '/account/integration',
                 urlBackend: ''
             },
             {
@@ -441,7 +473,7 @@ module.exports = {
                 name: 'Invite New User',
                 description: 'Invite New User',
                 slug: 'inviteNewUser',
-                urlFrontend: '/jobs/edit',
+                urlFrontend: '/account/user-role',
                 urlBackend: '/members/invitation'
             },
             {
@@ -449,7 +481,7 @@ module.exports = {
                 name: 'User Group',
                 description: 'CRUD user group',
                 slug: 'UserGroup',
-                urlFrontend: '/jobs/edit/$1/application-form',
+                urlFrontend: '',
                 urlBackend: '/users-group'
             }
         ]
@@ -652,7 +684,24 @@ module.exports = {
         {
             id: 49,
             access: true
+        },
+        {
+            id: 50,
+            access: true
+        },
+        {
+            id: 51,
+            access: true
+        },
+        {
+            id: 52,
+            access: true
+        },
+        {
+            id: 53,
+            access: true
         }
+
     ],
     defaultAccess: [
         {
@@ -849,6 +898,22 @@ module.exports = {
         },
         {
             id: 49,
+            access: true
+        },
+        {
+            id: 50,
+            access: true
+        },
+        {
+            id: 51,
+            access: true
+        },
+        {
+            id: 52,
+            access: true
+        },
+        {
+            id: 53,
             access: true
         }
     ]
