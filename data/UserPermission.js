@@ -684,7 +684,24 @@ module.exports = {
         {
             id: 49,
             access: true
+        },
+        {
+            id: 50,
+            access: true
+        },
+        {
+            id: 51,
+            access: true
+        },
+        {
+            id: 52,
+            access: true
+        },
+        {
+            id: 53,
+            access: true
         }
+
     ],
     defaultAccess: [
         {
@@ -881,6 +898,22 @@ module.exports = {
         },
         {
             id: 49,
+            access: true
+        },
+        {
+            id: 50,
+            access: true
+        },
+        {
+            id: 51,
+            access: true
+        },
+        {
+            id: 52,
+            access: true
+        },
+        {
+            id: 53,
             access: true
         }
     ]
