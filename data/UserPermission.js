@@ -390,7 +390,7 @@ module.exports = {
                 id: 40,
                 name: 'Interview Form',
                 description: 'Interview Form',
-                slug: 'interviewForm',
+                slug: 'interviewFormTemplate',
                 urlFrontend: '/account/template-interview-form',
                 urlBackend: '/interview-forms'
             },
