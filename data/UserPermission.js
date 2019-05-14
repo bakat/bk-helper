@@ -11,7 +11,7 @@ module.exports = {
                 name: 'Create and Edit Job',
                 description: 'Create and Edit Job',
                 slug: 'createEditJob',
-                urlFrontend: '/(jobs/((:mongoId)/edit|create|delete))',
+                urlFrontend: '/jobs/create',
                 urlBackend: '/position/(create|update|clone|close|archive|unarchive|delete|remove)/'
             },
             {
@@ -33,7 +33,7 @@ module.exports = {
                 name: 'Job Description',
                 description: 'Job Description',
                 slug: 'jobDescription',
-                urlFrontend: '/jobs/edit',
+                urlFrontend: '/jobs/(:mongoId)/edit',
                 urlBackend: '/position/get-by-id/(:mongoId)'
             },
             {
@@ -89,7 +89,7 @@ module.exports = {
                 name: 'Advertise Job',
                 description: 'Advertise Job',
                 slug: 'advertiseJob',
-                urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
+                urlFrontend: '/jobs/edit/(:mongoId)/advertise-job',
                 urlBackend: '/companies/members/(:mongoId)'
             }
         ]
@@ -390,7 +390,7 @@ module.exports = {
                 id: 40,
                 name: 'Interview Form',
                 description: 'Interview Form',
-                slug: 'interviewForm',
+                slug: 'interviewFormTemplate',
                 urlFrontend: '/account/template-interview-form',
                 urlBackend: '/interview-forms'
             },
@@ -483,6 +483,22 @@ module.exports = {
                 slug: 'UserGroup',
                 urlFrontend: '',
                 urlBackend: '/users-group'
+            },
+            {
+                id: 54,
+                name: 'Edit User',
+                description: 'Edit User',
+                slug: 'EditUser',
+                urlFrontend: '',
+                urlBackend: '/users/update-profile-member'
+            },
+            {
+                id: 55,
+                name: 'Remove User',
+                description: 'Remove User',
+                slug: 'RemoveUser',
+                urlFrontend: '',
+                urlBackend: '/companies/members/remove/(:mongoId)'
             }
         ]
     }
@@ -700,6 +716,14 @@ module.exports = {
         {
             id: 53,
             access: true
+        },
+        {
+            id: 54,
+            access: true
+        },
+        {
+            id: 55,
+            access: true
         }
 
     ],
@@ -914,6 +938,14 @@ module.exports = {
         },
         {
             id: 53,
+            access: true
+        },
+        {
+            id: 54,
+            access: true
+        },
+        {
+            id: 55,
             access: true
         }
     ]
