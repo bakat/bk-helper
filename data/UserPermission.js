@@ -483,6 +483,22 @@ module.exports = {
                 slug: 'UserGroup',
                 urlFrontend: '',
                 urlBackend: '/users-group'
+            },
+            {
+                id: 54,
+                name: 'Edit User',
+                description: 'Edit User',
+                slug: 'EditUser',
+                urlFrontend: '',
+                urlBackend: '/users/update-profile-member'
+            },
+            {
+                id: 55,
+                name: 'Remove User',
+                description: 'Remove User',
+                slug: 'RemoveUser',
+                urlFrontend: '',
+                urlBackend: '/companies/members/remove/(:mongoId)'
             }
         ]
     }
@@ -700,6 +716,14 @@ module.exports = {
         {
             id: 53,
             access: true
+        },
+        {
+            id: 54,
+            access: true
+        },
+        {
+            id: 55,
+            access: true
         }
 
     ],
@@ -914,6 +938,14 @@ module.exports = {
         },
         {
             id: 53,
+            access: true
+        },
+        {
+            id: 54,
+            access: true
+        },
+        {
+            id: 55,
             access: true
         }
     ]
