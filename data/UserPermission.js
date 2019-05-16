@@ -64,7 +64,7 @@ module.exports = {
                 id: 50,
                 name: 'Hiring Stages',
                 description: 'Hiring Stages',
-                slug: 'hiringStages',
+                slug: 'hiringStagesMenu',
                 urlFrontend: '/jobs/edit/(:mongoId)/hiring-stage',
                 urlBackend: '/companies/members/(:mongoId)'
             },
@@ -73,7 +73,7 @@ module.exports = {
                 name: 'Clone Job',
                 description: 'Clone Job',
                 slug: 'cloneJob',
-                urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/companies/members/(:mongoId)'
             },
             {
@@ -81,7 +81,7 @@ module.exports = {
                 name: 'Close Job',
                 description: 'Close Job',
                 slug: 'closeJob',
-                urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
+                urlFrontend: '',
                 urlBackend: '/companies/members/(:mongoId)'
             },
             {
@@ -352,7 +352,7 @@ module.exports = {
                 id: 36,
                 name: 'Blacklist',
                 description: 'Blacklist',
-                slug: 'blacklist',
+                slug: 'blacklistMenu',
                 urlFrontend: '/account/blacklist-applicants',
                 urlBackend: '/blacklist'
             }
@@ -374,7 +374,7 @@ module.exports = {
                 id: 38,
                 name: 'Pre Assessment',
                 description: 'Pre Assessment',
-                slug: 'preAssessment',
+                slug: 'preAssessmentTemplate',
                 urlFrontend: '/account/preassessment-templates',
                 urlBackend: '/preassessments-companies'
             },
