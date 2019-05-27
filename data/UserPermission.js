@@ -234,7 +234,7 @@ module.exports = {
             },
             {
                 id: 23,
-                name: 'Assessment',
+                name: 'Assessment Result',
                 description: 'Assessment',
                 slug: 'assessmentInfo',
                 urlFrontend: '',
