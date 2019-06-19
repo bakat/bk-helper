@@ -19,7 +19,7 @@ module.exports = {
                 name: 'Publish Job',
                 description: 'Publish Job',
                 slug: 'publishJob',
-                urlFrontend: '/jobs/(:mongoId)/edit',
+                urlFrontend: '',
                 urlBackend: '/position/publish'
             }
         ],
