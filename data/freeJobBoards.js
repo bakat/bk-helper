@@ -13,7 +13,7 @@ module.exports = [
     host: 'google',
     provider: 'Google',
     description: 'Google brings together job postings from across the web. Have your job postings found by millions of job seekers who search on Google every day',
-    logo: '//cdn.urbanhire.co/img/publisher/google.png',
+    logo: '//cdn.urbanhire.com/img/publisher/google.png',
     defaultXml: true
   },
   {
@@ -132,15 +132,15 @@ module.exports = [
     logo: '//cdn.urbanhire.com/img/publisher/mitula.png',
     description: 'Mitula is a vertical search engine for jobs classified ads. In one click you get free and detailed information about your search. mitula offers you thousands of ads from hundreds of our partner´s specialized portals.'
   },
-  {
-    name: 'Edajobs',
-    domain: 'www.edajobs.com',
-    host: 'edajobs',
-    provider: 'www.edajobs.com',
-    logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/edajobs-logo.png',
-    description: 'EDAJOBS.COM membantu Anda untuk menemukan pekerjaan baru yang lebih mudah, sehingga Anda dapat memberikan resume Anda langsung ke perusahaan perekrutan.',
-    defaultXml: true
-  },
+  // {
+  //   name: 'Edajobs',
+  //   domain: 'www.edajobs.com',
+  //   host: 'edajobs',
+  //   provider: 'www.edajobs.com',
+  //   logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/edajobs-logo.png',
+  //   description: 'EDAJOBS.COM membantu Anda untuk menemukan pekerjaan baru yang lebih mudah, sehingga Anda dapat memberikan resume Anda langsung ke perusahaan perekrutan.',
+  //   defaultXml: true
+  // },
   {
     name: 'Klikkarir',
     domain: 'www.klikkarir.com',
