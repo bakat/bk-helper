@@ -25,6 +25,7 @@ const defaults = {
   productTranning: 'online', // on-site, online
   AccountExecutiveForSupport: true,
   enableJobUrl: false,
+  allowExternalApplyLink: false,
   mergeCareerSite: []
 }
 
