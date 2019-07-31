@@ -5931,7 +5931,7 @@ module.exports = {
         id: 5,
         eng: 'Bachelor Degree/S1',
         idn: 'Bachelor Degree/S1',
-        uh: ['Bachelor Degree', 'Diploma Degree - D4']
+        uh: ['Bachelor Degree', 'Bachelor Degree - S1']
       },
       {
         id: 6,
