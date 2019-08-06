@@ -32,7 +32,7 @@ module.exports = {
     EmailTemplateUpdate: 'updated-email-template',
     EmailTemplateDelete: 'deleted-email-template',
     BillingUpdate: 'updated-billing-information',
-    IntegrationWidget: 'updated-billing-information',
+    IntegrationWidget: 'updated-secret-key-integration',
     UsersUpdateProfile: 'updated-profile-user',
     UsersUpdateEmail: 'updated-email-user',
     UsersUpdatePassword: 'updated-password-user',
