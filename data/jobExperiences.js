@@ -13,5 +13,7 @@ module.exports = [{
 }, {
   name: 'C - Level (CEO, COO, CMO, CFO)'
 },{
-  name: 'Others & Max 2 years experience'
+  name: 'Max 2 years experience'
+},{
+  name: 'Others'
 }]
