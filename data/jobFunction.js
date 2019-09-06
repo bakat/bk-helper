@@ -69,6 +69,8 @@ module.exports = [{
 }, {
   'name': 'Supply Chain'
 }, {
+  'name': 'Secretary'
+}, {
   'name': 'Training'
 }, {
   'name': 'Writing/Editing'
