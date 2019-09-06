@@ -15,5 +15,5 @@ module.exports = [{
 },{
   name: 'Max 2 years experience'
 },{
-  name: 'Others'
+  name: 'Other'
 }]
