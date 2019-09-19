@@ -263,7 +263,7 @@ module.exports = [
     host: 'jalurkerja.com',
     provider: 'jalurkerja.com',
     description: 'Jalurkerja.com merupakan unit bisnis dibidang jasa solusi IT yang memberikan layanan kepada perusahaan agar kinerja perusahaan semakin efektif dan efesien. Jasa yang diberikan lebih fokus kepada berbagai hal yang berhubungan dan menunjang sumber daya manusia',
-    logo: '//cdn.urbanhire.com/img/publisher/jalurKerja.png',
+    logo: '//cdn.urbanhire.com/img/publisher/jalurKerja.jpeg',
     defaultXml: true
   }
 ]
