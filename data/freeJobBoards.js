@@ -247,5 +247,23 @@ module.exports = [
     description: 'Jobfinder is a new job search engine that provides job seekers free access to millions of job openings across thousands of job categories and industries. We aggregate, filter and sort huge amounts of data from hundreds of job boards, classifieds sites, company homepages and other job related Websites and make them available to you in a fast, clean and easy to use interface..',
     logo: '//cdn.urbanhire.com/img/publisher/Jobfinder.png',
     defaultXml: true
+  },
+  {
+    name: 'Jojoba',
+    domain: 'https://jojoba.jobs',
+    host: 'jojoba.jobs',
+    provider: 'jojoba.jobs',
+    description: 'A blue-collar solution, delivering consistent supply of workers who are curated, trained, and reliable.',
+    logo: '//cdn.urbanhire.com/img/publisher/jojobaJobs.png',
+    defaultXml: true
+  },
+  {
+    name: 'JalurKerja',
+    domain: 'https://jalurkerja.com',
+    host: 'jalurkerja.com',
+    provider: 'jalurkerja.com',
+    description: 'Jalurkerja.com merupakan unit bisnis dibidang jasa solusi IT yang memberikan layanan kepada perusahaan agar kinerja perusahaan semakin efektif dan efesien. Jasa yang diberikan lebih fokus kepada berbagai hal yang berhubungan dan menunjang sumber daya manusia.',
+    logo: '//cdn.urbanhire.com/img/publisher/jalurKerja.jpeg',
+    defaultXml: true
   }
 ]
