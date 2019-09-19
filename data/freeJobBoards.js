@@ -253,7 +253,7 @@ module.exports = [
     domain: 'https://jojoba.jobs',
     host: 'jojoba.jobs',
     provider: 'jojoba.jobs',
-    description: 'A blue-collar solution, delivering consistent supply of workers who are curated, trained, and reliable',
+    description: 'A blue-collar solution, delivering consistent supply of workers who are curated, trained, and reliable.',
     logo: '//cdn.urbanhire.com/img/publisher/jojobaJobs.png',
     defaultXml: true
   },
@@ -262,7 +262,7 @@ module.exports = [
     domain: 'https://jalurkerja.com',
     host: 'jalurkerja.com',
     provider: 'jalurkerja.com',
-    description: 'Jalurkerja.com merupakan unit bisnis dibidang jasa solusi IT yang memberikan layanan kepada perusahaan agar kinerja perusahaan semakin efektif dan efesien. Jasa yang diberikan lebih fokus kepada berbagai hal yang berhubungan dan menunjang sumber daya manusia',
+    description: 'Jalurkerja.com merupakan unit bisnis dibidang jasa solusi IT yang memberikan layanan kepada perusahaan agar kinerja perusahaan semakin efektif dan efesien. Jasa yang diberikan lebih fokus kepada berbagai hal yang berhubungan dan menunjang sumber daya manusia.',
     logo: '//cdn.urbanhire.com/img/publisher/jalurKerja.jpeg',
     defaultXml: true
   }
