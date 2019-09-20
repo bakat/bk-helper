@@ -124,14 +124,14 @@ module.exports = [
     logo: '//cdn.urbanhire.com/img/publisher/jooble.png',
     description: 'Jooble display job postings indexed from various job boards, companies, websites, digital newspapers and recruitment agencies'
   },
-  {
-    name: 'Mitula',
-    domain: 'mitula.co.id',
-    host: 'mitula',
-    provider: 'mitula.co.id',
-    logo: '//cdn.urbanhire.com/img/publisher/mitula.png',
-    description: 'Mitula is a vertical search engine for jobs classified ads. In one click you get free and detailed information about your search. mitula offers you thousands of ads from hundreds of our partner´s specialized portals.'
-  },
+  // {
+  //   name: 'Mitula',
+  //   domain: 'mitula.co.id',
+  //   host: 'mitula',
+  //   provider: 'mitula.co.id',
+  //   logo: '//cdn.urbanhire.com/img/publisher/mitula.png',
+  //   description: 'Mitula is a vertical search engine for jobs classified ads. In one click you get free and detailed information about your search. mitula offers you thousands of ads from hundreds of our partner´s specialized portals.'
+  // },
   // {
   //   name: 'Edajobs',
   //   domain: 'www.edajobs.com',
@@ -141,15 +141,15 @@ module.exports = [
   //   description: 'EDAJOBS.COM membantu Anda untuk menemukan pekerjaan baru yang lebih mudah, sehingga Anda dapat memberikan resume Anda langsung ke perusahaan perekrutan.',
   //   defaultXml: true
   // },
-  {
-    name: 'Klikkarir',
-    domain: 'www.klikkarir.com',
-    host: 'klikkarir',
-    provider: 'www.klikkarir.com',
-    logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/klikkarir-logo.png',
-    description: 'Portal lowongan kerja di Indonesia dengan lebih dari 25 ribu pencari kerja dan 5 ribu perusahaan. Buat resume/CV atau pasang iklan lowongan gratis!',
-    defaultXml: true
-  },
+  // {
+  //   name: 'Klikkarir',
+  //   domain: 'www.klikkarir.com',
+  //   host: 'klikkarir',
+  //   provider: 'www.klikkarir.com',
+  //   logo: '//s3-ap-southeast-1.amazonaws.com/urbanhire/klikkarir-logo.png',
+  //   description: 'Portal lowongan kerja di Indonesia dengan lebih dari 25 ribu pencari kerja dan 5 ribu perusahaan. Buat resume/CV atau pasang iklan lowongan gratis!',
+  //   defaultXml: true
+  // },
   {
     name: 'Cari.co',
     domain: 'jobs.cari.co',
@@ -176,69 +176,69 @@ module.exports = [
     description: 'Pencarian lowongan kerja Anda mulai dari sini.',
     defaultXml: true
   },
-  {
-    name: 'Waa2',
-    domain: 'www.waa2.co.id',
-    host: 'waa2',
-    provider: 'www.waa2.co.id',
-    logo: '//cdn.urbanhire.com/img/publisher/waa2.png',
-    description: 'Mesin pencari tercepat di dunia, waa2 membawa jutaan rumah, mobil, dan tawaran pekerjaan untuk Anda gratis.',
-    defaultXml: true
-  },
-  {
-    name: 'Locanto',
-    domain: 'www.locanto.id',
-    host: 'locanto',
-    provider: 'www.locanto.id',
-    logo: '//cdn.urbanhire.com/img/publisher/locanto.png',
-    description: 'Temukan lebih dari 418000 iklan gratis di kota terdekat Anda mulai dari lowongan kerja, apartemen, hingga jodoh dan banyak lagi ✓ bebas biaya.',
-    defaultXml: true
-  },
-  {
-    name: 'Cari Kerja',
-    domain: 'www.carikerja.id',
-    host: 'carikerja',
-    provider: 'www.carikerja.id',
-    logo: '//cdn.urbanhire.com/img/publisher/cari-kerja.png',
-    description: 'Carikerja.id diciptakan untuk mempermudah para pencari dan pemasang lowongan pekerjaan di Indonesia.',
-    defaultXml: true
-  },
-  {
-    name: 'Post Job Free',
-    domain: 'www.postjobfree.com',
-    host: 'postjobfree',
-    provider: 'www.postjobfree.com',
-    logo: '//cdn.urbanhire.com/img/publisher/post-job-free.png',
-    description: 'We distribute your jobs to popular job search sites.',
-    defaultXml: true
-  },
-  {
-    name: 'Rulla',
-    domain: 'id.rulla.com',
-    host: 'rulla',
-    provider: 'id.rulla.com',
-    logo: '//cdn.urbanhire.com/img/publisher/rulla.png',
-    description: 'Satu-satunya situs web untuk penelusuran lowongan kerja di Indonesia.',
-    defaultXml: true
-  },
-  {
-    name: 'Recruit.net',
-    domain: 'http://www.recruit.net/',
-    host: 'recruit.net',
-    provider: 'recruit.net',
-    description: 'Recruit.net allows job seekers to instantly find millions of jobs from thousands of web sites with a single search. We deliver job listings from corporate web sites, job boards, recruitment agencies and numerous other sources.',
-    logo: '//cdn.urbanhire.com/img/publisher/recruit.png',
-    defaultXml: true
-  },
-  {
-    name: 'Startup Jobs Asia',
-    domain: 'http://id.startupjobs.asia/id/',
-    host: 'Startup Jobs Asia',
-    provider: 'startupjobsasia',
-    description: 'Startup Jobs Asia was "brewing" yet recognizing the challenges of Talent Acquisition that Startups faced both in Singapore and within Asia. We have identified the in-between gaps and aim to drive through them to bridge the gaps narrower as we move forward.',
-    logo: '//cdn.urbanhire.com/img/publisher/StartupJobs_ASIA.png',
-    defaultXml: true
-  },
+  // {
+  //   name: 'Waa2',
+  //   domain: 'www.waa2.co.id',
+  //   host: 'waa2',
+  //   provider: 'www.waa2.co.id',
+  //   logo: '//cdn.urbanhire.com/img/publisher/waa2.png',
+  //   description: 'Mesin pencari tercepat di dunia, waa2 membawa jutaan rumah, mobil, dan tawaran pekerjaan untuk Anda gratis.',
+  //   defaultXml: true
+  // },
+  // {
+  //   name: 'Locanto',
+  //   domain: 'www.locanto.id',
+  //   host: 'locanto',
+  //   provider: 'www.locanto.id',
+  //   logo: '//cdn.urbanhire.com/img/publisher/locanto.png',
+  //   description: 'Temukan lebih dari 418000 iklan gratis di kota terdekat Anda mulai dari lowongan kerja, apartemen, hingga jodoh dan banyak lagi ✓ bebas biaya.',
+  //   defaultXml: true
+  // },
+  // {
+  //   name: 'Cari Kerja',
+  //   domain: 'www.carikerja.id',
+  //   host: 'carikerja',
+  //   provider: 'www.carikerja.id',
+  //   logo: '//cdn.urbanhire.com/img/publisher/cari-kerja.png',
+  //   description: 'Carikerja.id diciptakan untuk mempermudah para pencari dan pemasang lowongan pekerjaan di Indonesia.',
+  //   defaultXml: true
+  // },
+  // {
+  //   name: 'Post Job Free',
+  //   domain: 'www.postjobfree.com',
+  //   host: 'postjobfree',
+  //   provider: 'www.postjobfree.com',
+  //   logo: '//cdn.urbanhire.com/img/publisher/post-job-free.png',
+  //   description: 'We distribute your jobs to popular job search sites.',
+  //   defaultXml: true
+  // },
+  // {
+  //   name: 'Rulla',
+  //   domain: 'id.rulla.com',
+  //   host: 'rulla',
+  //   provider: 'id.rulla.com',
+  //   logo: '//cdn.urbanhire.com/img/publisher/rulla.png',
+  //   description: 'Satu-satunya situs web untuk penelusuran lowongan kerja di Indonesia.',
+  //   defaultXml: true
+  // },
+  // {
+  //   name: 'Recruit.net',
+  //   domain: 'http://www.recruit.net/',
+  //   host: 'recruit.net',
+  //   provider: 'recruit.net',
+  //   description: 'Recruit.net allows job seekers to instantly find millions of jobs from thousands of web sites with a single search. We deliver job listings from corporate web sites, job boards, recruitment agencies and numerous other sources.',
+  //   logo: '//cdn.urbanhire.com/img/publisher/recruit.png',
+  //   defaultXml: true
+  // },
+  // {
+  //   name: 'Startup Jobs Asia',
+  //   domain: 'http://id.startupjobs.asia/id/',
+  //   host: 'Startup Jobs Asia',
+  //   provider: 'startupjobsasia',
+  //   description: 'Startup Jobs Asia was "brewing" yet recognizing the challenges of Talent Acquisition that Startups faced both in Singapore and within Asia. We have identified the in-between gaps and aim to drive through them to bridge the gaps narrower as we move forward.',
+  //   logo: '//cdn.urbanhire.com/img/publisher/StartupJobs_ASIA.png',
+  //   defaultXml: true
+  // },
   {
     name: 'Jobfinder',
     domain: 'http://jobfinder.co.id',
