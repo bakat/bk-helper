@@ -12,4 +12,8 @@ module.exports = [{
   name: 'Associate Director / Director / GM'
 }, {
   name: 'C - Level (CEO, COO, CMO, CFO)'
+},{
+  name: 'Max 2 years experience'
+},{
+  name: 'Other'
 }]
