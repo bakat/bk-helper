@@ -77,7 +77,9 @@ module.exports = {
     ReceivedResultAssessment: 'received-result-assessment',
     Blacklisted: 'blacklisted',
     RevertedBlacklist: 'reverted-blacklist',
-    MultipleScheduledInvitation: 'multiple-scheduled-invitation'
+    MultipleScheduledInvitation: 'multiple-scheduled-invitation',
+    SentHiringForm: 'sent-hiring-form',
+    ReceivedHiringForm: 'received-hiring-form'
   },
   jobs: {
 
