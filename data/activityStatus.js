@@ -78,8 +78,9 @@ module.exports = {
     Blacklisted: 'blacklisted',
     RevertedBlacklist: 'reverted-blacklist',
     MultipleScheduledInvitation: 'multiple-scheduled-invitation',
-    SentHiringForm: 'sent-hiring-form',
-    ReceivedHiringForm: 'received-hiring-form'
+    SentHiringForm: 'sent-the-hiring-form',
+    ResentHiringForm: 'resent-the-hiring-form',
+    CompletedHiringForm: 'completed-the-hiring-form'
   },
   jobs: {
 
