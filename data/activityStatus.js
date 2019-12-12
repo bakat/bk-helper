@@ -80,7 +80,10 @@ module.exports = {
     MultipleScheduledInvitation: 'multiple-scheduled-invitation',
     SentHiringForm: 'sent-the-hiring-form',
     ResentHiringForm: 'resent-the-hiring-form',
-    CompletedHiringForm: 'completed-the-hiring-form'
+    CompletedHiringForm: 'completed-the-hiring-form',
+    SentEmployeeForm: 'sent-the-employee-form',
+    ResentEmployeeForm: 'resent-the-employee-form',
+    CompletedEmployeeForm: 'completed-the-employee-form'
   },
   jobs: {
 
