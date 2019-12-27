@@ -425,6 +425,14 @@ module.exports = {
                 slug: 'FeedbackForm',
                 urlFrontend: '/account/feedback-form',
                 urlBackend: '/applicants/(link|links)/(render|track|submit-message|create|send|set-comment-timeline|revoke)'
+            },
+            {
+                id: 59,
+                name: 'Document Template',
+                description: 'Document Template',
+                slug: 'documentTemplate',
+                urlFrontend: '/account/document-template',
+                urlBackend: '/templates/documents'
             }
         ]
     },
@@ -760,6 +768,10 @@ module.exports = {
         {
             id: 58,
             access: true
+        },
+        {
+            id: 59,
+            access: true
         }
     ],
     defaultAccess: [
@@ -993,6 +1005,10 @@ module.exports = {
         },
         {
             id: 58,
+            access: false
+        },
+        {
+            id: 59,
             access: false
         }
     ]
