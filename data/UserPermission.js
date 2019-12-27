@@ -209,6 +209,22 @@ module.exports = {
                 slug: 'moveApplicant',
                 urlFrontend: '',
                 urlBackend: '/applicants/(:mongoId)/move'
+            },
+            {
+                id: 56,
+                name: 'Document',
+                description: 'Create Document',
+                slug: 'document',
+                urlFrontend: '',
+                urlBackend: '/documents'
+            },
+            {
+                id: 57,
+                name: 'Hiring Form',
+                description: 'Send Hiring Form',
+                slug: 'hiring-form',
+                urlFrontend: '',
+                urlBackend: '/hiring-forms/applicants/(:mongoId)?triggerMode=automatic'
             }
         ]
     },
@@ -247,6 +263,14 @@ module.exports = {
                 slug: 'comments',
                 urlFrontend: '',
                 urlBackend: '/applicants/activities/note/(:mongoId)/(:mongoId)'
+            },
+            {
+                id: 58,
+                name: 'Document',
+                description: 'List Document',
+                slug: 'documentList',
+                urlFrontend: '',
+                urlBackend: ''
             }
         ]
     },
@@ -401,6 +425,14 @@ module.exports = {
                 slug: 'FeedbackForm',
                 urlFrontend: '/account/feedback-form',
                 urlBackend: '/applicants/(link|links)/(render|track|submit-message|create|send|set-comment-timeline|revoke)'
+            },
+            {
+                id: 59,
+                name: 'Document Template',
+                description: 'Document Template',
+                slug: 'documentTemplate',
+                urlFrontend: '/account/document-template',
+                urlBackend: '/templates/documents'
             }
         ]
     },
@@ -724,8 +756,23 @@ module.exports = {
         {
             id: 55,
             access: true
+        },
+        {
+            id: 56,
+            access: true
+        },
+        {
+            id: 57,
+            access: true
+        },
+        {
+            id: 58,
+            access: true
+        },
+        {
+            id: 59,
+            access: true
         }
-
     ],
     defaultAccess: [
         {
@@ -946,6 +993,22 @@ module.exports = {
         },
         {
             id: 55,
+            access: false
+        },
+        {
+            id: 56,
+            access: false
+        },
+        {
+            id: 57,
+            access: false
+        },
+        {
+            id: 58,
+            access: false
+        },
+        {
+            id: 59,
             access: false
         }
     ]
