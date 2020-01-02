@@ -222,7 +222,7 @@ module.exports = {
                 id: 57,
                 name: 'Hiring Form',
                 description: 'Send Hiring Form',
-                slug: 'hiring-form',
+                slug: 'hiringForm',
                 urlFrontend: '',
                 urlBackend: '/hiring-forms/applicants/(:mongoId)?triggerMode=automatic'
             }
