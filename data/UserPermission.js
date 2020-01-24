@@ -225,6 +225,13 @@ module.exports = {
                 slug: 'hiringForm',
                 urlFrontend: '',
                 urlBackend: '/hiring-forms/applicants/(:mongoId)?triggerMode=automatic'
+            },{
+                id: 60,
+                name: 'Employee Form',
+                description: 'Send Employee Form',
+                slug: 'employeeForm',
+                urlFrontend: '',
+                urlBackend: ''
             }
         ]
     },
@@ -772,6 +779,9 @@ module.exports = {
         {
             id: 59,
             access: true
+        },{
+            id: 60,
+            access: true
         }
     ],
     defaultAccess: [
@@ -1009,6 +1019,9 @@ module.exports = {
         },
         {
             id: 59,
+            access: false
+        },{
+            id: 60,
             access: false
         }
     ]
