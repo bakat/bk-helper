@@ -83,7 +83,8 @@ module.exports = {
     CompletedHiringForm: 'completed-the-hiring-form',
     SentEmployeeForm: 'sent-the-employee-form',
     ResentEmployeeForm: 'resent-the-employee-form',
-    CompletedEmployeeForm: 'completed-the-employee-form'
+    CompletedEmployeeForm: 'completed-the-employee-form',
+    ExportedSap: 'exported-sap'
   },
   jobs: {
 
