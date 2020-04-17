@@ -31,25 +31,29 @@ module.exports = {
     'sent-astronaut-answers': 'submitted his/her video interview answers for %s position at %s',
     'applied': 'applied for %s position at %s',
     'received-result-assessment': 'submitted a Basic Assessment results for %s position at %s',
+    'replied': 'replied message for %s position at %s',
 
     // user - position - company
     'moved-to-%s': 'moved $applicant to $stageName stage for %s position at %s',
     'sent-invitation-assessment': 'sent a Basic Assessment invitation for %s position at %s',
 
+    // applicant - user - position - company
+    'completed-the-hiring-form': 'completed the Hiring Form sent by %s for %s position at %s',
+    'completed-the-employee-form': 'completed the Employee Form sent by %s for %s position at %s',
+
+    // company - position
+    'hired': 'hired by %s for position %s',
+
+    // activity - position - company
+    'exported-%s': '%s for %s position at %s',
+    'sourced-by-%s': '%s for %s position at %s'
+
     // user - applicant - form position - from company - to position - to company
     // 'duplicated-applicant': 'duplicated ${applicant} from ${fromPosition} position at ${companyName} to ${toPosition} position at ${companyName}',
 
-    // 'hired': 'Urbanhire System hired by ${companyName} for position ${positionName}',
+    // 'responded-to-invitation': '', // sudah tidak dipakai
 
-    'responded-to-invitation': '',
-    'replied': '',
-    'exported-%s': '',
-    'sourced-by-%s': '',
-    'rated-candidate': '',
-
-    // applicant - user - position - company
-    'completed-the-hiring-form': 'completed the Hiring Form sent by %s for %s position at %s',
-    'completed-the-employee-form': 'completed the Employee Form sent by %s for %s position at %s'
+    // 'rated-candidate': ''
 
   }
 }
