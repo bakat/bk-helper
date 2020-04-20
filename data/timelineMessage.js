@@ -5,7 +5,7 @@ module.exports = {
     // user - applicant - position - company
     'disqualified': 'disqualified %s for %s position at %s',
     'reverted': 'reverted %s for %s position at %s',
-    'added-a-commen': 'added a comment for %s for %s position at %s.',
+    'added-a-comment': 'added a comment for %s for %s position at %s.',
     'sent-an-email': 'sent an email to %s for %s position at %s',
     'updated-applicant': 'updated %s data for %s position at %s',
     'sent-invitation-astronaut': 'sent a video interview invitation to %s for %s position at %s',
@@ -53,7 +53,8 @@ module.exports = {
 
     // 'responded-to-invitation': '', // sudah tidak dipakai
 
-    // 'rated-candidate': ''
+    // rate - position - company
+    // 'rated-candidate': 'rated applicant %s/10 for %s position at %s'
 
   }
 }
