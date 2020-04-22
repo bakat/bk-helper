@@ -1,6 +1,47 @@
 'use strict'
 
 module.exports = {
+  template: {
+    templateOne: [
+      'disqualified',
+      'reverted',
+      'added-a-comment',
+      'sent-an-email',
+      'updated-applicant',
+      'sent-invitation-astronaut',
+      'sent-invitation-cut-e',
+      'interview',
+      'meeting',
+      'call',
+      'sent-candidate-link',
+      'provided-feedback',
+      'exported-gadjian',
+      'sourced',
+      'blacklisted',
+      'reverted-blacklist',
+      'multiple-scheduled-invitation',
+      'sent-the-hiring-form',
+      'resent-the-hiring-form',
+      'sent-the-employee-form',
+      'resent-the-employee-form',
+      'exported-sap',
+      'evaluated',
+      'error-sap'
+    ],
+    templateTwo: [
+      'sent-astronaut-answers',
+      'applied',
+      'received-result-assessment',
+      'replied',
+      'moved-to-%s',
+      'sent-invitation-assessment'
+    ],
+    templateThree: [
+      'completed-the-hiring-form',
+      'completed-the-employee-form'
+    ]
+  },
+
   candidates: {
     // user - applicant - position - company
     'disqualified': 'disqualified %s for %s position at %s',
@@ -26,6 +67,7 @@ module.exports = {
     'resent-the-employee-form': 'resent the Employee Form to %s for %s position at %s',
     'exported-sap': 'exported %s data to SAP for %s position at %s',
     'evaluated': 'added an evaluation for %s for %s position at %s',
+    'error-sap': 'error exported %s data to SAP for $s position at %s',
 
     // applicant - position - company
     'sent-astronaut-answers': 'submitted his/her video interview answers for %s position at %s',
@@ -47,14 +89,6 @@ module.exports = {
     // activity - position - company
     'exported-%s': '%s for %s position at %s',
     'sourced-by-%s': '%s for %s position at %s'
-
-    // user - applicant - form position - from company - to position - to company
-    // 'duplicated-applicant': 'duplicated ${applicant} from ${fromPosition} position at ${companyName} to ${toPosition} position at ${companyName}',
-
-    // 'responded-to-invitation': '', // sudah tidak dipakai
-
-    // rate - position - company
-    // 'rated-candidate': 'rated applicant %s/10 for %s position at %s'
 
   }
 }
