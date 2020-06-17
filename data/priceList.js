@@ -1,8 +1,29 @@
-module.exports = {
-  trial: {
+'use strict'
+
+const EXPIRED_DATE = new Date('2020-07-13T17:00:00.000Z')
+const prevTrial = {
+  name: 'trial',
+  jobSlot: 10,
+  userSlot: 5,
+  payments: {
+    monthly: {
+      idr: 0,
+      usd: 0
+    },
+    annual: {
+      idr: 0,
+      usd: 0
+    }
+  },
+  expiredAt: EXPIRED_DATE
+}
+
+
+function getTrialPrice() {
+  const newTrial = {
     name: 'trial',
-    jobSlot: 10,
-    userSlot: 5,
+    jobSlot: 3,
+    userSlot: 1,
     payments: {
       monthly: {
         idr: 0,
@@ -12,8 +33,20 @@ module.exports = {
         idr: 0,
         usd: 0
       }
-    }
-  },
+    },
+    expiredAt: null
+  }
+  const today = new Date()
+  if (prevTrial.expiredAt > today) {
+    return prevTrial
+  }
+  return newTrial
+}
+
+
+// standard > startup ; professional > business ; growth > scale
+module.exports = {
+  trial: getTrialPrice(),
   standard: {
     name: 'standard',
     jobSlot: 3,
@@ -31,7 +64,28 @@ module.exports = {
         idr: 4990000,
         usd: 390
       }
-    }
+    },
+    expiredAt: EXPIRED_DATE
+  },
+  startup: {
+    name: 'Startup',
+    jobSlot: 3,
+    userSlot: 1,
+    payments: {
+      monthly: {
+        idr: 599000,
+        usd: 59.90
+      },
+      quarter: {
+        idr: 1797000,
+        usd: 179.70
+      },
+      annual: {
+        idr: 5990000,
+        usd: 599
+      }
+    },
+    expiredAt: null,
   },
   professional: {
     name: 'professional',
@@ -50,7 +104,28 @@ module.exports = {
         idr: 14990000,
         usd: 1160
       }
-    }
+    },
+    expiredAt: EXPIRED_DATE
+  },
+  business: {
+    name: 'Business',
+    jobSlot: 10,
+    userSlot: 3,
+    payments: {
+      monthly: {
+        idr: 1690000,
+        usd: 169
+      },
+      quarter: {
+        idr: 5070000,
+        usd: 507
+      },
+      annual: {
+        idr: 16900000,
+        usd: 1690
+      }
+    },
+    expiredAt: null
   },
   growth: {
     name: 'growth',
@@ -69,7 +144,28 @@ module.exports = {
         idr: 29900000,
         usd: 2062
       }
-    }
+    },
+    expiredAt: EXPIRED_DATE
+  },
+  scale: {
+    name: 'Scale',
+    jobSlot: 20,
+    userSlot: 10,
+    payments: {
+      monthly: {
+        idr: 5990000,
+        usd: 599
+      },
+      quarter: {
+        idr: 17970000,
+        usd: 1797
+      },
+      annual: {
+        idr: 59900000,
+        usd: 5990
+      }
+    },
+    expiredAt: null
   },
   enterprise: {
     name: 'enterprise',
