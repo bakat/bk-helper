@@ -28,7 +28,7 @@ const defaults = {
   allowExternalApplyLink: false,
   mergeCareerSite: []
 }
-
+// standard > startup ; professional > business ; growth > scale
 module.exports = {
   free: extend({}, defaults, {
     preAssessmentQuestion: false,
@@ -54,12 +54,30 @@ module.exports = {
     requestExternalUserFeedback: false,
     multipleCompany: false
   }),
+  startup: extend({}, defaults, {
+    postScreenAssessmentQuestion: false,
+    downloadCV: false,
+    bulkSendEmail: false,
+    bulkSendVideoInterview: false,
+    bulkSendAssessment: false,
+    customEmailTemplate: false,
+    requestExternalUserFeedback: false,
+    multipleCompany: false
+  }),
   professional: extend({}, defaults, {
     postScreenAssessmentQuestion: false,
     requestExternalUserFeedback: false,
     multipleCompany: false
   }),
+  business: extend({}, defaults, {
+    postScreenAssessmentQuestion: false,
+    requestExternalUserFeedback: false,
+    multipleCompany: false
+  }),
   growth: extend({}, defaults, {
+    postScreenAssessmentQuestion: false
+  }),
+  scale: extend({}, defaults, {
     postScreenAssessmentQuestion: false
   }),
   enterprise: defaults,
