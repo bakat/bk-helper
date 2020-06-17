@@ -1,26 +1,10 @@
 'use strict'
 
 const EXPIRED_DATE = new Date('2020-07-13T17:00:00.000Z')
-const prevTrial = {
-  name: 'trial',
-  jobSlot: 10,
-  userSlot: 5,
-  payments: {
-    monthly: {
-      idr: 0,
-      usd: 0
-    },
-    annual: {
-      idr: 0,
-      usd: 0
-    }
-  },
-  expiredAt: EXPIRED_DATE
-}
 
-
-function getTrialPrice() {
-  const newTrial = {
+// standard > startup ; professional > business ; growth > scale
+module.exports = {
+  trial: {
     name: 'trial',
     jobSlot: 3,
     userSlot: 1,
@@ -35,18 +19,7 @@ function getTrialPrice() {
       }
     },
     expiredAt: null
-  }
-  const today = new Date()
-  if (prevTrial.expiredAt > today) {
-    return prevTrial
-  }
-  return newTrial
-}
-
-
-// standard > startup ; professional > business ; growth > scale
-module.exports = {
-  trial: getTrialPrice(),
+  },
   standard: {
     name: 'standard',
     jobSlot: 3,
@@ -68,7 +41,7 @@ module.exports = {
     expiredAt: EXPIRED_DATE
   },
   startup: {
-    name: 'Startup',
+    name: 'startup',
     jobSlot: 3,
     userSlot: 1,
     payments: {
@@ -108,7 +81,7 @@ module.exports = {
     expiredAt: EXPIRED_DATE
   },
   business: {
-    name: 'Business',
+    name: 'business',
     jobSlot: 10,
     userSlot: 3,
     payments: {
@@ -148,7 +121,7 @@ module.exports = {
     expiredAt: EXPIRED_DATE
   },
   scale: {
-    name: 'Scale',
+    name: 'scale',
     jobSlot: 20,
     userSlot: 10,
     payments: {
