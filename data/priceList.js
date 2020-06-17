@@ -41,7 +41,7 @@ module.exports = {
     expiredAt: EXPIRED_DATE
   },
   startup: {
-    name: 'Startup',
+    name: 'startup',
     jobSlot: 3,
     userSlot: 1,
     payments: {
@@ -81,7 +81,7 @@ module.exports = {
     expiredAt: EXPIRED_DATE
   },
   business: {
-    name: 'Business',
+    name: 'business',
     jobSlot: 10,
     userSlot: 3,
     payments: {
@@ -121,7 +121,7 @@ module.exports = {
     expiredAt: EXPIRED_DATE
   },
   scale: {
-    name: 'Scale',
+    name: 'scale',
     jobSlot: 20,
     userSlot: 10,
     payments: {
