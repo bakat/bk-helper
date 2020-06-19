@@ -85,6 +85,7 @@ module.exports = {
     ResentEmployeeForm: 'resent-the-employee-form',
     CompletedEmployeeForm: 'completed-the-employee-form',
     ExportedSap: 'exported-sap',
+    SuccessSap: 'success-sap',
     ErrorSap: 'error-sap'
   },
   jobs: {
