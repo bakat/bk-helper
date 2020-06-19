@@ -20,6 +20,22 @@ module.exports = {
     },
     expiredAt: null
   },
+  free: {
+    name: 'free',
+    jobSlot: 1,
+    userSlot: 1,
+    payments: {
+      monthly: {
+        idr: 0,
+        usd: 0
+      },
+      annual: {
+        idr: 0,
+        usd: 0
+      }
+    },
+    expiredAt: null
+  },
   standard: {
     name: 'standard',
     jobSlot: 3,
