@@ -51,7 +51,7 @@ module.exports = {
     brandedCareerPage: false,
     AccountExecutiveForSupport: true,
     enableJobUrl: false,
-    allowExternalApplyLink: false,
+    allowExternalApplyLink: false
   }),
   trial: extend({}, defaults, {
     downloadCV: false,
