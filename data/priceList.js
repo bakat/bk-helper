@@ -1,7 +1,5 @@
 'use strict'
 
-const EXPIRED_DATE = new Date('2020-07-13T17:00:00.000Z')
-
 // standard > startup ; professional > business ; growth > scale
 module.exports = {
   trial: {
@@ -18,7 +16,7 @@ module.exports = {
         usd: 0
       }
     },
-    expiredAt: null
+    active: true
   },
   free: {
     name: 'free',
@@ -34,7 +32,7 @@ module.exports = {
         usd: 0
       }
     },
-    expiredAt: null
+    active: true
   },
   standard: {
     name: 'standard',
@@ -54,7 +52,7 @@ module.exports = {
         usd: 390
       }
     },
-    expiredAt: EXPIRED_DATE
+    active: false
   },
   startup: {
     name: 'startup',
@@ -74,7 +72,7 @@ module.exports = {
         usd: 599
       }
     },
-    expiredAt: null,
+    active: true
   },
   professional: {
     name: 'professional',
@@ -94,7 +92,7 @@ module.exports = {
         usd: 1160
       }
     },
-    expiredAt: EXPIRED_DATE
+    active: false
   },
   business: {
     name: 'business',
@@ -114,7 +112,7 @@ module.exports = {
         usd: 1690
       }
     },
-    expiredAt: null
+    active: true
   },
   growth: {
     name: 'growth',
@@ -134,7 +132,7 @@ module.exports = {
         usd: 2062
       }
     },
-    expiredAt: EXPIRED_DATE
+    active: false
   },
   scale: {
     name: 'scale',
@@ -154,7 +152,7 @@ module.exports = {
         usd: 5990
       }
     },
-    expiredAt: null
+    active: true
   },
   enterprise: {
     name: 'enterprise',
@@ -173,7 +171,8 @@ module.exports = {
         idr: 191880000,
         usd: 13233
       }
-    }
+    },
+    active: true
   },
   enterpriseLite: {
     name: 'enterprise-lite',
@@ -192,7 +191,8 @@ module.exports = {
         idr: 95880000,
         usd: 6612
       }
-    }
+    },
+    active: true
   },
   enterprisePremium: {
     name: 'enterprise-premium',
@@ -212,5 +212,6 @@ module.exports = {
         usd: 13233
       }
     }
-  }
+  },
+  active: true
 }
