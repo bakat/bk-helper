@@ -872,23 +872,42 @@ const DEFAULT_ACCESS = [
 ]
 
 const accessIdFalseTrial = [47]
+const accessIdTrueFree = [1, 2, 20, 25, 30, 31, 32, 35, 42, 50, 52, 53]
 const accessIdFalseStartup = [14, 28, 37, 47, 49, 56, 57, 58, 60]
 const accessIdFalseBusiness = [14]
 
-function permissionAccessToFalse (access, accessId) {
+function permissionAccessToFalse (access, accessId, toTrue) {
   if (!Array.isArray(accessId) || !accessId.length) return access
-  const accessPlan = access.map((dataAccess) => {
-    if (accessId.includes(dataAccess.id)) {
+  let accessPlan
+
+  if (toTrue) {
+    accessPlan = access.map((dataAccess) => {
+      if (accessId.includes(dataAccess.id)) {
+        return dataAccess
+      }
+
       return {
         id: dataAccess.id,
         access: false,
         active: false
       }
-    }
-    return dataAccess
-  })
+    })
 
-  return accessPlan
+    return accessPlan
+  } else {
+    accessPlan = access.map((dataAccess) => {
+      if (accessId.includes(dataAccess.id)) {
+        return {
+          id: dataAccess.id,
+          access: false,
+          active: false
+        }
+      }
+      return dataAccess
+    })
+
+    return accessPlan
+  }
 }
 
 function getPermissionActive (permissions, id) {
@@ -906,7 +925,10 @@ const instancePermission = {}
 function getPermission (accessId, plan) {
   if (plan in instancePermission) return instancePermission[plan]
 
-  const permissionAccess = permissionAccessToFalse(DEFAULT_ACCESS, accessId)
+  let toTrue = false
+  if (plan === 'free') toTrue = true
+
+  const permissionAccess = permissionAccessToFalse(DEFAULT_ACCESS, accessId, toTrue)
   const permissionGroupList = JSON.parse(JSON.stringify(PERMISSIONS_GROUP_LIST))
   const lengthPermissionGroup = permissionGroupList.length
   for (let i = 0; i < lengthPermissionGroup; i++) {
@@ -925,15 +947,17 @@ function getPermission (accessId, plan) {
 module.exports = {
   permission: {
     trial: getPermission(accessIdFalseTrial, 'trial'),
+    free: getPermission(accessIdTrueFree, 'free'),
     startup: getPermission(accessIdFalseStartup, 'startup'),
     business: getPermission(accessIdFalseBusiness, 'business'),
     scale: getPermission([], 'scale'),
     enterprise: getPermission([], 'enterprise')
   },
   access: {
-    trial: permissionAccessToFalse(DEFAULT_ACCESS, accessIdFalseTrial),
-    startup: permissionAccessToFalse(DEFAULT_ACCESS, accessIdFalseStartup),
-    business: permissionAccessToFalse(DEFAULT_ACCESS, accessIdFalseBusiness),
+    trial: permissionAccessToFalse(DEFAULT_ACCESS, accessIdFalseTrial, false),
+    free: permissionAccessToFalse(DEFAULT_ACCESS, accessIdTrueFree, true),
+    startup: permissionAccessToFalse(DEFAULT_ACCESS, accessIdFalseStartup, false),
+    business: permissionAccessToFalse(DEFAULT_ACCESS, accessIdFalseBusiness, false),
     scale: DEFAULT_ACCESS,
     enterprise: DEFAULT_ACCESS
   }
