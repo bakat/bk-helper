@@ -5,7 +5,7 @@ module.exports = {
   trial: {
     name: 'trial',
     jobSlot: 3,
-    userSlot: 1,
+    userSlot: 2,
     payments: {
       monthly: {
         idr: 0,
