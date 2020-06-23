@@ -91,7 +91,8 @@ module.exports = {
     postScreenAssessmentQuestion: false
   }),
   scale: extend({}, defaults, {
-    postScreenAssessmentQuestion: false
+    postScreenAssessmentQuestion: false,
+    multipleCompany: false
   }),
   enterprise: defaults,
   enterpriseLite: defaults,
