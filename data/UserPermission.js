@@ -951,7 +951,10 @@ module.exports = {
     startup: getPermission(accessIdFalseStartup, 'startup'),
     business: getPermission(accessIdFalseBusiness, 'business'),
     scale: getPermission([], 'scale'),
-    enterprise: getPermission([], 'enterprise')
+    enterprise: getPermission([], 'enterprise'),
+    standard: getPermission([], 'standard'),
+    professional: getPermission([], 'professional'),
+    growth: getPermission([], 'growth')
   },
   access: {
     trial: permissionAccessToFalse(DEFAULT_ACCESS, accessIdFalseTrial, false),
@@ -959,6 +962,9 @@ module.exports = {
     startup: permissionAccessToFalse(DEFAULT_ACCESS, accessIdFalseStartup, false),
     business: permissionAccessToFalse(DEFAULT_ACCESS, accessIdFalseBusiness, false),
     scale: DEFAULT_ACCESS,
-    enterprise: DEFAULT_ACCESS
+    enterprise: DEFAULT_ACCESS,
+    standard: DEFAULT_ACCESS,
+    professional: DEFAULT_ACCESS,
+    growth: DEFAULT_ACCESS
   }
 }
