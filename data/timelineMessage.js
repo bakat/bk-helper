@@ -26,7 +26,8 @@ module.exports = {
       'resent-the-employee-form',
       'exported-sap',
       'evaluated',
-      'error-sap'
+      'error-sap',
+      'success-sap'
     ],
     templateTwo: [
       'sent-astronaut-answers',
@@ -67,7 +68,8 @@ module.exports = {
     'resent-the-employee-form': 'resent the Employee Form to %s for %s position at %s',
     'exported-sap': 'exported %s data to SAP for %s position at %s',
     'evaluated': 'added an evaluation for %s for %s position at %s',
-    'error-sap': 'error exported %s data to SAP for $s position at %s',
+    'error-sap': 'error exported %s data to SAP for %s position at %s',
+    'success-sap': 'successfully exported %s data to SAP for %s position at %s',
 
     // applicant - position - company
     'sent-astronaut-answers': 'submitted his/her video interview answers for %s position at %s',
