@@ -220,7 +220,7 @@ module.exports = [{
   'name': 'Nanotechnology'
 }, {
   'name': 'NGO'
-},  {
+}, {
   'name': 'Newspapers'
 }, {
   'name': 'Nonprofit Organization Management'
