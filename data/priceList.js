@@ -211,7 +211,7 @@ module.exports = {
         idr: 191880000,
         usd: 13233
       }
-    }
-  },
-  active: true
+    },
+    active: true
+  }
 }
