@@ -7,13 +7,28 @@ module.exports = [
     code: 'SUB'
   },
   {
+    key: 'startup',
+    value: 'Startup',
+    code: 'SUB'
+  },
+  {
     key: 'professional',
     value: 'Professional',
     code: 'SUB'
   },
   {
+    key: 'business',
+    value: 'Business',
+    code: 'SUB'
+  },
+  {
     key: 'growth',
     value: 'Growth',
+    code: 'SUB'
+  },
+  {
+    key: 'scale',
+    value: 'Scale',
     code: 'SUB'
   },
   {
