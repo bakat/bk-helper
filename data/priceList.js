@@ -141,11 +141,11 @@ module.exports = {
     payments: {
       monthly: {
         idr: 5338680,
-        usd: 531
+        usd: 533
       },
       quarter: {
         idr: 16016040,
-        usd: 1593
+        usd: 1599
       },
       annual: {
         idr: 53386808,
