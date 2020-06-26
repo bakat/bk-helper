@@ -60,16 +60,16 @@ module.exports = {
     userSlot: 1,
     payments: {
       monthly: {
-        idr: 599000,
-        usd: 59.90
+        idr: 533867,
+        usd: 51
       },
       quarter: {
-        idr: 1797000,
-        usd: 179.70
+        idr: 1601601,
+        usd: 153
       },
       annual: {
-        idr: 5990000,
-        usd: 599
+        idr: 5338680,
+        usd: 533
       }
     },
     active: true
@@ -100,16 +100,16 @@ module.exports = {
     userSlot: 3,
     payments: {
       monthly: {
-        idr: 1690000,
-        usd: 169
+        idr: 1506238,
+        usd: 150
       },
       quarter: {
-        idr: 5070000,
-        usd: 507
+        idr: 4518714,
+        usd: 450
       },
       annual: {
-        idr: 16900000,
-        usd: 1690
+        idr: 15062388,
+        usd: 1505
       }
     },
     active: true
@@ -140,16 +140,16 @@ module.exports = {
     userSlot: 10,
     payments: {
       monthly: {
-        idr: 5990000,
-        usd: 599
+        idr: 5338680,
+        usd: 531
       },
       quarter: {
-        idr: 17970000,
-        usd: 1797
+        idr: 16016040,
+        usd: 1593
       },
       annual: {
-        idr: 59900000,
-        usd: 5990
+        idr: 53386808,
+        usd: 5338
       }
     },
     active: true
