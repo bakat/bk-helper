@@ -872,7 +872,7 @@ const DEFAULT_ACCESS = [
 ]
 
 const accessIdFalseTrial = [47]
-const accessIdTrueFree = [1, 2, 3, 4, 5, 6, 9, 12, 20, 21, 22, 23, 24, 25, 26, 30, 31, 35, 42, 43, 44, 50, 51, 52, 53]
+const accessIdTrueFree = [1, 2, 3, 4, 5, 6, 9, 12, 20, 21, 22, 23, 24, 25, 26, 31, 35, 42, 43, 44, 50, 51, 52, 53]
 const accessIdFalseStartup = [14, 28, 37, 47, 49, 56, 57, 58, 60]
 const accessIdFalseBusiness = [14]
 
