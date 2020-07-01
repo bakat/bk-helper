@@ -9,6 +9,7 @@ const defaults = {
   bulkSendEmail: true,
   bulkSendVideoInterview: true,
   bulkSendAssessment: true,
+  bulkSendHiringForm: true,
   requestExternalUserFeedback: true,
   customHiringPlan: true,
   customHiringTeam: true,
@@ -37,6 +38,7 @@ module.exports = {
     bulkSendEmail: false,
     bulkSendVideoInterview: false,
     bulkSendAssessment: false,
+    bulkSendHiringForm: false,
     requestExternalUserFeedback: false,
     customHiringPlan: false,
     customHiringTeam: false,
@@ -73,6 +75,7 @@ module.exports = {
     bulkSendEmail: false,
     bulkSendVideoInterview: false,
     bulkSendAssessment: false,
+    bulkSendHiringForm: false,
     customEmailTemplate: false,
     requestExternalUserFeedback: false,
     multipleCompany: false
