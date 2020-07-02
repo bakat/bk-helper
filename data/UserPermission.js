@@ -305,7 +305,7 @@ const PERMISSIONS_GROUP_LIST = [
         name: 'Reports',
         description: 'Reports',
         slug: 'reportsInfo',
-        urlFrontend: '/reports/',
+        urlFrontend: '/reports',
         urlBackend: '/jobs/(:mongoId)/edit'
       },
       {
@@ -375,7 +375,7 @@ const PERMISSIONS_GROUP_LIST = [
         name: 'Career Page',
         description: 'Career Page',
         slug: 'careerPage',
-        urlFrontend: '/jobs/edit/(:mongoId)/pre-assessment',
+        urlFrontend: '/account/career-page',
         urlBackend: '/career-site'
       },
       {
