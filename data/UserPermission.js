@@ -40,7 +40,7 @@ const PERMISSIONS_GROUP_LIST = [
         name: 'Application Form',
         description: 'Application Form',
         slug: 'ApplicationForm',
-        urlFrontend: '/jobs/edit/(:mongoId)/application-form',
+        urlFrontend: '/jobs/(:mongoId)/application-form',
         urlBackend: '/application-form/upsert'
       },
       {
@@ -48,7 +48,7 @@ const PERMISSIONS_GROUP_LIST = [
         name: 'Pre-Assessment',
         description: 'Pre Assessment Test',
         slug: 'PreAssessment',
-        urlFrontend: '/jobs/edit/(:mongoId)/pre-assessment',
+        urlFrontend: '/jobs/(:mongoId)/pre-assessment',
         urlBackend: '/preassessments'
       },
       {
@@ -56,7 +56,7 @@ const PERMISSIONS_GROUP_LIST = [
         name: 'Hiring Team',
         description: 'Hiring Team',
         slug: 'HiringTeam',
-        urlFrontend: '/jobs/edit/(:mongoId)/hiring-team',
+        urlFrontend: '/jobs/(:mongoId)/hiring-team',
         urlBackend: '/companies/members/(:mongoId)'
       },
       {
@@ -64,7 +64,7 @@ const PERMISSIONS_GROUP_LIST = [
         name: 'Hiring Stages',
         description: 'Hiring Stages',
         slug: 'hiringStagesMenu',
-        urlFrontend: '/jobs/edit/(:mongoId)/hiring-stage',
+        urlFrontend: '/jobs/(:mongoId)/hiring-plan',
         urlBackend: '/companies/members/(:mongoId)'
       },
       {
@@ -872,7 +872,7 @@ const DEFAULT_ACCESS = [
 ]
 
 const accessIdFalseTrial = [47]
-const accessIdTrueFree = [1, 2, 3, 4, 5, 6, 9, 12, 20, 21, 22, 23, 24, 25, 26, 31, 35, 42, 43, 44, 50, 51, 52, 53]
+const accessIdTrueFree = [1, 2, 3, 4, 6, 9, 12, 20, 21, 22, 24, 25, 26, 31, 35, 42, 43, 44, 50, 51, 52, 53]
 const accessIdFalseStartup = [14, 28, 37, 47, 49, 56, 57, 58, 60]
 const accessIdFalseBusiness = [14]
 
