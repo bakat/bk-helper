@@ -1,8 +1,11 @@
+'use strict'
+
+// standard > startup ; professional > business ; growth > scale
 module.exports = {
   trial: {
     name: 'trial',
-    jobSlot: 10,
-    userSlot: 5,
+    jobSlot: 3,
+    userSlot: 2,
     payments: {
       monthly: {
         idr: 0,
@@ -12,7 +15,24 @@ module.exports = {
         idr: 0,
         usd: 0
       }
-    }
+    },
+    active: true
+  },
+  free: {
+    name: 'free',
+    jobSlot: 1,
+    userSlot: 1,
+    payments: {
+      monthly: {
+        idr: 0,
+        usd: 0
+      },
+      annual: {
+        idr: 0,
+        usd: 0
+      }
+    },
+    active: true
   },
   standard: {
     name: 'standard',
@@ -31,7 +51,28 @@ module.exports = {
         idr: 4990000,
         usd: 390
       }
-    }
+    },
+    active: false
+  },
+  startup: {
+    name: 'startup',
+    jobSlot: 3,
+    userSlot: 1,
+    payments: {
+      monthly: {
+        idr: 533867,
+        usd: 51
+      },
+      quarter: {
+        idr: 1601601,
+        usd: 153
+      },
+      annual: {
+        idr: 5338680,
+        usd: 533
+      }
+    },
+    active: true
   },
   professional: {
     name: 'professional',
@@ -50,7 +91,28 @@ module.exports = {
         idr: 14990000,
         usd: 1160
       }
-    }
+    },
+    active: false
+  },
+  business: {
+    name: 'business',
+    jobSlot: 10,
+    userSlot: 3,
+    payments: {
+      monthly: {
+        idr: 1506238,
+        usd: 150
+      },
+      quarter: {
+        idr: 4518714,
+        usd: 450
+      },
+      annual: {
+        idr: 15062388,
+        usd: 1505
+      }
+    },
+    active: true
   },
   growth: {
     name: 'growth',
@@ -69,7 +131,28 @@ module.exports = {
         idr: 29900000,
         usd: 2062
       }
-    }
+    },
+    active: false
+  },
+  scale: {
+    name: 'scale',
+    jobSlot: 20,
+    userSlot: 10,
+    payments: {
+      monthly: {
+        idr: 5338680,
+        usd: 533
+      },
+      quarter: {
+        idr: 16016040,
+        usd: 1599
+      },
+      annual: {
+        idr: 53386808,
+        usd: 5338
+      }
+    },
+    active: true
   },
   enterprise: {
     name: 'enterprise',
@@ -88,7 +171,8 @@ module.exports = {
         idr: 191880000,
         usd: 13233
       }
-    }
+    },
+    active: true
   },
   enterpriseLite: {
     name: 'enterprise-lite',
@@ -107,7 +191,8 @@ module.exports = {
         idr: 95880000,
         usd: 6612
       }
-    }
+    },
+    active: true
   },
   enterprisePremium: {
     name: 'enterprise-premium',
@@ -126,6 +211,7 @@ module.exports = {
         idr: 191880000,
         usd: 13233
       }
-    }
+    },
+    active: true
   }
 }

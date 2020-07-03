@@ -1,0 +1,5 @@
+--exit
+--recursive
+--full-trace
+--timeout 60000
+test/**/*.js
