@@ -8,7 +8,9 @@ const defaults = {
   downloadCV: true,
   bulkSendEmail: true,
   bulkSendVideoInterview: true,
-  bulkSendAssessment: true,
+  bulkSendBasicAssessment: true,
+  bulkSendPsychometric: true,
+  bulkSendHiringForm: true,
   requestExternalUserFeedback: true,
   customHiringPlan: true,
   customHiringTeam: true,
@@ -28,7 +30,7 @@ const defaults = {
   allowExternalApplyLink: false,
   mergeCareerSite: []
 }
-
+// standard > startup ; professional > business ; growth > scale
 module.exports = {
   free: extend({}, defaults, {
     preAssessmentQuestion: false,
@@ -36,9 +38,24 @@ module.exports = {
     downloadCV: false,
     bulkSendEmail: false,
     bulkSendVideoInterview: false,
-    bulkSendAssessment: false,
+    bulkSendBasicAssessment: false,
+    bulkSendPsychometric: false,
+    bulkSendHiringForm: false,
     requestExternalUserFeedback: false,
-    multipleCompany: false
+    customHiringPlan: false,
+    customHiringTeam: false,
+    customEmailTemplate: false,
+    collaborativeHiring: false,
+    setInterviewSchedule: false,
+    multipleCompany: false,
+    downloadReport: false,
+    domainMasking: false,
+    jobWidget: false,
+    openAPI: false,
+    brandedCareerPage: false,
+    AccountExecutiveForSupport: true,
+    enableJobUrl: false,
+    allowExternalApplyLink: false
   }),
   trial: extend({}, defaults, {
     downloadCV: false,
@@ -49,7 +66,20 @@ module.exports = {
     downloadCV: false,
     bulkSendEmail: false,
     bulkSendVideoInterview: false,
-    bulkSendAssessment: false,
+    bulkSendBasicAssessment: false,
+    bulkSendPsychometric: false,
+    customEmailTemplate: false,
+    requestExternalUserFeedback: false,
+    multipleCompany: false
+  }),
+  startup: extend({}, defaults, {
+    postScreenAssessmentQuestion: false,
+    downloadCV: false,
+    bulkSendEmail: false,
+    bulkSendVideoInterview: false,
+    bulkSendBasicAssessment: false,
+    bulkSendPsychometric: false,
+    bulkSendHiringForm: false,
     customEmailTemplate: false,
     requestExternalUserFeedback: false,
     multipleCompany: false
@@ -59,8 +89,17 @@ module.exports = {
     requestExternalUserFeedback: false,
     multipleCompany: false
   }),
+  business: extend({}, defaults, {
+    postScreenAssessmentQuestion: false,
+    requestExternalUserFeedback: false,
+    multipleCompany: false
+  }),
   growth: extend({}, defaults, {
     postScreenAssessmentQuestion: false
+  }),
+  scale: extend({}, defaults, {
+    postScreenAssessmentQuestion: false,
+    multipleCompany: false
   }),
   enterprise: defaults,
   enterpriseLite: defaults,

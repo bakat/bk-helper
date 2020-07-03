@@ -1,13 +1,13 @@
 'use strict'
 
-var fs = require('fs')
-var path = require('path')
+const fs = require('fs')
+const path = require('path')
+const pathData = path.join(__dirname, '/data')
 
-fs.readdirSync(__dirname + '/data').forEach((file) => {
-  var extname = path.extname(file)
-  var basename = path.basename(file, extname)
-
+fs.readdirSync(pathData).forEach((file) => {
+  const extname = path.extname(file)
+  const basename = path.basename(file, extname)
   if (~file.indexOf('.js')) {
-    exports[basename] = require(__dirname + '/data/' + file)
+    exports[basename] = require(path.join(pathData, file))
   }
 })
