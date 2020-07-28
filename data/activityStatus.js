@@ -43,7 +43,8 @@ module.exports = {
     ReportCandidates: 'generate-report-candidates',
     ReportSources: 'generate-report-sources',
     ReportRecruiters: 'generate-report-recruiters',
-    ReportDownload: 'download-report'
+    ReportDownload: 'download-report',
+    PreAssessmentPublish: 'published-preassessment'
   },
   candidates: {
     MovedTo: 'moved-to-%s',
